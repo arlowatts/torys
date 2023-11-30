@@ -2,6 +2,7 @@
 const canvas = document.getElementById("mapcanvas");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
+
 export const gl = canvas.getContext("webgl2");
 
 // check that the webgl context opened correctly
@@ -38,6 +39,11 @@ export const torus = {
 
     phiDegreeStep: 5,       // the degree precision of the surface mesh around the large radius
     thetaDegreeStep: 10,    // the degree precision of the surface mesh around the small radius
+
+    // properties relating to the mesh used to render the surface of the torus
+    surfaceMesh: {
+        edgeLength: 0.2
+    },
 
     terrainResolution: 1.0 / 1024.0,        // the base resolution of the terrain
     terrainNormalResolution: 1.0 / 128.0,   // the level of precision in the terrain shading
@@ -92,8 +98,8 @@ export const view = {
     pageTime: 0,
 
     // the sliders controlling the world time
-    daySlider: document.getElementById("dayslider"),
-    yearSlider: document.getElementById("yearslider"),
+    // daySlider: document.getElementById("dayslider"),
+    // yearSlider: document.getElementById("yearslider"),
 
     // precise angles are tracked as integers to avoid loss of precision
     phiPrecise: params.has("phi") && !isNaN(params.get("phi")) ? Number(params.get("phi")) : 0,
@@ -110,10 +116,10 @@ export const view = {
 };
 
 // update the slider parameters
-view.daySlider.max = light.dayLength - 1;
-view.yearSlider.max = light.yearLength - 1;
-view.daySlider.value = view.time % light.dayLength;
-view.yearSlider.value = (view.time - view.time % light.dayLength) / light.dayLength;
+// view.daySlider.max = light.dayLength - 1;
+// view.yearSlider.max = light.yearLength - 1;
+// view.daySlider.value = view.time % light.dayLength;
+// view.yearSlider.value = (view.time - view.time % light.dayLength) / light.dayLength;
 
 // store information about the shader programs, such as uniform locations
 // initialized before the first frame is rendered
