@@ -1,7 +1,7 @@
 import { gl, buffers, torus } from "./properties.js";
 
-// creates a vertex buffer for a torus
-export function initTorusBuffer() {
+// creates a vertex buffer for a screen-filling hexagonal mesh
+export function initSurfaceBuffer() {
     // create the buffer
     const positionBuffer = gl.createBuffer();
 
@@ -11,61 +11,118 @@ export function initTorusBuffer() {
     // define the data as an array
     const positions = [];
 
-    const degToRad = Math.PI / 180;
+    let halfRowHeight = torus.surfaceMesh.edgeLength * 0.5;
+    let columnWidth = torus.surfaceMesh.edgeLength * Math.cos(Math.PI / 6);
 
-    let x, y, z, xzOffset;
+    let x, y;
 
-    // step around the torus, placing points to define triangles on the surface
-    // steps are taken by degrees to maintain maximal precision
-    // each iteration pushes two new vertices with the same y value
-    for (let phi = 0; phi < 360; phi += torus.phiDegreeStep) {
-        for (let theta = 0; theta <= 360; theta += torus.thetaDegreeStep) {
-            xzOffset = torus.largeRadius + torus.smallRadius * Math.cos(theta * degToRad);
+    for (x = -1.0; x < 1.0;) {
 
-            y = torus.smallRadius * Math.sin(theta * degToRad);
+        for (y = -1.0; y < 1.0 + torus.surfaceMesh.edgeLength; y += torus.surfaceMesh.edgeLength) {
+            positions.push(x + columnWidth);
+            positions.push(y - halfRowHeight);
 
-            z = Math.cos(phi * degToRad) * xzOffset;
-            x = Math.sin(phi * degToRad) * xzOffset;
-
-            positions.push(x, y, z);
-
-            z = Math.cos((phi + torus.phiDegreeStep) * degToRad) * xzOffset;
-            x = Math.sin((phi + torus.phiDegreeStep) * degToRad) * xzOffset;
-
-            positions.push(x, y, z);
+            positions.push(x);
+            positions.push(y);
         }
+
+        x += columnWidth;
+        y -= halfRowHeight;
+
+        positions.push(x);
+        positions.push(y);
+
+        for (; y > -1.0 - torus.surfaceMesh.edgeLength; y -= torus.surfaceMesh.edgeLength) {
+            positions.push(x);
+            positions.push(y);
+
+            positions.push(x + columnWidth);
+            positions.push(y - halfRowHeight);
+        }
+
+        x += columnWidth;
+        y += halfRowHeight;
+
+        positions.push(x);
+        positions.push(y);
+
     }
 
     // convert the array to a Float32Array, then populate the buffer with the position data
     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
 
     buffers.torus.data = positionBuffer;
-    buffers.torus.vertexCount = positions.length / 3;
-    buffers.torus.numComponents = 3;
+    buffers.torus.vertexCount = positions.length / 2;
+    buffers.torus.numComponents = 2;
     buffers.torus.type = gl.FLOAT;
 }
 
+// creates a vertex buffer for a torus
+// export function initTorusBuffer() {
+//     // create the buffer
+//     const positionBuffer = gl.createBuffer();
+
+//     // select the position buffer as the buffer to apply operations on
+//     gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+
+//     // define the data as an array
+//     const positions = [];
+
+//     const degToRad = Math.PI / 180;
+
+//     let x, y, z, xzOffset;
+
+//     // step around the torus, placing points to define triangles on the surface
+//     // steps are taken by degrees to maintain maximal precision
+//     // each iteration pushes two new vertices with the same y value
+//     for (let phi = 0; phi < 360; phi += torus.phiDegreeStep) {
+//         for (let theta = 0; theta <= 360; theta += torus.thetaDegreeStep) {
+//             xzOffset = torus.largeRadius + torus.smallRadius * Math.cos(theta * degToRad);
+
+//             y = torus.smallRadius * Math.sin(theta * degToRad);
+
+//             z = Math.cos(phi * degToRad) * xzOffset;
+//             x = Math.sin(phi * degToRad) * xzOffset;
+
+//             positions.push(x, y, z);
+
+//             z = Math.cos((phi + torus.phiDegreeStep) * degToRad) * xzOffset;
+//             x = Math.sin((phi + torus.phiDegreeStep) * degToRad) * xzOffset;
+
+//             positions.push(x, y, z);
+//         }
+//     }
+
+//     // convert the array to a Float32Array, then populate the buffer with the position data
+//     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
+
+//     buffers.torus.data = positionBuffer;
+//     buffers.torus.vertexCount = positions.length / 3;
+//     buffers.torus.numComponents = 3;
+//     buffers.torus.type = gl.FLOAT;
+// }
+
 // creates a vertex buffer for the background panel
-export function initBackgroundBuffer() {
-    // create the buffer
-    const positionBuffer = gl.createBuffer();
+// export function initBackgroundBuffer() {
+//     // create the buffer
+//     const positionBuffer = gl.createBuffer();
 
-    // select the position buffer as the buffer to apply operations on
-    gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+//     // select the position buffer as the buffer to apply operations on
+//     gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
 
-    // define the data as an array
-    const positions = [
-        -1.0, 1.0,
-        -1.0, -1.0,
-        1.0, 1.0,
-        1.0, -1.0
-    ];
+//     // define the data as an array
+//     const positions = [
+//         -1.0, 1.0,
+//         -1.0, -1.0,
+//         1.0, 1.0,
+//         1.0, -1.0
+//     ];
 
-    // convert the array to a Float32Array, then populate the buffer with the position data
-    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
+//     // convert the array to a Float32Array, then populate the buffer with the position data
+//     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
 
-    buffers.stars.data = positionBuffer;
-    buffers.stars.vertexCount = positions.length / 2;
-    buffers.stars.numComponents = 2;
-    buffers.stars.type = gl.FLOAT;
-}
+//     buffers.stars.data = positionBuffer;
+//     buffers.stars.vertexCount = positions.length / 2;
+//     buffers.stars.numComponents = 2;
+//     buffers.stars.type = gl.FLOAT;
+// }
