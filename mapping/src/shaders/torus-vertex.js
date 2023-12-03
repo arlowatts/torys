@@ -7,7 +7,7 @@ in vec4 aVertexPosition;
 out vec4 pointPosition;
 
 void main() {
-    gl_Position = uProjectionMatrix * uViewMatrix * aVertexPosition;
-    pointPosition = aVertexPosition;
+    gl_Position = aVertexPosition + vec4(0.0, 0.0, 0.5, 1.0);
+    pointPosition = gl_Position;
 }
 `;

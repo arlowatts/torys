@@ -2,22 +2,22 @@ import { gl, programInfo, buffers, torus, view, light } from "./properties.js";
 import * as properties from "./properties.js";
 
 // draw the starry background
-export function drawStars() {
-    gl.useProgram(programInfo.stars.program);
-    setPositionAttribute(buffers.stars, programInfo.stars);
+// export function drawStars() {
+//     gl.useProgram(programInfo.stars.program);
+//     setPositionAttribute(buffers.stars, programInfo.stars);
 
-    // disable depth testing
-    gl.disable(gl.DEPTH_TEST);
+//     // disable depth testing
+//     gl.disable(gl.DEPTH_TEST);
 
-    let uniforms = programInfo.stars.uniformLocations;
+//     let uniforms = programInfo.stars.uniformLocations;
 
-    // set the shader uniforms
-    gl.uniformMatrix4fv(uniforms.viewDirectionMatrix, false, getViewDirectionMatrix());
-    gl.uniformMatrix4fv(uniforms.lightDirectionMatrix, false, light.directionMatrix);
+//     // set the shader uniforms
+//     gl.uniformMatrix4fv(uniforms.viewDirectionMatrix, false, getViewDirectionMatrix());
+//     gl.uniformMatrix4fv(uniforms.lightDirectionMatrix, false, light.directionMatrix);
 
-    // set the shapes to draw
-    gl.drawArrays(gl.TRIANGLE_STRIP, 0, buffers.stars.vertexCount);
-}
+//     // set the shapes to draw
+//     gl.drawArrays(gl.TRIANGLE_STRIP, 0, buffers.stars.vertexCount);
+// }
 
 // draw the planet
 export function drawTorus() {
@@ -29,7 +29,7 @@ export function drawTorus() {
     gl.depthFunc(gl.LEQUAL);
 
     // enable face culling
-    gl.enable(gl.CULL_FACE);
+    // gl.enable(gl.CULL_FACE);
 
     // clear the scene
     gl.clearDepth(1.0);
@@ -41,15 +41,15 @@ export function drawTorus() {
     gl.uniformMatrix4fv(uniforms.projectionMatrix, false, getProjectionMatrix());
     gl.uniformMatrix4fv(uniforms.viewMatrix, false, getViewMatrix());
 
-    gl.uniform4fv(uniforms.lightDirection, light.direction);
+    // gl.uniform4fv(uniforms.lightDirection, light.direction);
 
-    gl.uniform1f(uniforms.lightAmbience, light.ambience);
+    // gl.uniform1f(uniforms.lightAmbience, light.ambience);
     gl.uniform1f(uniforms.zoomLevel, view.zoom);
-    gl.uniform1f(uniforms.terrainResolution, view.zoom * torus.terrainResolution);
-    gl.uniform1f(uniforms.terrainHeightScale, getTerrainHeightScale());
-    gl.uniform1f(uniforms.terrainNormalResolution, view.zoom * torus.terrainNormalResolution);
-    gl.uniform1f(uniforms.time, view.time);
-    gl.uniform1i(uniforms.showClouds, view.zoomPrecise > 1 ? 1 : 0);
+    // gl.uniform1f(uniforms.terrainResolution, view.zoom * torus.terrainResolution);
+    // gl.uniform1f(uniforms.terrainHeightScale, getTerrainHeightScale());
+    // gl.uniform1f(uniforms.terrainNormalResolution, view.zoom * torus.terrainNormalResolution);
+    // gl.uniform1f(uniforms.time, view.time);
+    // gl.uniform1i(uniforms.showClouds, view.zoomPrecise > 1 ? 1 : 0);
 
     // set the shapes to draw
     gl.drawArrays(gl.TRIANGLE_STRIP, 0, buffers.torus.vertexCount);

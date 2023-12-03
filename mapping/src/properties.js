@@ -42,7 +42,8 @@ export const torus = {
 
     // properties relating to the mesh used to render the surface of the torus
     surfaceMesh: {
-        edgeLength: 0.2
+        // edgeLength: 0.2
+        verticalResolution: 10
     },
 
     terrainResolution: 1.0 / 1024.0,        // the base resolution of the terrain

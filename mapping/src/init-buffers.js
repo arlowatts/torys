@@ -1,4 +1,4 @@
-import { gl, buffers, torus } from "./properties.js";
+import { gl, buffers, torus, view } from "./properties.js";
 
 // creates a vertex buffer for a screen-filling hexagonal mesh
 export function initSurfaceBuffer() {
@@ -11,40 +11,43 @@ export function initSurfaceBuffer() {
     // define the data as an array
     const positions = [];
 
-    let halfRowHeight = torus.surfaceMesh.edgeLength * 0.5;
-    let columnWidth = torus.surfaceMesh.edgeLength * Math.cos(Math.PI / 6);
+    let verticalResolution = Math.ceil(torus.surfaceMesh.verticalResolution);
 
-    let x, y;
+    let edgeLength = 2 / (verticalResolution - 1);
 
-    for (x = -1.0; x < 1.0;) {
+    let halfRowHeight = edgeLength * 0.5;
+    let columnWidth = edgeLength * Math.cos(Math.PI / 6) / view.aspect;
 
-        for (y = -1.0; y < 1.0 + torus.surfaceMesh.edgeLength; y += torus.surfaceMesh.edgeLength) {
-            positions.push(x + columnWidth);
-            positions.push(y - halfRowHeight);
+    let horizontalResolution = Math.ceil(2 / columnWidth);
 
+    let x = -horizontalResolution * columnWidth / 2;
+    let y = -0.75 * edgeLength - 1;
+
+    while (x < 1) {
+
+        for (let i = 0; i < verticalResolution + 1; i++) {
             positions.push(x);
-            positions.push(y);
+            positions.push(y + edgeLength * i);
+
+            positions.push(x + columnWidth);
+            positions.push(y + edgeLength * i + halfRowHeight);
         }
 
         x += columnWidth;
-        y -= halfRowHeight;
 
-        positions.push(x);
-        positions.push(y);
+        if (x >= 1) {
+            break;
+        }
 
-        for (; y > -1.0 - torus.surfaceMesh.edgeLength; y -= torus.surfaceMesh.edgeLength) {
+        for (let i = 0; i < verticalResolution + 1; i++) {
             positions.push(x);
-            positions.push(y);
+            positions.push(y + edgeLength * (verticalResolution - i) + halfRowHeight);
 
             positions.push(x + columnWidth);
-            positions.push(y - halfRowHeight);
+            positions.push(y + edgeLength * (verticalResolution - i));
         }
 
         x += columnWidth;
-        y += halfRowHeight;
-
-        positions.push(x);
-        positions.push(y);
 
     }
 

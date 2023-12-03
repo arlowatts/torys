@@ -1,11 +1,11 @@
-import { drawStars, drawTorus } from "./draw-scene.js";
+import { drawTorus } from "./draw-scene.js";
 import { initSurfaceBuffer } from "./init-buffers.js";
 import { gl, programInfo, torus, view, light } from "./properties.js";
 import * as properties from "./properties.js";
 import * as torusFragment from "./shaders/torus-fragment.js";
 import * as torusVertex from "./shaders/torus-vertex.js";
-import * as starsFragment from "./shaders/stars-fragment.js";
-import * as starsVertex from "./shaders/stars-vertex.js";
+// import * as starsFragment from "./shaders/stars-fragment.js";
+// import * as starsVertex from "./shaders/stars-vertex.js";
 
 // arrays of touch event data for touchscreen support
 // const touches = [];
@@ -92,7 +92,7 @@ function main() {
     // setInterval(updateQueryParameters, properties.QUERY_PARAM_REFRESH_RATE);
 
     // draw the scene and update it each frame
-    // requestAnimationFrame(render);
+    requestAnimationFrame(render);
 }
 
 function render(now) {
