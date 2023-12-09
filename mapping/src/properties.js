@@ -24,7 +24,7 @@ export const PAN_LIMIT = Math.round(2.0 * Math.PI / PRECISE_PAN_TO_RADIANS);
 export const MIN_CAMERA_DISTANCE = 1.0;
 
 // the length of the vertical scale/measuring bar in screen units
-export const SCALE_LENGTH = 2.0 * document.getElementById("scalebar").clientHeight / window.innerHeight;
+// export const SCALE_LENGTH = 2.0 * document.getElementById("scalebar").clientHeight / window.innerHeight;
 
 // the delay between each refresh of the query params in milliseconds
 export const QUERY_PARAM_REFRESH_RATE = 1000;
@@ -42,8 +42,8 @@ export const torus = {
 
     // properties relating to the mesh used to render the surface of the torus
     surfaceMesh: {
-        // edgeLength: 0.2
-        verticalResolution: 10
+        edgeLength: 0.2
+        // verticalResolution: 10
     },
 
     terrainResolution: 1.0 / 1024.0,        // the base resolution of the terrain
@@ -142,20 +142,22 @@ export const programInfo = {
 export const buffers = {
     torus: {
         data: [],
-        vertexCount: 0,
+        floatArray: new Float32Array(),
+        buffer: null,
         numComponents: 0,
+        vertexCount: 0,
         type: null,
         normalize: false,
         stride: 0,
         offset: 0
     },
-    stars: {
-        data: [],
-        vertexCount: 0,
-        numComponents: 0,
-        type: null,
-        normalize: false,
-        stride: 0,
-        offset: 0
-    }
+    // stars: {
+    //     data: [],
+    //     vertexCount: 0,
+    //     numComponents: 0,
+    //     type: null,
+    //     normalize: false,
+    //     stride: 0,
+    //     offset: 0
+    // }
 };

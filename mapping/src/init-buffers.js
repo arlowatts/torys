@@ -2,61 +2,65 @@ import { gl, buffers, torus, view } from "./properties.js";
 
 // creates a vertex buffer for a screen-filling hexagonal mesh
 export function initSurfaceBuffer() {
-    // create the buffer
-    const positionBuffer = gl.createBuffer();
-
-    // select the position buffer as the buffer to apply operations on
-    gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
-
     // define the data as an array
     const positions = [];
 
-    let verticalResolution = Math.ceil(torus.surfaceMesh.verticalResolution);
+    // compute parameters for the spacing between points
+    const edgeLength = torus.surfaceMesh.edgeLength;
 
-    let edgeLength = 2 / (verticalResolution - 1);
+    const halfRowHeight = edgeLength * 0.5;
+    const columnWidth = edgeLength * Math.cos(Math.PI / 6);
 
-    let halfRowHeight = edgeLength * 0.5;
-    let columnWidth = edgeLength * Math.cos(Math.PI / 6) / view.aspect;
+    const verticalResolution = Math.ceil(1 / edgeLength) + 1;
+    const horizontalResolution = Math.ceil(view.aspect / columnWidth);
 
-    let horizontalResolution = Math.ceil(2 / columnWidth);
+    let x = -horizontalResolution * columnWidth;
+    let y = -(verticalResolution - 1) * edgeLength;// + halfRowHeight;
 
-    let x = -horizontalResolution * columnWidth / 2;
-    let y = -0.75 * edgeLength - 1;
-
-    while (x < 1) {
-
-        for (let i = 0; i < verticalResolution + 1; i++) {
+    // fill the array of positions following a pattern
+    for (let i = 0; i < horizontalResolution; i++) {
+        // go down the first column
+        for (let j = 0; j < verticalResolution + 1; j++) {
             positions.push(x);
-            positions.push(y + edgeLength * i);
+            positions.push(y + edgeLength * j);
+            positions.push(0);
 
             positions.push(x + columnWidth);
-            positions.push(y + edgeLength * i + halfRowHeight);
+            positions.push(y + edgeLength * j + halfRowHeight);
+            positions.push(0);
         }
 
+        // step into the second column
         x += columnWidth;
 
-        if (x >= 1) {
-            break;
-        }
-
-        for (let i = 0; i < verticalResolution + 1; i++) {
+        // go up the second column
+        for (let j = 0; j < verticalResolution + 1; j++) {
             positions.push(x);
-            positions.push(y + edgeLength * (verticalResolution - i) + halfRowHeight);
+            positions.push(y + edgeLength * (verticalResolution - j) + halfRowHeight);
+            positions.push(0);
 
             positions.push(x + columnWidth);
-            positions.push(y + edgeLength * (verticalResolution - i));
+            positions.push(y + edgeLength * (verticalResolution - j));
+            positions.push(0);
         }
 
+        // step into the next column for the next iteration
         x += columnWidth;
-
     }
 
-    // convert the array to a Float32Array, then populate the buffer with the position data
-    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
+    // create and bind the buffer
+    const positionBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
 
-    buffers.torus.data = positionBuffer;
-    buffers.torus.vertexCount = positions.length / 2;
-    buffers.torus.numComponents = 2;
+    // convert the array to a Float32Array, then populate the buffer with the position data
+    const floatArray = new Float32Array(positions);
+    gl.bufferData(gl.ARRAY_BUFFER, floatArray, gl.STATIC_DRAW);
+
+    buffers.torus.data = positions;
+    buffers.torus.floatArray = floatArray;
+    buffers.torus.buffer = positionBuffer;
+    buffers.torus.numComponents = 3;
+    buffers.torus.vertexCount = positions.length / buffers.torus.numComponents;
     buffers.torus.type = gl.FLOAT;
 }
 

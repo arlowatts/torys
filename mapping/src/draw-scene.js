@@ -28,23 +28,31 @@ export function drawTorus() {
     gl.enable(gl.DEPTH_TEST);
     gl.depthFunc(gl.LEQUAL);
 
-    // enable face culling
-    // gl.enable(gl.CULL_FACE);
-
     // clear the scene
     gl.clearDepth(1.0);
     gl.clear(gl.DEPTH_BUFFER_BIT);
+
+    for (let i = 2; i < buffers.torus.data.length; i += 3) {
+        // buffers.torus.data[i] = -3 + (Math.sin(buffers.torus.data[i - 2] * 10) + Math.sin(buffers.torus.data[i - 1] * 10)) / 10;
+        buffers.torus.data[i] = -3;
+    }
+
+    buffers.torus.floatArray.set(buffers.torus.data);
+
+    // update the vertex buffer
+    gl.bindBuffer(gl.ARRAY_BUFFER, buffers.torus.buffer);
+    gl.bufferData(gl.ARRAY_BUFFER, buffers.torus.floatArray, gl.STATIC_DRAW);
 
     let uniforms = programInfo.torus.uniformLocations;
 
     // set the shader uniforms
     gl.uniformMatrix4fv(uniforms.projectionMatrix, false, getProjectionMatrix());
-    gl.uniformMatrix4fv(uniforms.viewMatrix, false, getViewMatrix());
+    // gl.uniformMatrix4fv(uniforms.viewMatrix, false, getViewMatrix());
 
     // gl.uniform4fv(uniforms.lightDirection, light.direction);
 
     // gl.uniform1f(uniforms.lightAmbience, light.ambience);
-    gl.uniform1f(uniforms.zoomLevel, view.zoom);
+    // gl.uniform1f(uniforms.zoomLevel, view.zoom);
     // gl.uniform1f(uniforms.terrainResolution, view.zoom * torus.terrainResolution);
     // gl.uniform1f(uniforms.terrainHeightScale, getTerrainHeightScale());
     // gl.uniform1f(uniforms.terrainNormalResolution, view.zoom * torus.terrainNormalResolution);
@@ -57,7 +65,7 @@ export function drawTorus() {
 
 // define the mapping from the buffers to the attributes
 function setPositionAttribute(buffer, program) {
-    gl.bindBuffer(gl.ARRAY_BUFFER, buffer.data);
+    gl.bindBuffer(gl.ARRAY_BUFFER, buffer.buffer);
 
     gl.vertexAttribPointer(
         program.attribLocations.vertexPosition,
@@ -73,36 +81,10 @@ function setPositionAttribute(buffer, program) {
 
 // create a projection matrix to render the torus with a 3D perspective
 function getProjectionMatrix() {
-    let fov, zNear, zFar;
+    let zNear = 1, zFar = 5;
 
-    // to avoid bad clipping, don't move the camera too close
-    // instead just narrow the field of view at high zoom levels
-    if (view.zoom > properties.MIN_CAMERA_DISTANCE) {
-        fov = view.fov;
-
-        // adjust the near clipping plane to clip the near side of the torus
-        // when viewing the far side at a distance
-        if (view.zoom > 2 * (torus.largeRadius + torus.smallRadius)) {
-            zNear = view.zoom - 2 * torus.largeRadius;
-        }
-        else if (view.zoom > torus.largeRadius + torus.smallRadius) {
-            zNear = view.zoom - torus.largeRadius;
-        }
-        else {
-            zNear = view.zoom * 0.5;
-        }
-
-        zFar = (view.zoom + torus.largeRadius + torus.smallRadius) * 2;
-    }
-    else {
-        fov = view.fov * view.zoom / properties.MIN_CAMERA_DISTANCE;
-        zNear = properties.MIN_CAMERA_DISTANCE * 0.5;
-        zFar = (torus.largeRadius + torus.smallRadius) * 2;
-    }
-
-    // create the projection matrix
     const projectionMatrix = mat4.create();
-    mat4.perspective(projectionMatrix, fov, view.aspect, zNear, zFar);
+    mat4.perspective(projectionMatrix, view.fov, view.aspect, zNear, zFar);
 
     return projectionMatrix;
 }

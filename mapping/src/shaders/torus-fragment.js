@@ -6,6 +6,6 @@ in vec4 pointPosition;
 out vec4 fragColor;
 
 void main() {
-    fragColor = floor(abs(pointPosition));
+    fragColor = vec4(0.0, 0.0, pointPosition.z - 1.5, 1.0);
 }
 `;

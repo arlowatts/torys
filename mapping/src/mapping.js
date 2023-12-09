@@ -113,7 +113,7 @@ function render(now) {
     // drawStars();
     drawTorus();
 
-    requestAnimationFrame(render);
+    // requestAnimationFrame(render);
 }
 
 // function updateTime(now) {
@@ -152,9 +152,9 @@ function onWheel(event) {
         * properties.BASE_PAN_SENSITIVITY / view.cameraDistance;
 
     // update the scale value on the bar
-    document.getElementById("scalevalue").innerText =
-        (torus.unitToKm * view.zoom / view.cameraDistance * properties.SCALE_LENGTH).toFixed(2)
-        + "km";
+    // document.getElementById("scalevalue").innerText =
+    //     (torus.unitToKm * view.zoom / view.cameraDistance * properties.SCALE_LENGTH).toFixed(2)
+    //     + "km";
 }
 
 // when a touch gesture begins, record all finger contacts
