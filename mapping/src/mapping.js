@@ -1,5 +1,5 @@
 import { drawTorus } from "./draw-scene.js";
-import { initSurfaceBuffer } from "./init-buffers.js";
+import { initSurfaceBuffer, initNormalBuffer } from "./init-buffers.js";
 import { gl, programInfo, torus, view, light } from "./properties.js";
 import * as properties from "./properties.js";
 import * as torusFragment from "./shaders/torus-fragment.js";
@@ -22,13 +22,14 @@ function main() {
     programInfo.torus.program = torusProgram;
 
     programInfo.torus.attribLocations = {
-        vertexPosition: gl.getAttribLocation(torusProgram, "aVertexPosition")
+        vertexPosition: gl.getAttribLocation(torusProgram, "aVertexPosition"),
+        vertexNormal: gl.getAttribLocation(torusProgram, "aVertexNormal")
     };
 
     programInfo.torus.uniformLocations = {
         // matrices
         projectionMatrix: gl.getUniformLocation(torusProgram, "uProjectionMatrix"),
-        viewMatrix: gl.getUniformLocation(torusProgram, "uViewMatrix"),
+        // viewMatrix: gl.getUniformLocation(torusProgram, "uViewMatrix"),
         // vectors
         // lightDirection: gl.getUniformLocation(torusProgram, "uLightDirection"),
         // lightAmbience: gl.getUniformLocation(torusProgram, "uLightAmbience"),
@@ -56,6 +57,7 @@ function main() {
 
     // initialize the data buffers for the scene
     initSurfaceBuffer();
+    initNormalBuffer(properties.buffers.torus.vertexCount);
     // initBackgroundBuffer();
 
     // ensure that the zoom and pan values are correct

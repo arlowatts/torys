@@ -42,7 +42,7 @@ export const torus = {
 
     // properties relating to the mesh used to render the surface of the torus
     surfaceMesh: {
-        edgeLength: 0.2
+        edgeLength: 0.3
         // verticalResolution: 10
     },
 
@@ -109,7 +109,7 @@ export const view = {
     phi: 0.0,
     theta: 0.0,
 
-    zoomPrecise: params.has("zoom") && !isNaN(params.get("zoom")) ? Number(params.get("zoom")) : 4.0,
+    zoomPrecise: params.has("zoom") && !isNaN(params.get("zoom")) ? Number(params.get("zoom")) : 0.0,
     zoom: 0.0,
 
     panSensitivity: 0.0,
@@ -144,6 +144,8 @@ export const buffers = {
         data: [],
         floatArray: new Float32Array(),
         buffer: null,
+        verticalResolution: 0,
+        horizontalResolution: 0,
         numComponents: 0,
         vertexCount: 0,
         type: null,
@@ -151,6 +153,17 @@ export const buffers = {
         stride: 0,
         offset: 0
     },
+    normals: {
+        data: [],
+        floatArray: new Float32Array(),
+        buffer: null,
+        numComponents: 0,
+        vertexCount: 0,
+        type: null,
+        normalize: false,
+        stride: 0,
+        offset: 0
+    }
     // stars: {
     //     data: [],
     //     vertexCount: 0,

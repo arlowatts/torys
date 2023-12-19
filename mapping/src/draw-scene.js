@@ -1,3 +1,4 @@
+import { getNeighbors } from "./hex-buffer.js";
 import { gl, programInfo, buffers, torus, view, light } from "./properties.js";
 import * as properties from "./properties.js";
 
@@ -22,7 +23,8 @@ import * as properties from "./properties.js";
 // draw the planet
 export function drawTorus() {
     gl.useProgram(programInfo.torus.program);
-    setPositionAttribute(buffers.torus, programInfo.torus);
+    setBufferAttribute(buffers.torus, programInfo.torus.attribLocations.vertexPosition);
+    setBufferAttribute(buffers.normals, programInfo.torus.attribLocations.vertexNormal);
 
     // enable depth testing
     gl.enable(gl.DEPTH_TEST);
@@ -32,20 +34,11 @@ export function drawTorus() {
     gl.clearDepth(1.0);
     gl.clear(gl.DEPTH_BUFFER_BIT);
 
-    for (let i = 2; i < buffers.torus.data.length; i += 3) {
-        // buffers.torus.data[i] = -3 + (Math.sin(buffers.torus.data[i - 2] * 10) + Math.sin(buffers.torus.data[i - 1] * 10)) / 10;
-        buffers.torus.data[i] = -3;
-    }
-
-    buffers.torus.floatArray.set(buffers.torus.data);
-
-    // update the vertex buffer
-    gl.bindBuffer(gl.ARRAY_BUFFER, buffers.torus.buffer);
-    gl.bufferData(gl.ARRAY_BUFFER, buffers.torus.floatArray, gl.STATIC_DRAW);
-
-    let uniforms = programInfo.torus.uniformLocations;
+    setVertices(buffers.torus);
+    setNormals(buffers.normals, buffers.torus);
 
     // set the shader uniforms
+    let uniforms = programInfo.torus.uniformLocations;
     gl.uniformMatrix4fv(uniforms.projectionMatrix, false, getProjectionMatrix());
     // gl.uniformMatrix4fv(uniforms.viewMatrix, false, getViewMatrix());
 
@@ -63,12 +56,72 @@ export function drawTorus() {
     gl.drawArrays(gl.TRIANGLE_STRIP, 0, buffers.torus.vertexCount);
 }
 
+// update the vertex coordinates and send the new values to the shaders
+function setVertices(buffer) {
+    for (let i = 2; i < buffer.data.length; i += 3) {
+        buffer.data[i] = -3;
+        buffer.data[i] += (Math.sin(buffer.data[i - 2] * 10) + Math.sin(buffer.data[i - 1] * 10)) / 3;
+        buffer.data[i] *= view.zoom;
+    }
+
+    // update the float array with the adjusted vertices
+    buffer.floatArray.set(buffer.data);
+
+    // update the vertex buffer
+    gl.bindBuffer(gl.ARRAY_BUFFER, buffer.buffer);
+    gl.bufferData(gl.ARRAY_BUFFER, buffer.floatArray, gl.STATIC_DRAW);
+}
+
+// update the surface normals based on a given buffer of vertices
+function setNormals(normalBuffer, meshBuffer) {
+    for (let i = 0; i < meshBuffer.vertexCount; i++) {
+        let count = 0;
+
+        normalBuffer[i * 3] = 0;
+        normalBuffer[i * 3 + 1] = 0;
+        normalBuffer[i * 3 + 2] = 0;
+
+        const neighbors = getNeighbors(i);
+
+        let message = i + "=";
+        
+        for (let j = 0; j < neighbors.length; j++) {
+            let index = neighbors[j];
+
+            if (index != -1) {
+                normalBuffer[i * 3] += meshBuffer.data[index * 3];
+                normalBuffer[i * 3 + 1] += meshBuffer.data[index * 3 + 1];
+                normalBuffer[i * 3 + 2] += meshBuffer.data[index * 3 + 2];
+
+                count++;
+
+                message += index + ":"
+            }
+        }
+
+        if (count > 0) {
+            normalBuffer[i * 3] = normalBuffer[i * 3] / count - meshBuffer.data[i * 3];
+            normalBuffer[i * 3 + 1] = normalBuffer[i * 3 + 1] / count - meshBuffer.data[i * 3 + 1];
+            normalBuffer[i * 3 + 2] = normalBuffer[i * 3 + 2] / count - meshBuffer.data[i * 3 + 2];
+        }
+
+        console.log(message + "{" + count + "} " + normalBuffer[i * 3] + ", " + normalBuffer[i * 3 + 1] + ", " + normalBuffer[i * 3 + 2]);
+    }
+
+    // update the float array with the adjusted vertices
+    normalBuffer.floatArray.set(normalBuffer.data);
+
+    // update the vertex buffer
+    gl.bindBuffer(gl.ARRAY_BUFFER, normalBuffer.buffer);
+    gl.bufferData(gl.ARRAY_BUFFER, normalBuffer.floatArray, gl.STATIC_DRAW);
+}
+
 // define the mapping from the buffers to the attributes
-function setPositionAttribute(buffer, program) {
+function setBufferAttribute(buffer, attribLocation) {
     gl.bindBuffer(gl.ARRAY_BUFFER, buffer.buffer);
 
     gl.vertexAttribPointer(
-        program.attribLocations.vertexPosition,
+        attribLocation,
         buffer.numComponents,
         buffer.type,
         buffer.normalize,
@@ -76,7 +129,7 @@ function setPositionAttribute(buffer, program) {
         buffer.offset
     );
 
-    gl.enableVertexAttribArray(program.attribLocations.vertexPosition);
+    gl.enableVertexAttribArray(attribLocation);
 }
 
 // create a projection matrix to render the torus with a 3D perspective
