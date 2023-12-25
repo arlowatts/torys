@@ -14,7 +14,8 @@ export function initSurfaceBuffer() {
     const floatArray = new Float32Array(positions);
     gl.bufferData(gl.ARRAY_BUFFER, floatArray, gl.STATIC_DRAW);
 
-    buffers.torus.data = positions;
+    buffers.torus.data = new Array(positions.length);
+    buffers.torus.originalData = positions;
     buffers.torus.floatArray = floatArray;
     buffers.torus.buffer = positionBuffer;
     buffers.torus.numComponents = 3;

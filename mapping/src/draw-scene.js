@@ -1,5 +1,6 @@
 import { getNeighbors } from "./hex-buffer.js";
 import { gl, programInfo, buffers, torus, view, light } from "./properties.js";
+import { getTerrainHeight } from "./terrain.js";
 import * as properties from "./properties.js";
 
 // draw the starry background
@@ -40,12 +41,12 @@ export function drawTorus() {
     // set the shader uniforms
     let uniforms = programInfo.torus.uniformLocations;
     gl.uniformMatrix4fv(uniforms.projectionMatrix, false, getProjectionMatrix());
-    // gl.uniformMatrix4fv(uniforms.viewMatrix, false, getViewMatrix());
+    gl.uniformMatrix4fv(uniforms.viewMatrix, false, getViewMatrix());
 
     // gl.uniform4fv(uniforms.lightDirection, light.direction);
 
     // gl.uniform1f(uniforms.lightAmbience, light.ambience);
-    // gl.uniform1f(uniforms.zoomLevel, view.zoom);
+    gl.uniform1f(uniforms.zoomLevel, 1 / view.zoom);
     // gl.uniform1f(uniforms.terrainResolution, view.zoom * torus.terrainResolution);
     // gl.uniform1f(uniforms.terrainHeightScale, getTerrainHeightScale());
     // gl.uniform1f(uniforms.terrainNormalResolution, view.zoom * torus.terrainNormalResolution);
@@ -60,10 +61,34 @@ export function drawTorus() {
 
 // update the vertex coordinates and send the new values to the shaders
 function setVertices(buffer) {
-    for (let i = 2; i < buffer.data.length; i += 3) {
-        buffer.data[i] = -3;
-        buffer.data[i] += (Math.sin(buffer.data[i - 2] * 10) + Math.sin(buffer.data[i - 1] * 10)) / 5;
-        buffer.data[i] *= view.zoom;
+    for (let i = 0; i < buffer.vertexCount; i++) {
+        buffer.data[3 * i] = buffer.originalData[3 * i];
+        buffer.data[3 * i + 1] = buffer.originalData[3 * i + 1];
+        buffer.data[3 * i + 2] = buffer.originalData[3 * i + 2];
+
+        // transform the points to the surface of the torus
+        let actualPhi = -view.phi + Math.min(Math.max(view.zoom * buffer.data[3 * i], -Math.PI), Math.PI);
+        let actualTheta = view.theta + Math.min(Math.max(view.zoom * buffer.data[3 * i + 1] * torus.largeRadius / torus.smallRadius, -Math.PI), Math.PI);
+
+        let xzOffset = torus.largeRadius + torus.smallRadius * Math.cos(actualTheta);
+
+        let y = torus.smallRadius * Math.sin(actualTheta);
+
+        let z = Math.cos(actualPhi) * xzOffset;
+        let x = Math.sin(actualPhi) * xzOffset;
+
+        let height = getTerrainHeight(x, y, z, -view.zoomPrecise + 10);
+
+        xzOffset = torus.largeRadius + (torus.smallRadius + height) * Math.cos(actualTheta);
+
+        y = (torus.smallRadius + height) * Math.sin(actualTheta);
+
+        z = Math.cos(actualPhi) * xzOffset;
+        x = Math.sin(actualPhi) * xzOffset;
+
+        buffer.data[3 * i] = x;
+        buffer.data[3 * i + 1] = y;
+        buffer.data[3 * i + 2] = z;
     }
 
     // update the float array with the adjusted vertices
@@ -170,7 +195,7 @@ function setBufferAttribute(buffer, attribLocation) {
 
 // create a projection matrix to render the torus with a 3D perspective
 function getProjectionMatrix() {
-    let zNear = 1, zFar = 5;
+    let zNear = 1, zFar = 100;
 
     const projectionMatrix = mat4.create();
     mat4.perspective(projectionMatrix, view.fov, view.aspect, zNear, zFar);
@@ -181,7 +206,7 @@ function getProjectionMatrix() {
 // create a view matrix to define the camera's position and angle
 function getViewMatrix() {
     const viewMatrix = mat4.create();
-    mat4.translate(viewMatrix, viewMatrix, [0.0, 0.0, -torus.smallRadius - Math.max(view.zoom, properties.MIN_CAMERA_DISTANCE)]);
+    mat4.translate(viewMatrix, viewMatrix, [0.0, 0.0, -15 - torus.smallRadius]);
     mat4.rotate(viewMatrix, viewMatrix, view.theta, [1.0, 0.0, 0.0]);
     mat4.translate(viewMatrix, viewMatrix, [0.0, 0.0, -torus.largeRadius]);
     mat4.rotate(viewMatrix, viewMatrix, view.phi, [0.0, 1.0, 0.0]);

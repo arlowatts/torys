@@ -15,7 +15,7 @@ export const SCROLL_SENSITIVITY = 0.0015;
 export const PINCH_SENSITIVITY_MODIFIER = 2.0;
 export const MIN_ZOOM = -10;
 export const MAX_ZOOM = 10;
-export const BASE_PAN_SENSITIVITY = 1.0 / window.innerHeight;
+export const BASE_PAN_SENSITIVITY = 16.0 / window.innerHeight;
 export const MAX_PAN_SENSITIVITY = 4.0;
 export const PRECISE_PAN_TO_RADIANS = 2 ** MIN_ZOOM;
 export const PAN_LIMIT = Math.round(2.0 * Math.PI / PRECISE_PAN_TO_RADIANS);
@@ -42,7 +42,7 @@ export const torus = {
 
     // properties relating to the mesh used to render the surface of the torus
     surfaceMesh: {
-        edgeLength: 0.025
+        edgeLength: 0.05
         // verticalResolution: 10
     },
 
@@ -142,6 +142,7 @@ export const programInfo = {
 export const buffers = {
     torus: {
         data: [],
+        originalData: [],
         floatArray: new Float32Array(),
         buffer: null,
         verticalResolution: 0,

@@ -29,12 +29,12 @@ function main() {
     programInfo.torus.uniformLocations = {
         // matrices
         projectionMatrix: gl.getUniformLocation(torusProgram, "uProjectionMatrix"),
-        // viewMatrix: gl.getUniformLocation(torusProgram, "uViewMatrix"),
+        viewMatrix: gl.getUniformLocation(torusProgram, "uViewMatrix"),
         // vectors
         // lightDirection: gl.getUniformLocation(torusProgram, "uLightDirection"),
         // lightAmbience: gl.getUniformLocation(torusProgram, "uLightAmbience"),
         // // scalars
-        // zoomLevel: gl.getUniformLocation(torusProgram, "uZoomLevel"),
+        zoomLevel: gl.getUniformLocation(torusProgram, "uZoomLevel"),
         // terrainResolution: gl.getUniformLocation(torusProgram, "uTerrainResolution"),
         // terrainHeightScale: gl.getUniformLocation(torusProgram, "uTerrainHeightScale"),
         // terrainNormalResolution: gl.getUniformLocation(torusProgram, "uTerrainNormalResolution"),
@@ -66,8 +66,8 @@ function main() {
     onWheel({wheelDelta: 0.0});
 
     // create the event listeners for pan and zoom
-    // addEventListener("mousemove", onMouseMove);
-    // addEventListener("wheel", onWheel);
+    addEventListener("mousemove", onMouseMove);
+    addEventListener("wheel", onWheel);
 
     // create event listeners for touchscreen support
     // addEventListener("touchstart", onTouchStart);
@@ -116,7 +116,7 @@ function render(now) {
     // drawStars();
     drawTorus();
 
-    // requestAnimationFrame(render);
+    requestAnimationFrame(render);
 }
 
 // function updateTime(now) {
