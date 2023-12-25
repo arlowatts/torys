@@ -42,7 +42,7 @@ export const torus = {
 
     // properties relating to the mesh used to render the surface of the torus
     surfaceMesh: {
-        edgeLength: 0.3
+        edgeLength: 0.025
         // verticalResolution: 10
     },
 
@@ -162,6 +162,14 @@ export const buffers = {
         type: null,
         normalize: false,
         stride: 0,
+        offset: 0
+    },
+    indices: {
+        data: [],
+        uintArray: new Uint16Array(),
+        buffer: null,
+        vertexCount: 0,
+        type: null,
         offset: 0
     }
     // stars: {

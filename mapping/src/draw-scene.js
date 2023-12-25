@@ -53,14 +53,16 @@ export function drawTorus() {
     // gl.uniform1i(uniforms.showClouds, view.zoomPrecise > 1 ? 1 : 0);
 
     // set the shapes to draw
-    gl.drawArrays(gl.TRIANGLE_STRIP, 0, buffers.torus.vertexCount);
+    gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, buffers.indices.buffer);
+    gl.drawElements(gl.TRIANGLES, buffers.indices.vertexCount, buffers.indices.type, buffers.indices.offset);
+    // gl.drawArrays(gl.TRIANGLE_STRIP, 0, buffers.torus.vertexCount);
 }
 
 // update the vertex coordinates and send the new values to the shaders
 function setVertices(buffer) {
     for (let i = 2; i < buffer.data.length; i += 3) {
         buffer.data[i] = -3;
-        buffer.data[i] += (Math.sin(buffer.data[i - 2] * 10) + Math.sin(buffer.data[i - 1] * 10)) / 3;
+        buffer.data[i] += (Math.sin(buffer.data[i - 2] * 10) + Math.sin(buffer.data[i - 1] * 10)) / 5;
         buffer.data[i] *= view.zoom;
     }
 
@@ -74,39 +76,31 @@ function setVertices(buffer) {
 
 // update the surface normals based on a given buffer of vertices
 function setNormals(normalBuffer, meshBuffer) {
-    for (let i = 0; i < meshBuffer.vertexCount; i++) {
-        let count = 0;
+    for (let i = 0; i < meshBuffer.vertexCount; i += 3) {
+        let a = vec3.fromValues(
+            meshBuffer.data[3 * (i + 1)] - meshBuffer.data[3 * i],
+            meshBuffer.data[3 * (i + 1) + 1] - meshBuffer.data[3 * i + 1],
+            meshBuffer.data[3 * (i + 1) + 2] - meshBuffer.data[3 * i + 2]
+        );
 
-        normalBuffer[i * 3] = 0;
-        normalBuffer[i * 3 + 1] = 0;
-        normalBuffer[i * 3 + 2] = 0;
+        let b = vec3.fromValues(
+            meshBuffer.data[3 * (i + 2)] - meshBuffer.data[3 * i],
+            meshBuffer.data[3 * (i + 2) + 1] - meshBuffer.data[3 * i + 1],
+            meshBuffer.data[3 * (i + 2) + 2] - meshBuffer.data[3 * i + 2]
+        );
 
-        const neighbors = getNeighbors(i);
+        let normal = vec3.normalize(vec3.create(), vec3.cross(vec3.create(), a, b));
 
-        let message = i + "=";
-        
-        for (let j = 0; j < neighbors.length; j++) {
-            let index = neighbors[j];
+        // console.log(normal);
 
-            if (index != -1) {
-                normalBuffer[i * 3] += meshBuffer.data[index * 3];
-                normalBuffer[i * 3 + 1] += meshBuffer.data[index * 3 + 1];
-                normalBuffer[i * 3 + 2] += meshBuffer.data[index * 3 + 2];
-
-                count++;
-
-                message += index + ":"
-            }
+        for (let j = 0; j < 3; j++) {
+            normalBuffer.data[3 * (i + j)] = normal[0];
+            normalBuffer.data[3 * (i + j) + 1] = normal[1];
+            normalBuffer.data[3 * (i + j) + 2] = normal[2];
         }
-
-        if (count > 0) {
-            normalBuffer[i * 3] = normalBuffer[i * 3] / count - meshBuffer.data[i * 3];
-            normalBuffer[i * 3 + 1] = normalBuffer[i * 3 + 1] / count - meshBuffer.data[i * 3 + 1];
-            normalBuffer[i * 3 + 2] = normalBuffer[i * 3 + 2] / count - meshBuffer.data[i * 3 + 2];
-        }
-
-        console.log(message + "{" + count + "} " + normalBuffer[i * 3] + ", " + normalBuffer[i * 3 + 1] + ", " + normalBuffer[i * 3 + 2]);
     }
+
+    // console.log(normalBuffer.data);
 
     // update the float array with the adjusted vertices
     normalBuffer.floatArray.set(normalBuffer.data);
@@ -115,6 +109,48 @@ function setNormals(normalBuffer, meshBuffer) {
     gl.bindBuffer(gl.ARRAY_BUFFER, normalBuffer.buffer);
     gl.bufferData(gl.ARRAY_BUFFER, normalBuffer.floatArray, gl.STATIC_DRAW);
 }
+// function setNormals(normalBuffer, meshBuffer) {
+//     for (let i = 0; i < meshBuffer.vertexCount; i++) {
+//         let count = 0;
+
+//         normalBuffer.data[i * 3] = 0;
+//         normalBuffer.data[i * 3 + 1] = 0;
+//         normalBuffer.data[i * 3 + 2] = 0;
+
+//         const neighbors = getNeighbors(i);
+
+//         let message = i + "=";
+        
+//         for (let j = 0; j < neighbors.length; j++) {
+//             let index = neighbors[j];
+
+//             if (index != -1) {
+//                 normalBuffer.data[i * 3] += meshBuffer.data[index * 3];
+//                 normalBuffer.data[i * 3 + 1] += meshBuffer.data[index * 3 + 1];
+//                 normalBuffer.data[i * 3 + 2] += meshBuffer.data[index * 3 + 2];
+
+//                 count++;
+
+//                 message += index + ":"
+//             }
+//         }
+
+//         if (count > 0) {
+//             normalBuffer.data[i * 3] = normalBuffer.data[i * 3] / count - meshBuffer.data[i * 3];
+//             normalBuffer.data[i * 3 + 1] = normalBuffer.data[i * 3 + 1] / count - meshBuffer.data[i * 3 + 1];
+//             normalBuffer.data[i * 3 + 2] = normalBuffer.data[i * 3 + 2] / count - meshBuffer.data[i * 3 + 2];
+//         }
+
+//         console.log(message + "{" + count + "} " + normalBuffer.data[i * 3] + ", " + normalBuffer.data[i * 3 + 1] + ", " + normalBuffer.data[i * 3 + 2]);
+//     }
+
+//     // update the float array with the adjusted vertices
+//     normalBuffer.floatArray.set(normalBuffer.data);
+
+//     // update the vertex buffer
+//     gl.bindBuffer(gl.ARRAY_BUFFER, normalBuffer.buffer);
+//     gl.bufferData(gl.ARRAY_BUFFER, normalBuffer.floatArray, gl.STATIC_DRAW);
+// }
 
 // define the mapping from the buffers to the attributes
 function setBufferAttribute(buffer, attribLocation) {

@@ -1,5 +1,5 @@
 import { drawTorus } from "./draw-scene.js";
-import { initSurfaceBuffer, initNormalBuffer } from "./init-buffers.js";
+import { initSurfaceBuffer, initNormalBuffer, initIndexBuffer } from "./init-buffers.js";
 import { gl, programInfo, torus, view, light } from "./properties.js";
 import * as properties from "./properties.js";
 import * as torusFragment from "./shaders/torus-fragment.js";
@@ -58,6 +58,7 @@ function main() {
     // initialize the data buffers for the scene
     initSurfaceBuffer();
     initNormalBuffer(properties.buffers.torus.vertexCount);
+    initIndexBuffer(properties.buffers.torus.vertexCount);
     // initBackgroundBuffer();
 
     // ensure that the zoom and pan values are correct
@@ -65,8 +66,8 @@ function main() {
     onWheel({wheelDelta: 0.0});
 
     // create the event listeners for pan and zoom
-    addEventListener("mousemove", onMouseMove);
-    addEventListener("wheel", onWheel);
+    // addEventListener("mousemove", onMouseMove);
+    // addEventListener("wheel", onWheel);
 
     // create event listeners for touchscreen support
     // addEventListener("touchstart", onTouchStart);
