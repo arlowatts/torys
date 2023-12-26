@@ -11,10 +11,11 @@ out vec3 normal;
 
 void main() {
     vec4 position = uProjectionMatrix * uViewMatrix * aVertexPosition;
-    position.x *= uZoomLevel;
-    position.y *= uZoomLevel;
+
+    pointPosition = aVertexPosition;
+    normal = normalize(aVertexNormal);
+
     gl_Position = position;
-    pointPosition = position;
-    normal = aVertexNormal;
+    gl_Position.xy *= uZoomLevel;
 }
 `;

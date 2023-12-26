@@ -1,5 +1,5 @@
 import { drawTorus } from "./draw-scene.js";
-import { initSurfaceBuffer, initNormalBuffer, initIndexBuffer } from "./init-buffers.js";
+import { initSurfaceBuffer, initNormalBuffer } from "./init-buffers.js";
 import { gl, programInfo, torus, view, light } from "./properties.js";
 import * as properties from "./properties.js";
 import * as torusFragment from "./shaders/torus-fragment.js";
@@ -58,7 +58,6 @@ function main() {
     // initialize the data buffers for the scene
     initSurfaceBuffer();
     initNormalBuffer(properties.buffers.torus.vertexCount);
-    initIndexBuffer(properties.buffers.torus.vertexCount);
     // initBackgroundBuffer();
 
     // ensure that the zoom and pan values are correct
@@ -145,13 +144,14 @@ function onMouseMove(event) {
 // zoom when the scroll wheel is used
 function onWheel(event) {
     // track the precise zoom value to avoid loss of precision
-    view.zoomPrecise -= event.wheelDelta * properties.SCROLL_SENSITIVITY;
-    view.zoomPrecise = Math.min(Math.max(view.zoomPrecise, properties.MIN_ZOOM), properties.MAX_ZOOM);
+    view.zoomPrecise -= event.wheelDelta;
+    view.zoomPrecise = Math.min(Math.max(view.zoomPrecise, properties.MIN_ZOOM_PRECISE), properties.MAX_ZOOM_PRECISE);
+    view.zoomSemiPrecise = view.zoomPrecise * properties.SCROLL_SENSITIVITY;
 
     // compute the exponential zoom value and the updated pan sensitivity
-    view.zoom = 2 ** view.zoomPrecise;
+    view.zoom = 2 ** view.zoomSemiPrecise;
     view.panSensitivity =
-        2 ** (Math.min(view.zoomPrecise, properties.MAX_PAN_SENSITIVITY) - properties.MIN_ZOOM)
+        2 ** (Math.min(view.zoomSemiPrecise, properties.MAX_PAN_SENSITIVITY) - properties.MIN_ZOOM)
         * properties.BASE_PAN_SENSITIVITY / view.cameraDistance;
 
     // update the scale value on the bar
@@ -232,7 +232,7 @@ function onWheel(event) {
 
 //     urlSearchParams.set("phi", view.phiPrecise.toFixed(4));
 //     urlSearchParams.set("theta", view.thetaPrecise.toFixed(4));
-//     urlSearchParams.set("zoom", view.zoomPrecise.toFixed(4));
+//     urlSearchParams.set("zoom", view.zoomPrecise);
 //     urlSearchParams.set("time", view.time);
 
 //     history.replaceState(null, "", window.location.pathname + "?" + urlSearchParams);

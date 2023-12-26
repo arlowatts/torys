@@ -1,5 +1,5 @@
 import { hexBuffer } from "./hex-buffer.js";
-import { gl, buffers, torus, view, programInfo } from "./properties.js";
+import { gl, buffers, torus, view } from "./properties.js";
 
 // creates a vertex buffer for a screen-filling hexagonal mesh
 export function initSurfaceBuffer() {
@@ -50,26 +50,6 @@ export function initNormalBuffer(vertexCount) {
     buffers.normals.vertexCount = positions.length / buffers.normals.numComponents;
     buffers.normals.type = gl.FLOAT;
     buffers.normals.normalize = false;
-}
-
-export function initIndexBuffer(vertexCount) {
-    const positions = [];
-
-    for (let i = 0; i < vertexCount; i++) {
-        positions.push(i);
-    }
-
-    const positionBuffer = gl.createBuffer();
-    gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, positionBuffer);
-
-    const uintArray = new Uint16Array(positions);
-    gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, uintArray, gl.STATIC_DRAW);
-
-    buffers.indices.data = positions;
-    buffers.indices.uintArray = uintArray;
-    buffers.indices.buffer = positionBuffer;
-    buffers.indices.vertexCount = positions.length;
-    buffers.indices.type = gl.UNSIGNED_SHORT;
 }
 
 // creates a vertex buffer for a torus
