@@ -41,42 +41,6 @@ export function setVertices(buffer) {
     gl.bufferData(gl.ARRAY_BUFFER, buffer.floatArray, gl.STATIC_DRAW);
 }
 
-// update the surface normals based on a given buffer of vertices
-export function setNormals(normalBuffer, meshBuffer) {
-    for (let i = 0; i < meshBuffer.vertexCount; i += 3) {
-        let a = vec3.fromValues(
-            meshBuffer.data[3 * (i + 1)] - meshBuffer.data[3 * i],
-            meshBuffer.data[3 * (i + 1) + 1] - meshBuffer.data[3 * i + 1],
-            meshBuffer.data[3 * (i + 1) + 2] - meshBuffer.data[3 * i + 2]
-        );
-
-        let b = vec3.fromValues(
-            meshBuffer.data[3 * (i + 2)] - meshBuffer.data[3 * i],
-            meshBuffer.data[3 * (i + 2) + 1] - meshBuffer.data[3 * i + 1],
-            meshBuffer.data[3 * (i + 2) + 2] - meshBuffer.data[3 * i + 2]
-        );
-
-        let normal = vec3.cross(vec3.create(), a, b);
-
-        // console.log(normal);
-
-        for (let j = 0; j < 3; j++) {
-            normalBuffer.data[3 * (i + j)] = normal[0];
-            normalBuffer.data[3 * (i + j) + 1] = normal[1];
-            normalBuffer.data[3 * (i + j) + 2] = normal[2];
-        }
-    }
-
-    // console.log(normalBuffer.data);
-
-    // update the float array with the adjusted vertices
-    normalBuffer.floatArray.set(normalBuffer.data);
-
-    // update the vertex buffer
-    gl.bindBuffer(gl.ARRAY_BUFFER, normalBuffer.buffer);
-    gl.bufferData(gl.ARRAY_BUFFER, normalBuffer.floatArray, gl.STATIC_DRAW);
-}
-
 // get the height of the terrain at the given 3-dimensional coordinates
 // returns a height value balanced around 0
 function getTerrainHeight(x, y, z, levels) {

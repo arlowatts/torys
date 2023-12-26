@@ -127,55 +127,55 @@ export function hexBuffer(edgeLength, aspectRatio) {
     return positions;
 }
 
-export function getNeighbors(vertexIndex) {
-    const neighbors = [];
+// export function getNeighbors(vertexIndex) {
+//     const neighbors = [];
 
-    const row = getRow(vertexIndex);
-    const column = getColumn(vertexIndex);
+//     const row = getRow(vertexIndex);
+//     const column = getColumn(vertexIndex);
 
-    neighbors.push(getIndex(row - 1,                      column));
-    neighbors.push(getIndex(row + 1,                      column));
-    neighbors.push(getIndex(verticalResolution - row,     column - 1));
-    neighbors.push(getIndex(verticalResolution - row - 1, column - 1));
-    neighbors.push(getIndex(verticalResolution - row,     column + 1));
-    neighbors.push(getIndex(verticalResolution - row - 1, column + 1));
+//     neighbors.push(getIndex(row - 1,                      column));
+//     neighbors.push(getIndex(row + 1,                      column));
+//     neighbors.push(getIndex(verticalResolution - row,     column - 1));
+//     neighbors.push(getIndex(verticalResolution - row - 1, column - 1));
+//     neighbors.push(getIndex(verticalResolution - row,     column + 1));
+//     neighbors.push(getIndex(verticalResolution - row - 1, column + 1));
 
-    console.log(vertexIndex+"="+getIndex(row, column)+" ("+row+"/"+verticalResolution+","+column+"/"+horizontalResolution+")");
+//     console.log(vertexIndex+"="+getIndex(row, column)+" ("+row+"/"+verticalResolution+","+column+"/"+horizontalResolution+")");
 
-    return neighbors;
-}
+//     return neighbors;
+// }
 
-function getIndex(row, column) {
-    if (row < 0 || row >= verticalResolution || column < 0 || column > horizontalResolution) {
-        return -1;
-    }
+// function getIndex(row, column) {
+//     if (row < 0 || row >= verticalResolution || column < 0 || column > horizontalResolution) {
+//         return -1;
+//     }
 
-    if (column == horizontalResolution) {
-        column -= 1;
-        row = verticalResolution - row - 1;
+//     if (column == horizontalResolution) {
+//         column -= 1;
+//         row = verticalResolution - row - 1;
 
-        return (row + column * verticalResolution) * 2 + 1;
-    }
+//         return (row + column * verticalResolution) * 2 + 1;
+//     }
 
-    return (row + column * verticalResolution) * 2;
-}
+//     return (row + column * verticalResolution) * 2;
+// }
 
-function getRow(index) {
-    let row = Math.floor(index / 2) % verticalResolution;
+// function getRow(index) {
+//     let row = Math.floor(index / 2) % verticalResolution;
 
-    if (index % 2 == 1) {
-        row = verticalResolution - row - 1;
-    }
+//     if (index % 2 == 1) {
+//         row = verticalResolution - row - 1;
+//     }
 
-    return row;
-}
+//     return row;
+// }
 
-function getColumn(index) {
-    let column = Math.floor(index / (2 * verticalResolution));
+// function getColumn(index) {
+//     let column = Math.floor(index / (2 * verticalResolution));
 
-    if (index % 2 == 1) {
-        column += 1;
-    }
+//     if (index % 2 == 1) {
+//         column += 1;
+//     }
 
-    return column;
-}
+//     return column;
+// }

@@ -1,5 +1,5 @@
 import { drawTorus } from "./draw-scene.js";
-import { initSurfaceBuffer, initNormalBuffer } from "./init-buffers.js";
+import { initSurfaceBuffer } from "./init-buffers.js";
 import { gl, programInfo, torus, view, light } from "./properties.js";
 import * as properties from "./properties.js";
 import * as torusFragment from "./shaders/torus-fragment.js";
@@ -22,8 +22,7 @@ function main() {
     programInfo.torus.program = torusProgram;
 
     programInfo.torus.attribLocations = {
-        vertexPosition: gl.getAttribLocation(torusProgram, "aVertexPosition"),
-        vertexNormal: gl.getAttribLocation(torusProgram, "aVertexNormal")
+        vertexPosition: gl.getAttribLocation(torusProgram, "aVertexPosition")
     };
 
     programInfo.torus.uniformLocations = {
@@ -57,7 +56,6 @@ function main() {
 
     // initialize the data buffers for the scene
     initSurfaceBuffer();
-    initNormalBuffer(properties.buffers.torus.vertexCount);
     // initBackgroundBuffer();
 
     // ensure that the zoom and pan values are correct
@@ -128,8 +126,8 @@ function render(now) {
 function onMouseMove(event) {
     if (event.buttons == 1 && view.allowPanning) {
         // track the precise angle values as integers to avoid loss of precision
-        view.phiPrecise += event.movementX * view.panSensitivity * torus.smallRadius / torus.largeRadius;
-        view.thetaPrecise += event.movementY * view.panSensitivity;
+        view.phiPrecise += event.movementX * view.panSensitivity / torus.largeRadius;
+        view.thetaPrecise += event.movementY * view.panSensitivity / torus.smallRadius;
 
         // wrap the values past a full rotation to avoid overflow
         view.phiPrecise %= properties.PAN_LIMIT;

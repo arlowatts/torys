@@ -1,5 +1,5 @@
 import { gl, programInfo, buffers, torus, view, light } from "./properties.js";
-import { setVertices, setNormals } from "./terrain.js";
+import { setVertices } from "./terrain.js";
 
 // draw the starry background
 // export function drawStars() {
@@ -34,7 +34,6 @@ export function drawTorus() {
     gl.clear(gl.DEPTH_BUFFER_BIT);
 
     setVertices(buffers.torus);
-    setNormals(buffers.normals, buffers.torus);
 
     // set the shader uniforms
     let uniforms = programInfo.torus.uniformLocations;

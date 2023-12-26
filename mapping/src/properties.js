@@ -12,18 +12,18 @@ if (gl === null) {
 
 // constants for panning and zooming
 export const SCROLL_SENSITIVITY = 0.0015;
-export const PINCH_SENSITIVITY_MODIFIER = 2.0;
+export const PINCH_SENSITIVITY_MODIFIER = 2;
 export const MIN_ZOOM_PRECISE = -7000;
-export const MAX_ZOOM_PRECISE = 7000;
+export const MAX_ZOOM_PRECISE = 3000;
 export const MIN_ZOOM = MIN_ZOOM_PRECISE * SCROLL_SENSITIVITY;
 export const MAX_ZOOM = MAX_ZOOM_PRECISE * SCROLL_SENSITIVITY;
-export const BASE_PAN_SENSITIVITY = 20.0 / window.innerHeight;
-export const MAX_PAN_SENSITIVITY = 4.0;
+export const BASE_PAN_SENSITIVITY = 64 / window.innerHeight;
+export const MAX_PAN_SENSITIVITY = 2;
 export const PRECISE_PAN_TO_RADIANS = 2 ** MIN_ZOOM;
-export const PAN_LIMIT = Math.round(2.0 * Math.PI / PRECISE_PAN_TO_RADIANS);
+export const PAN_LIMIT = Math.round(2 * Math.PI / PRECISE_PAN_TO_RADIANS);
 
 // the minimum distance from the camera to the surface before narrowing the fov
-export const MIN_CAMERA_DISTANCE = 1.0;
+export const MIN_CAMERA_DISTANCE = 1;
 
 // the length of the vertical scale/measuring bar in screen units
 // export const SCALE_LENGTH = 2.0 * document.getElementById("scalebar").clientHeight / window.innerHeight;
@@ -44,7 +44,7 @@ export const torus = {
 
     // properties relating to the mesh used to render the surface of the torus
     surfaceMesh: {
-        edgeLength: 0.05
+        edgeLength: 0.025
         // verticalResolution: 10
     },
 
