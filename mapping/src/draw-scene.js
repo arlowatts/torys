@@ -1,5 +1,6 @@
 import { gl, programInfo, buffers, torus, view, light } from "./properties.js";
-import { setVertices } from "./terrain.js";
+import * as properties from "./properties.js";
+// import { setVertices } from "./terrain.js";
 
 // draw the starry background
 // export function drawStars() {
@@ -33,17 +34,23 @@ export function drawTorus() {
     gl.clearDepth(1.0);
     gl.clear(gl.DEPTH_BUFFER_BIT);
 
-    setVertices(buffers.torus);
+    // enable face culling
+    // gl.enable(gl.CULL_FACE);
 
     // set the shader uniforms
     let uniforms = programInfo.torus.uniformLocations;
     gl.uniformMatrix4fv(uniforms.projectionMatrix, false, getProjectionMatrix());
     gl.uniformMatrix4fv(uniforms.viewMatrix, false, getViewMatrix());
+    gl.uniformMatrix4fv(uniforms.viewDirectionMatrix, false, getViewDirectionMatrix());
+
+    gl.uniform1f(uniforms.phi, view.phi);
+    gl.uniform1f(uniforms.theta, view.theta);
 
     // gl.uniform4fv(uniforms.lightDirection, light.direction);
 
     // gl.uniform1f(uniforms.lightAmbience, light.ambience);
-    gl.uniform1f(uniforms.zoomLevel, 1 / view.zoom);
+    gl.uniform1i(uniforms.zoomLevel, -view.zoomSemiPrecise - properties.MIN_ZOOM - 7);
+    gl.uniform1f(uniforms.zoomScale, view.zoom);
     // gl.uniform1f(uniforms.terrainResolution, view.zoom * torus.terrainResolution);
     // gl.uniform1f(uniforms.terrainHeightScale, getTerrainHeightScale());
     // gl.uniform1f(uniforms.terrainNormalResolution, view.zoom * torus.terrainNormalResolution);
@@ -83,7 +90,7 @@ function getProjectionMatrix() {
 // create a view matrix to define the camera's position and angle
 function getViewMatrix() {
     const viewMatrix = mat4.create();
-    mat4.translate(viewMatrix, viewMatrix, [0.0, 0.0, -20 - torus.smallRadius]);
+    mat4.translate(viewMatrix, viewMatrix, [0.0, 0.0, -(torus.smallRadius + 20)]);
     mat4.rotate(viewMatrix, viewMatrix, view.theta, [1.0, 0.0, 0.0]);
     mat4.translate(viewMatrix, viewMatrix, [0.0, 0.0, -torus.largeRadius]);
     mat4.rotate(viewMatrix, viewMatrix, view.phi, [0.0, 1.0, 0.0]);
@@ -91,14 +98,14 @@ function getViewMatrix() {
     return viewMatrix;
 }
 
-// create a view matrix to define only the camera's angle for the stars
-// function getViewDirectionMatrix() {
-//     const viewDirectionMatrix = mat4.create();
-//     mat4.rotate(viewDirectionMatrix, viewDirectionMatrix, view.theta, [1.0, 0.0, 0.0]);
-//     mat4.rotate(viewDirectionMatrix, viewDirectionMatrix, view.phi, [0.0, 1.0, 0.0]);
+// create a view matrix to define only the camera's angle
+function getViewDirectionMatrix() {
+    const viewDirectionMatrix = mat4.create();
+    mat4.rotate(viewDirectionMatrix, viewDirectionMatrix, view.theta, [1.0, 0.0, 0.0]);
+    mat4.rotate(viewDirectionMatrix, viewDirectionMatrix, view.phi, [0.0, 1.0, 0.0]);
 
-//     return viewDirectionMatrix;
-// }
+    return viewDirectionMatrix;
+}
 
 // function getTerrainHeightScale() {
 //     let scale = 0.0;
