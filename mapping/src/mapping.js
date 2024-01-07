@@ -28,11 +28,11 @@ function main() {
     programInfo.torus.uniformLocations = {
         // matrices
         projectionMatrix: gl.getUniformLocation(torusProgram, "uProjectionMatrix"),
-        viewMatrix: gl.getUniformLocation(torusProgram, "uViewMatrix"),
-        viewDirectionMatrix: gl.getUniformLocation(torusProgram, "uViewDirectionMatrix"),
+        // viewMatrix: gl.getUniformLocation(torusProgram, "uViewMatrix"),
+        // viewDirectionMatrix: gl.getUniformLocation(torusProgram, "uViewDirectionMatrix"),
         // vectors
-        // lightDirection: gl.getUniformLocation(torusProgram, "uLightDirection"),
-        // lightAmbience: gl.getUniformLocation(torusProgram, "uLightAmbience"),
+        lightDirection: gl.getUniformLocation(torusProgram, "uLightDirection"),
+        lightAmbience: gl.getUniformLocation(torusProgram, "uLightAmbience"),
         // // scalars
         zoomLevel: gl.getUniformLocation(torusProgram, "uZoomLevel"),
         zoomScale: gl.getUniformLocation(torusProgram, "uZoomScale"),
@@ -104,7 +104,7 @@ function render(now) {
 
     // create the light direction matrix and vector
     // mat4.identity(light.directionMatrix);
-    // vec4.copy(light.direction, light.baseDirection);
+    vec4.copy(light.direction, light.baseDirection);
 
     // apply the rotations to the matrix
     // mat4.rotate(light.directionMatrix, light.directionMatrix, view.time / light.dayLength * Math.PI * 2, light.dayAxis);

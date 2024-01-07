@@ -44,7 +44,7 @@ export const torus = {
 
     // properties relating to the mesh used to render the surface of the torus
     surfaceMesh: {
-        edgeLength: 0.025
+        edgeLength: 0.01
         // verticalResolution: 10
     },
 
@@ -52,7 +52,11 @@ export const torus = {
     terrainNormalResolution: 1.0 / 128.0,   // the level of precision in the terrain shading
     terrainNormalIntensity: 0.2,            // the intensity of the terrain shading
 
-    seaLevel: 0.575,        // terrain below the sea level is water
+    maxTerrainMagnitude: 0.05,
+
+    waterRatio: 0.6,        // ratio of the surface that is below the water line
+    snowRatio: 0.75,         // ratio of the surface that is below the snow line
+
     desertTemperature: 0.6, // temperatures above the desert temperature are hot and dry
     iceTemperature: 0.2,    // temperatures below the ice temperature are freezing
 
@@ -78,7 +82,7 @@ export const light = {
     dayLength: 86400,   // number of seconds in one day
     yearLength: 365,    // number of days in one year
 
-    ambience: 0.2,              // the base uniform light level
+    ambience: 0.5,              // the base uniform light level
     sunSize: 0.05,              // the approximate radius of the sun in the sky
     sunColor: [1.0, 0.9, 0.7]   // the color of the sun in rgb format
 };
