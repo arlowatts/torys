@@ -45,17 +45,14 @@ export const torus = {
     // properties relating to the mesh used to render the surface of the torus
     surfaceMesh: {
         edgeLength: 0.01
-        // verticalResolution: 10
     },
 
-    terrainResolution: 1.0 / 1024.0,        // the base resolution of the terrain
-    terrainNormalResolution: 1.0 / 128.0,   // the level of precision in the terrain shading
-    terrainNormalIntensity: 0.2,            // the intensity of the terrain shading
+    terrainResolution: 3,   // the base resolution of the terrain
 
     maxTerrainMagnitude: 0.05,
 
     waterRatio: 0.6,        // ratio of the surface that is below the water line
-    snowRatio: 0.75,         // ratio of the surface that is below the snow line
+    snowRatio: 0.75,        // ratio of the surface that is below the snow line
 
     desertTemperature: 0.6, // temperatures above the desert temperature are hot and dry
     iceTemperature: 0.2,    // temperatures below the ice temperature are freezing
@@ -136,11 +133,6 @@ export const programInfo = {
         program: null,
         attribLocations: {},
         uniformLocations: {}
-    },
-    stars: {
-        program: null,
-        attribLocations: {},
-        uniformLocations: {}
     }
 };
 
@@ -149,20 +141,6 @@ export const programInfo = {
 export const buffers = {
     torus: {
         data: [],
-        originalData: [],
-        floatArray: new Float32Array(),
-        buffer: null,
-        verticalResolution: 0,
-        horizontalResolution: 0,
-        numComponents: 0,
-        vertexCount: 0,
-        type: null,
-        normalize: false,
-        stride: 0,
-        offset: 0
-    },
-    normals: {
-        data: [],
         floatArray: new Float32Array(),
         buffer: null,
         numComponents: 0,
@@ -170,23 +148,6 @@ export const buffers = {
         type: null,
         normalize: false,
         stride: 0,
-        offset: 0
-    },
-    indices: {
-        data: [],
-        uintArray: new Uint16Array(),
-        buffer: null,
-        vertexCount: 0,
-        type: null,
         offset: 0
     }
-    // stars: {
-    //     data: [],
-    //     vertexCount: 0,
-    //     numComponents: 0,
-    //     type: null,
-    //     normalize: false,
-    //     stride: 0,
-    //     offset: 0
-    // }
 };
