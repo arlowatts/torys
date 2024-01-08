@@ -32,11 +32,11 @@ float maxTerrainMagnitude = float(${torus.maxTerrainMagnitude});
 
 void main() {
     // get the angular coordinates of the current vertex
-    float phi = -uPhi + min(max(aVertexPosition.x * smallRadius * uZoomScale, -PI), PI);
+    float phi = uPhi - min(max(aVertexPosition.x * smallRadius * uZoomScale, -PI), PI);
     float theta = uTheta + min(max(aVertexPosition.y * largeRadius * uZoomScale, -PI), PI);
 
     // get the terrain height at the center of the screen
-    vec4 centerPosition = toSurface(-uPhi, uTheta, 0.0);
+    vec4 centerPosition = toSurface(uPhi, uTheta, 0.0);
     float centerHeight = getTerrainHeight(centerPosition, maxTerrainMagnitude, uZoomLevel);
 
     // get the terrain height at the current vertex
