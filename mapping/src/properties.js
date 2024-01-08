@@ -17,7 +17,7 @@ export const MIN_ZOOM_PRECISE = -7000;
 export const MAX_ZOOM_PRECISE = 3000;
 export const MIN_ZOOM = MIN_ZOOM_PRECISE * SCROLL_SENSITIVITY;
 export const MAX_ZOOM = MAX_ZOOM_PRECISE * SCROLL_SENSITIVITY;
-export const BASE_PAN_SENSITIVITY = 64 / window.innerHeight;
+export const BASE_PAN_SENSITIVITY = 32 / window.innerHeight;
 export const MAX_PAN_SENSITIVITY = 2;
 export const PRECISE_PAN_TO_RADIANS = 2 ** MIN_ZOOM;
 export const PAN_LIMIT = Math.round(2 * Math.PI / PRECISE_PAN_TO_RADIANS);
@@ -49,7 +49,8 @@ export const torus = {
 
     terrainResolution: 3,   // the base resolution of the terrain
 
-    maxTerrainMagnitude: 0.05,
+    terrainMagnitude: 0.05,
+    waveMagnitude: 0.0001,
 
     waterRatio: 0.6,        // ratio of the surface that is below the water line
     snowRatio: 0.75,        // ratio of the surface that is below the snow line

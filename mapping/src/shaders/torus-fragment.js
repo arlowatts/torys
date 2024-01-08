@@ -14,10 +14,10 @@ out vec4 fragColor;
 float largeRadius = float(${torus.largeRadius});
 float smallRadius = float(${torus.smallRadius});
 
-float maxTerrainMagnitude = float(${torus.maxTerrainMagnitude});
+float terrainMagnitude = float(${torus.terrainMagnitude});
 
-float seaLevel = float(${torus.waterRatio}) * 2.0 * float(${torus.maxTerrainMagnitude}) - float(${torus.maxTerrainMagnitude});
-float snowLevel = float(${torus.snowRatio}) * 2.0 * float(${torus.maxTerrainMagnitude}) - float(${torus.maxTerrainMagnitude});
+float seaLevel = float(${torus.waterRatio}) * 2.0 * float(${torus.terrainMagnitude}) - float(${torus.terrainMagnitude});
+float snowLevel = float(${torus.snowRatio}) * 2.0 * float(${torus.terrainMagnitude}) - float(${torus.terrainMagnitude});
 
 void main() {
     vec3 normal = normalize(cross(dFdx(pointPosition), dFdy(pointPosition)));
