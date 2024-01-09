@@ -73,10 +73,7 @@ vec4 toSurface(float phi, float theta, float height) {
 // get the height of the terrain at the given 3-dimensional coordinates
 // returns a height value between -magnitude and magnitude
 float getTerrainHeight(vec4 position, int layers) {
-    return max(
-        getLayeredNoise(position, layers) * terrainMagnitude,
-        getLayeredNoise(position * 256.0, max(layers - 8, 1)) * waveMagnitude + seaLevel - waveMagnitude
-    );
+    return getLayeredNoise(position, layers) * terrainMagnitude;
 }
 
 // returns layered noise between -1 and 1
