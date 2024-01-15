@@ -20,12 +20,14 @@ function main() {
 
     programInfo.torus.uniformLocations = {
         projectionMatrix: gl.getUniformLocation(torusProgram, "uProjectionMatrix"),
+        viewMatrix: gl.getUniformLocation(torusProgram, "uViewMatrix"),
 
         lightDirection: gl.getUniformLocation(torusProgram, "uLightDirection"),
         lightAmbience: gl.getUniformLocation(torusProgram, "uLightAmbience"),
 
         zoomLevel: gl.getUniformLocation(torusProgram, "uZoomLevel"),
         zoomScale: gl.getUniformLocation(torusProgram, "uZoomScale"),
+        inverseZoomScale: gl.getUniformLocation(torusProgram, "uInverseZoomScale"),
 
         phi: gl.getUniformLocation(torusProgram, "uPhi"),
         theta: gl.getUniformLocation(torusProgram, "uTheta")
@@ -80,6 +82,7 @@ function onWheel(event) {
 
     // compute the exponential zoom value and the updated pan sensitivity
     view.zoom = 2 ** view.zoomSemiPrecise;
+    view.inverseZoom = 2 ** -view.zoomSemiPrecise;
     view.panSensitivity =
         2 ** (Math.min(view.zoomSemiPrecise, properties.MAX_PAN_SENSITIVITY) - properties.MIN_ZOOM)
         * properties.BASE_PAN_SENSITIVITY / view.cameraDistance;

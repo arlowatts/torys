@@ -86,7 +86,7 @@ export const light = {
 };
 
 // compute viewport properties
-const fov = 0.25 * Math.PI;
+const fov = 0.5 * Math.PI;
 
 // load query parameters
 const params = new URLSearchParams(window.location.search);
@@ -115,7 +115,8 @@ export const view = {
 
     zoomPrecise: params.has("zoom") && !isNaN(params.get("zoom")) ? Number(params.get("zoom")) : 0,
     zoomSemiPrecise: 0.0,
-    zoom: 0.0,
+    zoom: 1.0,
+    zoom: 1.0,
 
     panSensitivity: 0.0,
     allowPanning: true

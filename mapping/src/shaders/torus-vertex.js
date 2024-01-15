@@ -3,7 +3,7 @@ import { torus } from "../properties.js";
 export const source = `#version 300 es
 #define PI 3.1415926538
 
-vec4 toSurface(float, float, float);
+vec4 toSurface(float, float, float, float, float);
 float getTerrainHeight(vec4, int);
 float getLayeredNoise(vec4, int);
 float noise4(vec4, vec4, uvec4, uint);
@@ -14,9 +14,11 @@ float hash(uint);
 float lerp(float, float, float);
 
 uniform mat4 uProjectionMatrix;
+uniform mat4 uViewMatrix;
 
 uniform int uZoomLevel;
 uniform float uZoomScale;
+uniform float uInverseZoomScale;
 
 uniform float uPhi;
 uniform float uTheta;
@@ -36,22 +38,24 @@ float seaLevel = float(${torus.waterRatio}) * 2.0 * float(${torus.terrainMagnitu
 
 void main() {
     // get the angular coordinates of the current vertex
-    float phi = uPhi - min(max(aVertexPosition.x * smallRadius * uZoomScale, -PI), PI);
-    float theta = uTheta + min(max(aVertexPosition.y * largeRadius * uZoomScale, -PI), PI);
+    float phi = min(max(aVertexPosition.x * smallRadius * uZoomScale, -PI), PI) - uPhi;
+    float theta = min(max(aVertexPosition.y * largeRadius * uZoomScale, -PI), PI) + uTheta;
 
     // get the terrain height at the center of the screen
-    vec4 centerPosition = toSurface(uPhi, uTheta, 0.0);
+    vec4 centerPosition = toSurface(-uPhi, uTheta, largeRadius, smallRadius, 0.0);
     float centerHeight = getTerrainHeight(centerPosition, uZoomLevel);
 
     // get the terrain height at the current vertex
-    vec4 surfacePosition = toSurface(phi, theta, 0.0);
+    vec4 surfacePosition = toSurface(phi, theta, largeRadius, smallRadius, 0.0);
     height = getTerrainHeight(surfacePosition, uZoomLevel);
 
     // get the actual terrain point
-    vec4 position = aVertexPosition;
-    position.z = (height - centerHeight) / uZoomScale - 1.0;
+    vec4 position = toSurface(phi, theta, largeRadius * uInverseZoomScale, smallRadius * uInverseZoomScale, height * uInverseZoomScale);
 
     pointPosition = position.xyz;
+
+    position = uViewMatrix * position;
+    position.z -= centerHeight * uInverseZoomScale + 10.0;
 
     // project the terrain point to the screen
     gl_Position = uProjectionMatrix * position;
@@ -59,7 +63,7 @@ void main() {
 
 // returns a point on the surface of the torus at the given height above the
 // surface and at the given angular coordinates
-vec4 toSurface(float phi, float theta, float height) {
+vec4 toSurface(float phi, float theta, float largeRadius, float smallRadius, float height) {
     float xzOffset = largeRadius + (smallRadius + height) * cos(theta);
 
     return vec4(
