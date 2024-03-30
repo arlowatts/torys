@@ -6,10 +6,10 @@ def main():
 
     index = {}
 
-    read("adventures", index)
-    read("guides", index)
-    read("locations", index)
-    read("races", index)
+    read("world/adventures", index)
+    read("world/guides", index)
+    read("world/locations", index)
+    read("world/races", index)
 
     letter = "@"
 

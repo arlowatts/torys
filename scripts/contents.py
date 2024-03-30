@@ -4,10 +4,10 @@ def main():
     # add the front matter
     content = "---\ntitle: Table of Contents\n---\n"
 
-    content += read("adventures")
-    content += read("guides")
-    content += read("locations")
-    content += read("races")
+    content += read("world/adventures")
+    content += read("world/guides")
+    content += read("world/locations")
+    content += read("world/races")
 
     with open("contents.md", "w") as file:
         file.write(content)
