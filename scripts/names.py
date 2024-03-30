@@ -40,7 +40,7 @@ def getWord(length: int):
     return "".join(word)
 
 # returns a randomly chosen letter from the list based on each letter's frequency
-def getLetter(array: []):
+def getLetter(array):
     sum = 0
 
     for char in array:
