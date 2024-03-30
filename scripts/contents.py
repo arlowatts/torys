@@ -1,8 +1,6 @@
 import os
 
 def main():
-    os.chdir(os.path.dirname(__file__))
-
     # add the front matter
     content = "---\ntitle: Table of Contents\n---\n"
 

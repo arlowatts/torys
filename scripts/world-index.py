@@ -1,10 +1,8 @@
 import os, re
 
 def main():
-    os.chdir(os.path.dirname(__file__))
-
     # add the front matter
-    content = "---\ntitle: Index\n---\n"
+    content = "---\ntitle: World Index\n---\n"
 
     index = {}
 
@@ -27,7 +25,7 @@ def main():
         for entry in index[key]:
             content += "  - " + entry + "\n"
 
-    with open("index.md", "w") as file:
+    with open("world-index.md", "w") as file:
         file.write(content)
 
 # recursively search files in the given directory
