@@ -75,3 +75,19 @@ If Captain Estavi is not able to share this information (perhaps because he is u
 The hold of the **Tidesoul** contains, in addition to standard food and water barrels: crates filled with weapons, alchemical equipment, and magical devices. The weapons include longswords, longbows, greataxes, and grappling hooks. The alchemical equipment includes flasks, measuring devices, glass tubing, and burners. The magical equipment consists of several arcane focuses and a few select divination spell scrolls. In addition to the equipment are a few maps of Leuber - they are copies of maps made by the explorers who discovered **Taor'taemed**'s properties and show a path to it from **Firecomb** around **Skybreak Peak**.
 
 ## Chapter 3 - Aranak
+
+## Chapter 4 - Firecomb
+
+In **Firecomb**, the kenku wizard **Pyrite** learns of the adventurers' quest to cross the **Encord Mountains** into the heart of **Leuber** and pressures them into working for him rather than for the **Merchant's Union**.
+
+## Chapter 5 - Ruemin Cavern
+
+The **Ruemin**s welcome the adventurers and offer them assistance if they promise to fight alongside the armies of **Andal**, against the giants, to restore the **Booksmith**s to their ancient glory.
+
+## Chapter 6 - Tado
+
+The ruins of **Tado** are home to none but **Ghielm**, the Keeper of Tado. The inhabitants of Tado were called away to **Carothera**, the capital of **Leuber**, by a vision granted by **Taor'taemed** foretelling a great disaster.
+
+## Chapter 7 - Carothera
+
+**Carothera** is the capital of **Leuber**. All of the giants of Leuber have been called to Carothera to prepare for an imminent disaster seen in a vision.
