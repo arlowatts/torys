@@ -5,7 +5,6 @@ def main():
     content = "---\ntitle: Table of Contents\n---\n"
 
     content += read("world/adventures")
-    content += read("world/guides")
     content += read("world/locations")
     content += read("world/races")
 

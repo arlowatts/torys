@@ -7,7 +7,6 @@ def main():
     index = {}
 
     read("world/adventures", index)
-    read("world/guides", index)
     read("world/locations", index)
     read("world/races", index)
 
