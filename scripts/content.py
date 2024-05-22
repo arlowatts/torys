@@ -8,7 +8,7 @@ def main():
     content += read("world/locations")
     content += read("world/races")
 
-    with open("contents.md", "w") as file:
+    with open("world/content.md", "w") as file:
         file.write(content)
 
 # recursively list files in the given directory

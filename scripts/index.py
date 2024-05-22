@@ -24,7 +24,7 @@ def main():
         for entry in index[key]:
             content += "  - " + entry + "\n"
 
-    with open("world-index.md", "w") as file:
+    with open("world/index.md", "w") as file:
         file.write(content)
 
 # recursively search files in the given directory
