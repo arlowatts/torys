@@ -6,9 +6,11 @@ def main():
 
     index = {}
 
-    read("world/adventures", index)
-    read("world/locations", index)
-    read("world/races", index)
+    os.chdir("world")
+
+    read("adventures", index)
+    read("locations", index)
+    read("races", index)
 
     letter = "@"
 
@@ -24,7 +26,7 @@ def main():
         for entry in index[key]:
             content += "  - " + entry + "\n"
 
-    with open("world/index.md", "w") as file:
+    with open("index.md", "w") as file:
         file.write(content)
 
 # recursively search files in the given directory
@@ -60,7 +62,7 @@ def getFileEntries(path: str, index: dict):
                 index[key] = []
 
             # assemble the jumplink to the current location
-            link = "[" + pageTitle + headerTitle + "](/torys/" + path + urlKey + ")"
+            link = "[" + pageTitle + headerTitle + "](" + path + urlKey + ")"
 
             # add the current path to the phrase if it isn't there already
             if not link in index[key]:

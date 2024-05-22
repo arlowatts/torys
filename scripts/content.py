@@ -4,11 +4,13 @@ def main():
     # add the front matter
     content = "---\ntitle: Table of Contents\n---\n"
 
-    content += read("world/adventures")
-    content += read("world/locations")
-    content += read("world/races")
+    os.chdir("world")
 
-    with open("world/content.md", "w") as file:
+    content += read("adventures")
+    content += read("locations")
+    content += read("races")
+
+    with open("content.md", "w") as file:
         file.write(content)
 
 # recursively list files in the given directory
@@ -41,7 +43,7 @@ def getDirEntry(path: str, depth: int = 0):
 
 # get the table of contents line for this path, given the recursion depth
 def getFileEntry(path: str, depth: int = 0):
-    return "  " * (depth - 1) + "- [" + getFileTitle(path) + "](/torys/" + path + ")\n"
+    return "  " * (depth - 1) + "- [" + getFileTitle(path) + "](" + path + ")\n"
 
 # get the title from the contents or name of the directory
 # if the directory contains index.md, the title will be inherited from it
