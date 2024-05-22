@@ -60,7 +60,7 @@ def getFileEntries(path: str, index: dict):
                 index[key] = []
 
             # assemble the jumplink to the current location
-            link = "[" + pageTitle + headerTitle + "](" + path + urlKey + ")"
+            link = "[" + pageTitle + headerTitle + "](/torys/" + path + urlKey + ")"
 
             # add the current path to the phrase if it isn't there already
             if not link in index[key]:

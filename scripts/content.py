@@ -41,7 +41,7 @@ def getDirEntry(path: str, depth: int = 0):
 
 # get the table of contents line for this path, given the recursion depth
 def getFileEntry(path: str, depth: int = 0):
-    return "  " * (depth - 1) + "- [" + getFileTitle(path) + "](" + path + ")\n"
+    return "  " * (depth - 1) + "- [" + getFileTitle(path) + "](/torys/" + path + ")\n"
 
 # get the title from the contents or name of the directory
 # if the directory contains index.md, the title will be inherited from it
