@@ -34,19 +34,19 @@ Whatever their loyalties, all the kobold clans are united in reverence (and fear
 
 The **Bekebel** clan is the largest kobold clan on Oro-oro-ponoro-poron. They inhabit **Bekebel Citadel** and are led by **Babanak the Great**. The clan worships **Tuvdak the Magnificent**, regularly offering him gifts befitting his title to add to his hoard. The Bekebel are the sworn enemies of the Lukurru.
 
-See [Bekebel](bekebel.md).
+See [Bekebel](bekebel/index.md).
 
 #### Lukurru
 
 The **Lukurru** clan, while not very large, remains a very influential clan due to their expansive territory and unrivaled fighting force. They worship all green dragons, including **Mosha the All-knowing** whom they both fear and make their prayers to. The Lukurru are the sworn enemies of the Bekebel.
 
-See [Lukurru](lukurru.md).
+See [Lukurru](lukurru/index.md).
 
 #### Dagana
 
 The **Dagana** clan lives on a large network of floating huts, anchored to tall pillars of rock emerging from the sea near the shore. They worship **Dagana the Azure Death**, an old blue dragon several centuries past her prime. As long as the Dagana lives, her namesake clan will remain strong - but scheming has already begun among the clan's members to ensure that their favored dragon will take Dagana's place when she passes.
 
-See [Dagana](dagana.md).
+See [Dagana](dagana/index.md).
 
 ## Locations
 
