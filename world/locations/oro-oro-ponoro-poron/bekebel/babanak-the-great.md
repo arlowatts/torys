@@ -14,8 +14,7 @@ Babanak sees the world through a critical and self-centered lens, evaluating his
 
 ### Motives
 
-Babanak acts in accordance with a complex array of desires. His primary motive, always looming above the others, is the need for excellence. He sets high standards for himself over and above the expectations others have of him, and he goes to great lengths to attain them. He is also motivated by his desire for power. Though he would be ashamed to admit it, much of what Babanak does as the leader of the **Bekebel** clan is engineered to further elevate his standing.
-Third, Babanak seeks security for his clan, placing its safety above his own. He works tirelessly to anticipate potential threats to the **Bekebel** and to take preventative measures against them. Finally, Babanak acts in accordance with his love for **Tantan the Inventor**. Many of Babanak's seemingly uncharacteristic decisions can be explained by his consideration for Tantan's particular needs.
+Babanak acts in accordance with a complex array of desires. His primary motive, always looming above the others, is the need for excellence. He sets high standards for himself over and above the expectations others have of him, and he goes to great lengths to attain them. He is also motivated by his desire for power. Though he would be ashamed to admit it, much of what Babanak does as the leader of the **Bekebel** clan is engineered to further elevate his standing. Third, Babanak seeks security for his clan, placing its safety above his own. He works tirelessly to anticipate potential threats to the **Bekebel** and to take preventative measures against them. Finally, Babanak acts in accordance with his love for **Tantan the Inventor**. Many of Babanak's seemingly uncharacteristic decisions can be explained by his consideration for Tantan's particular needs.
 
 ### Background
 
