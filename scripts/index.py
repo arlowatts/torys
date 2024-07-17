@@ -9,7 +9,7 @@ def main():
     os.chdir("world")
 
     read("stories", index)
-    read("locations", index)
+    read("places", index)
     read("races", index)
 
     letter = "@"

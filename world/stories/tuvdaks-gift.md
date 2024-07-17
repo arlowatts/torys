@@ -5,8 +5,8 @@ title: Tuvdak's Gift
 Tuvdak's Gift is a lighthearted standalone adventure designed to be completed in one session. The adventure takes place in **Bekebel Citadel**, beneath the shadow of the fiery mountain **Oro-oro-ponoro-poron**. Since **Bekebel** is inhabited only by kobolds, all the characters in this adventure should also be kobolds.
 
 For additional information about the setting of this adventure, see also:
-- [Oro-oro-ponoro-poron](../locations/oro-oro-ponoro-poron/index.md)
-- [Bekebel](../locations/oro-oro-ponoro-poron/bekebel/index.md)
+- [Oro-oro-ponoro-poron](../places/oro-oro-ponoro-poron/index.md)
+- [Bekebel](../places/oro-oro-ponoro-poron/bekebel/index.md)
 
 ## Overview
 

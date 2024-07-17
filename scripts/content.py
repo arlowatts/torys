@@ -4,7 +4,7 @@ def main():
     content = "\n## Table of Contents\n"
 
     content += read("world/stories")
-    content += read("world/locations")
+    content += read("world/places")
     content += read("world/races")
 
     with open("index.md", "a") as file:
