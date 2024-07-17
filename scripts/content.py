@@ -5,7 +5,7 @@ def main():
 
     content += read("world/stories")
     content += read("world/places")
-    content += read("world/races")
+    content += read("world/people")
 
     with open("index.md", "a") as file:
         file.write(content)

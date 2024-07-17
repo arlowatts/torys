@@ -10,7 +10,7 @@ def main():
 
     read("stories", index)
     read("places", index)
-    read("races", index)
+    read("people", index)
 
     letter = "@"
 
