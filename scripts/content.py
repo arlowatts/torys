@@ -3,9 +3,9 @@ import os
 def main():
     content = "\n## Table of Contents\n"
 
-    content += read("world/stories")
     content += read("world/places")
     content += read("world/people")
+    content += read("world/stories")
 
     with open("index.md", "a") as file:
         file.write(content)
