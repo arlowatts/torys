@@ -8,7 +8,7 @@ def main():
 
     os.chdir("world")
 
-    read("adventures", index)
+    read("stories", index)
     read("locations", index)
     read("races", index)
 

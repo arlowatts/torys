@@ -3,7 +3,7 @@ import os
 def main():
     content = "\n## Table of Contents\n"
 
-    content += read("world/adventures")
+    content += read("world/stories")
     content += read("world/locations")
     content += read("world/races")
 
