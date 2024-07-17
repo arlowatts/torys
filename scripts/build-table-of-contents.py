@@ -3,24 +3,23 @@ import os
 def main():
     content = "\n## Table of Contents\n"
 
-    content += read("world/places")
-    content += read("world/people")
-    content += read("world/stories")
+    content += tree("world/places")
+    content += tree("world/people")
+    content += tree("world/stories")
 
     with open("index.md", "a") as file:
         file.write(content)
 
 # recursively list files in the given directory
-def read(dirname: str, depth: int = 0):
-    paths = sorted(os.listdir(dirname))
-
+def tree(dirname: str, depth: int = 0):
     content = getDirEntry(dirname, depth)
 
-    for subpath in paths:
-        path = os.path.join(dirname, subpath)
+    paths = sorted(os.listdir(dirname))
+    paths = map(lambda path: os.path.join(dirname, path), paths)
 
+    for path in paths:
         if os.path.isdir(path):
-            content += read(path, depth + 1)
+            content += tree(path, depth + 1)
 
         if os.path.isfile(path) and os.path.basename(path) != "index.md":
             content += getFileEntry(path, depth + 1)
