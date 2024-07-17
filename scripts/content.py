@@ -1,16 +1,13 @@
 import os
 
 def main():
-    # add the front matter
-    content = "---\ntitle: Table of Contents\n---\n"
+    content = "\n## Table of Contents\n"
 
-    os.chdir("world")
+    content += read("world/adventures")
+    content += read("world/locations")
+    content += read("world/races")
 
-    content += read("adventures")
-    content += read("locations")
-    content += read("races")
-
-    with open("content.md", "w") as file:
+    with open("index.md", "a") as file:
         file.write(content)
 
 # recursively list files in the given directory
@@ -32,10 +29,11 @@ def read(dirname: str, depth: int = 0):
 
 # get the table of contents line for this path, given the recursion depth
 def getDirEntry(path: str, depth: int = 0):
-    if depth <= 0:
-        return "\n## " + getDirTitle(path) + "\n\n"
+    if depth < 1:
+        return "\n### " + getDirTitle(path) + "\n\n"
 
     indexPath = os.path.join(path, "index.md")
+
     if os.path.isfile(indexPath):
         return getFileEntry(indexPath, depth)
 
