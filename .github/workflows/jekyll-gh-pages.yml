@@ -29,7 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build Table of Contents
-        run: python scripts/content.py
+        run: python scripts/build-table-of-contents.py
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
