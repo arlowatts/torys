@@ -13,7 +13,7 @@ def append_dir_list(ignore: tuple = ()):
 
         # check that the directory does not contain only the index file
         if len(dir_list) > 1:
-            content = "\n# Read More\n\n"
+            content = "\n## Read More\n\n"
 
             # add each path to the list
             for path in dir_list:
