@@ -1,61 +1,54 @@
 import os
 
 def main():
-    content = "\n## Table of Contents\n"
+    append_dir_list((".git", ".github", "_config.yml", "_includes", "assets", "scripts", "LICENSE", "README.md"))
 
-    content += tree("world/places")
-    content += tree("world/people")
-    content += tree("world/stories")
+# create a list of the current directory's contents and append it its index file
+def append_dir_list(ignore: tuple = ()):
+    index_path = "index.md"
 
-    with open("index.md", "a") as file:
-        file.write(content)
+    # check that the directory contains an index file to write to
+    if os.path.isfile(index_path):
+        dir_list = sorted(os.listdir())
 
-# recursively list files in the given directory
-def tree(dirname: str, depth: int = 0):
-    content = getDirEntry(dirname, depth)
+        # check that the directory does not contain only the index file
+        if len(dir_list) > 1:
+            content = "\n# Read More\n\n"
 
-    paths = sorted(os.listdir(dirname))
-    paths = map(lambda path: os.path.join(dirname, path), paths)
+            # add each path to the list
+            for path in dir_list:
+                # check that the path is one that should be listed
+                if not path in ignore and os.path.basename(path) != "index.md":
+                    content += get_list_entry(path)
 
-    for path in paths:
-        if os.path.isdir(path):
-            content += tree(path, depth + 1)
+                    # if the path is a directory, recurse
+                    if os.path.isdir(path):
+                        os.chdir(path)
+                        append_dir_list()
+                        os.chdir("..")
 
-        if os.path.isfile(path) and os.path.basename(path) != "index.md":
-            content += getFileEntry(path, depth + 1)
+            with open(index_path, "a") as file:
+                file.write(content)
 
-    return content
+# get a file or directory's list entry in markdown format
+def get_list_entry(path: str):
+    if os.path.isfile(path):
+        return "- [" + get_page_title(path) + "](" + path + ")\n"
 
-# get the table of contents line for this path, given the recursion depth
-def getDirEntry(path: str, depth: int = 0):
-    if depth < 1:
-        return "\n### " + getDirTitle(path) + "\n\n"
+    elif os.path.isdir(path):
+        return get_list_entry(os.path.join(path, "index.md"))
 
-    indexPath = os.path.join(path, "index.md")
+    else:
+        raise RuntimeError(os.path.join(os.getcwd(), path) + " is not a file or directory")
 
-    if os.path.isfile(indexPath):
-        return getFileEntry(indexPath, depth)
+# read the title of the page from the page's front matter
+def get_page_title(path: str):
+    if os.path.isfile(path):
+        with open(path) as file:
+            for line in file:
+                if line.startswith("title:"):
+                    return line[line.find(":") + 1 :].strip()
 
-    return "  " * (depth - 1) + "- " + getDirTitle(path) + "\n"
-
-# get the table of contents line for this path, given the recursion depth
-def getFileEntry(path: str, depth: int = 0):
-    return "  " * (depth - 1) + "- [" + getFileTitle(path) + "](" + path + ")\n"
-
-# get the title from the contents or name of the directory
-# if the directory contains index.md, the title will be inherited from it
-# otherwise the name of the directory is capitalized and returned
-def getDirTitle(path: str):
-    return os.path.basename(path).capitalize()
-
-# get the title from the contents of the file
-# if no title is defined in the file, return the filename
-def getFileTitle(path: str):
-    with open(path) as file:
-        for line in file:
-            if line.startswith("title:"):
-                return line[line.find(":") + 1 :].strip()
-
-    return os.path.basename(path)
+    raise RuntimeError(os.path.join(os.getcwd(), path) + " does not have a title")
 
 if __name__ == "__main__": main()
