@@ -27,7 +27,8 @@ def append_dir_list(ignore: tuple = ()):
                         append_dir_list()
                         os.chdir("..")
 
-            print(content)
+            with open(index_path, "a") as file:
+                file.write(content)
 
 # get a file or directory's list entry in markdown format
 def get_list_entry(path: str):
