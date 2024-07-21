@@ -1,29 +1,25 @@
 import os
 
 def main():
-    # add the front matter
-    content = "---\ntitle: Table of Contents\n---\n"
+    content = "\n## Table of Contents\n"
 
-    os.chdir("world")
+    content += tree("world/places")
+    content += tree("world/people")
+    content += tree("world/stories")
 
-    content += read("adventures")
-    content += read("locations")
-    content += read("races")
-
-    with open("content.md", "w") as file:
+    with open("index.md", "a") as file:
         file.write(content)
 
 # recursively list files in the given directory
-def read(dirname: str, depth: int = 0):
-    paths = sorted(os.listdir(dirname))
-
+def tree(dirname: str, depth: int = 0):
     content = getDirEntry(dirname, depth)
 
-    for subpath in paths:
-        path = os.path.join(dirname, subpath)
+    paths = sorted(os.listdir(dirname))
+    paths = map(lambda path: os.path.join(dirname, path), paths)
 
+    for path in paths:
         if os.path.isdir(path):
-            content += read(path, depth + 1)
+            content += tree(path, depth + 1)
 
         if os.path.isfile(path) and os.path.basename(path) != "index.md":
             content += getFileEntry(path, depth + 1)
@@ -32,10 +28,11 @@ def read(dirname: str, depth: int = 0):
 
 # get the table of contents line for this path, given the recursion depth
 def getDirEntry(path: str, depth: int = 0):
-    if depth <= 0:
-        return "\n## " + getDirTitle(path) + "\n\n"
+    if depth < 1:
+        return "\n### " + getDirTitle(path) + "\n\n"
 
     indexPath = os.path.join(path, "index.md")
+
     if os.path.isfile(indexPath):
         return getFileEntry(indexPath, depth)
 
