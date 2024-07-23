@@ -82,7 +82,7 @@ In **Firecomb**, the kenku wizard **Pyrite** learns of the adventurers' quest to
 
 ## Chapter 5 - Ruemin Cavern
 
-The **Ruemin**s welcome the adventurers and offer them assistance if they promise to fight alongside the armies of **Andal**, against the giants, to restore the **Booksmith**s to their ancient glory.
+The **Ruemin**s welcome the adventurers and offer them assistance if they promise to fight alongside the armies of **Andal**, against the giants, to restore them to their ancient glory.
 
 ## Chapter 6 - Tado
 

@@ -6,7 +6,7 @@ title: Sibal
 
 ## Culture
 
-All the races of the world are represented in Sibal, including **Booksmith**s, whose innate arcane magic drives them to meteorology and other sciences, and **Dancer**s, whose unique capacity for flight allows them to efficiently scout the waters. Only the merfolk, living beneath the waves, have no business on land.
+All the races of the world are represented in Sibal. Only the merfolk, living beneath the waves, have no business on land.
 
 ## Government
 
