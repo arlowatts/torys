@@ -2,6 +2,8 @@
 title: Leuber
 ---
 
+**Leuber** occupies a mountainous isle in the **Tumulted Sea**. **Firecomb**, its capital city, is pressed tightly between the coastline and the **Encord Mountains**. The rest of the country on the other side of the mountains is a labyrinth of steep valleys and ridges. Leuber was inhabited by giants for thousands of years until **Andal** waged war against them and drove them out of their territory.
+
 ## Culture
 
 The inhabitants of Leuber can be split into two distinct cultures: those living in **Firecomb**, and those living on the northern side of the **Encord Mountains**.

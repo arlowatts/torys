@@ -1,3 +1,0 @@
----
-title: Day's End
----

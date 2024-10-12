@@ -1,10 +1,8 @@
 ---
-title: Bekebel
+title: Bekebel Citadel
 ---
 
 The **Bekebel** clan has inhabited **Bekebel Citadel** for hundreds of years, expanding its borders both above and below ground.
-
-## Bekebel Citadel
 
 Bekebel Citadel is a great fortress built on the slopes of Oro-oro-ponoro-poron, covering nearly one square mile on the surface and over 12 miles of underground chambers and halls below. Its walls are staunchly defended by archers and advanced weapons of war, including ballistas, trebuchets, and massive bolas, all of which designed to take down attacking dragons. The wall itself is 30 feet thick and braced by metal beams.
 

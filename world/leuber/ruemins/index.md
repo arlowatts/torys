@@ -1,5 +1,5 @@
 ---
-title: Ruemin
+title: Ruemins
 ---
 
 The Ruemins are a unique culture of gnomes that live far beneath the surface in the heart of Leuber. The Ruemins have an exceptional interest in history, and their insistence on supporting every claim with factual written evidence far surpasses that of their neighbors in Firecomb. The daily activities of the Ruemins revolves around binding, writing, and maintaining books.
