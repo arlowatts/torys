@@ -10,7 +10,7 @@ All the races of the world are represented in Sibal. Only the merfolk, living be
 
 ## Government
 
-Sibal is ruled democratically by Lord Calas.
+Sibal has been ruled by **Lord Calas** for nearly a century. **Lord Chewan**, the harbourmaster of **Trapwater Bay**, also holds significant power in Sibal.
 
 ## Geography
 

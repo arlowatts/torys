@@ -2,4 +2,6 @@
 title: Lord Calas
 ---
 
-The island-city is ruled by Lord Calas, a well-respected elf who has governed Sibal for nearly a hundred years. Under his rule, the nearby countries of Andal, Leuber, Soale, and Arastes have thrived on commerce and the people of Sibal have never been without. Despite this, many resent Lord Calas's long reign and would rather see shorter offices for their leaders. Additionally, due to the huge population of Sibal, it is virtually impossible to maintain a strict order at all times and Lord Peesha often struggles to keep his people civil.
+**Lord Calas**, a strong-minded and long-lived elf, has been the ruler of **Sibal** for nearly a century. Under his rule, the nearby countries of **Andal**, **Leuber**, **Soale**, and **Arastes** have thrived on Sibal's commerce and the merchants of Sibal have profited immensely.
+
+Many resent Lord Calas's long reign and would rather see shorter offices for their leaders. Riots are common in Sibal's poorer districts, but Lord Calas consistently refuses the rioter's demands and relies on his police forces to disarm them.
