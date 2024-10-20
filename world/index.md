@@ -1,3 +1,3 @@
 ---
-title: Torys
+title: Places and People
 ---
