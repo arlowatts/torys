@@ -1,3 +1,0 @@
----
-title: Stories and Adventures
----
