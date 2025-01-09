@@ -2,11 +2,13 @@
 title: Tuvdak's Gift
 ---
 
-Tuvdak's Gift is a lighthearted standalone adventure designed to be completed in one session. The adventure takes place in **Bekebel Citadel**, beneath the shadow of the fiery mountain **Oro-oro-ponoro-poron**. Since **Bekebel** is inhabited only by kobolds, all the characters in this adventure should also be kobolds.
+**Tuvdak's Gift** is a lighthearted standalone adventure designed to be completed in one session. The adventure takes place in **Bekebel Citadel**, beneath the shadow of the fiery volcano on **Oro-oro-ponoro-poron**.
 
-For additional information about the setting of this adventure, see also:
-- [Oro-oro-ponoro-poron](../places/oro-oro-ponoro-poron/index.md)
-- [Bekebel](../places/oro-oro-ponoro-poron/bekebel/index.md)
+## Introduction
+
+It is tradition and custom for **Babanak the Great**, leader of the **Bekebel** clan, to present a gift to **Tuvdak the Magnificent** on every ninth day. But today the gift is stolen, and there are only a few hours to retrieve it before Tuvdak destroys the clan in his rage!
+
+The player characters make up the elite guard of Bekebel Citadel. Commanded by **Lomon the Warrior**, they will be tasked with tracking down the thief and bringing the gift to the highest point of the citadel, where Tuvdak will accept it.
 
 ## Overview
 
@@ -26,7 +28,7 @@ During this time, the characters may wish to search the private chambers of **Pa
 
 The third chapter details the characters' pursuit of Paparnad through the tunnels and caverns below **Bekebel Citadel**. Along the way they might find hints of Paparnad's passing, and magical tools like the **Gorgor Counter** will help them find their way. As they descend ever deeper, leaving the smooth tunnels behind and entering the natural caves, the characters will have to fight dark monsters and might encounter an unfriendly dragon.
 
-The fourth and final chapter sees the characters finally catch up to Paparnad above a deep chasm flooded with magma. The climactic battle hopefully ends with the characters defeating Paparnad and retrieving the crown. The chapter ends as the characters return with the crown and personally present it to **Tuvdak the Magnificent**. Now, having received a preferable replacement, Tuvdak drops his older crown on the ground in front of the characters as a reward for their tremendous efforts.
+The fourth and final chapter sees the characters finally catch up to Paparnad above a deep chasm flooded with magma. The climactic battle hopefully ends with the characters defeating Paparnad and retrieving the crown. The chapter ends as the characters return with the crown and personally present it to **Tuvdak the Magnificent**. Now, having received a preferable replacement, Tuvdak drops his older crown on the ground in front of the characters as though to reward them for their tremendous efforts.
 
 ## Chapter 1 - The Gift
 
@@ -42,7 +44,7 @@ Babanak spits these last words with a startling fury, but he quickly settles.
 
 ### How it happened
 
-Half an hour earlier in **Bekebel Great Hall**, thousands of kobolds are gathered to witness **Babanak the Great** reveal the latest gift he made for Tuvdak. Babanak stands at the front of the stage at the head of the hall, with **Lomon the Warrior** and two other soldiers at his side. At the back of the stage stands **Paparnad the Mystic**, and sitting next to Paparnad is **Elned the Wise**.
+Half an hour earlier in **Bekebel Great Hall**, thousands are gathered to witness **Babanak the Great** reveal the latest gift he made for Tuvdak. Babanak stands at the front of the stage at the head of the hall, with **Lomon the Warrior** and two other soldiers at his side. At the back of the stage stands **Paparnad the Mystic**, and sitting next to Paparnad is **Elned the Wise**.
 
 Babanak steps forward. Then, his voice magically amplified, he addresses the massive crowd.
 
