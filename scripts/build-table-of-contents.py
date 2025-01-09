@@ -1,30 +1,27 @@
 import os
 
 def main():
-    append_dir_list((".git", ".github", "_config.yml", "_includes", "assets", "scripts", "LICENSE", "README.md"))
+    append_dir_list((os.listdir("world"), os.listdir("stories")))
 
 # create a list of the current directory's contents and append it its index file
-def append_dir_list(ignore: tuple = ()):
+def append_dir_list(dir_list: tuple):
     index_path = "index.md"
 
     # check that the directory contains an index file to write to
     if os.path.isfile(index_path):
-        dir_list = sorted(os.listdir())
-
         # check that the directory does not contain only the index file
         if len(dir_list) > 1:
             content = "\n## Read More\n\n"
 
-            # add each path to the list
+            # add each path to the list except the index file
             for path in dir_list:
-                # check that the path is one that should be listed
-                if not path in ignore and os.path.basename(path) != "index.md":
+                if os.path.basename(path) != "index.md":
                     content += get_list_entry(path)
 
                     # if the path is a directory, recurse
                     if os.path.isdir(path):
                         os.chdir(path)
-                        append_dir_list()
+                        append_dir_list(sorted(os.listdir()))
                         os.chdir("..")
 
             with open(index_path, "a") as file:
