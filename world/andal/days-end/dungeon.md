@@ -2,7 +2,7 @@
 title: The Dungeon of Day's End
 ---
 
-The small town of **Day's End** is hiding an ancient secret; under the **Mayoral Seat** is a set of large chambers, magically sealed since the time of the last elven king, **Oeged Naaftet Oecheisev**. However, the passing of centuries has weakened the magic around the door. Another entrance, hidden under a pond in the **Day's End Graveyard**, and has not been touched in centuries.
+The small town of **Day's End** is hiding an ancient secret; under the **Mayoral Seat** is a set of large chambers, magically sealed since the time of the last elven king, **Oeged Naaftet Oecheisev**. However, the passing of centuries has weakened the magic around the door. Another entrance, hidden under a pond in the **Day's End Graveyard**, has not been touched in centuries.
 
 The dungeon contains more than simple chambers, though. Oeged caused the entire kingdom to collapse by dabbling in dark magic - magic powered by the Eclipse. These practices led to increasingly corrupt decisions within the council, and the magic itself distorted many of the creatures in the forest, creating giant spiders and basilisks. In the end, the king transformed himself into a shadow dragon and claimed the main council chamber as his lair. The other members of the council became wraiths, and haunted the halls of the dungeon for centuries, seeking a way through the seals laid by their own people.
 
@@ -24,7 +24,7 @@ The walls on this level are smoothly layered stone bricks masterfully engraved w
 
 The entrance area of the dungeon is a room 20 feet wide and 30 feet long. The back of the entrance door, filling the north wall when closed, is engraved with an image of an elf monarch seated upon a magnificent throne. The monarch wears a crown and holds a wooden staff. To either side of the throne is an elf warrior, wearing a full-face helmet and weilding a spear. An inscription at the top reads in Elvish: "Do not forget the past, lest ye be forgotten in turn". On this side of the door there is a handle and a lever to lock the door.
 
-In each of the east and west walls is an alcove containing a stone statue of an elf warrior. The statues are identical to those depicted on the door, although the statue in the east wall is partially eroded by a leak in the ceiling above it. These statues have been magically animated, and they will both awaken if either one is touched. When they animate, they will attack any creatures in the room. The statue in the east wall moves slowly and jerkily due to the damage caused by the leak above it, giving advantage to all attack rolls made against it. Use the Animated Armor stat block for the statues.
+In each of the east and west walls is an alcove containing a stone statue of an elf warrior. The statues are identical to those depicted on the door, although the statue in the east wall is partially eroded by a leak in the ceiling above it. These statues have been magically animated, and they will both awaken if either one is touched. When they animate, they will attack any creatures in the room. The statue in the east wall moves slowly and jerkily due to the damage caused by the leak above it.
 
 The south end of the room forms a T intersection with area 1.2.
 
@@ -51,13 +51,13 @@ The passageway is 10 feet wide and 100 feet long, extending 40 feet east and wes
 
 A character with magical sensibilities can sense a stronger undead presence from the room with the Stream door. One of the king's councillors made her lair here as a wraith before retreating to the lower chamber, leaving behind a shadowy reflection of herself. See area 1.3.
 
-The room with the spider door contains a Black Pudding. See area 1.3.
+The room with the spider door contains a dangerous ooze. See area 1.3.
 
 At each end of the passage is a stairwell leading down. See area 1.4.
 
 ### 1.3 Archive Rooms
 
-Each archive room is 20 feet wide and extends 50 feet from the door. Each room is filled with long shelves with thousands of scrolls upon each one. With three double-width 40-foot-long shelves spanning the length of the room, and five layers to each shelf, each room contains 1200 feet of shelf space. Each foot of shelf space can contain up to 10 scrolls (stacked), giving each room a maximum capacity of 12000 scrolls. However, most rooms are not filled; roll 2d20 + 60 to determine the percentage of 12000 scrolls the room contains.
+Each archive room is 20 feet wide and extends 50 feet from the door. Each room is filled with long shelves with thousands of scrolls upon each one. With three double-width 40-foot-long shelves spanning the length of the room, and five layers to each shelf, each room contains 1200 feet of shelf space. Each foot of shelf space can contain up to 10 scrolls (stacked), giving each room a maximum capacity of 12000 scrolls. However, most rooms are not filled; each room contains between 6000 and 12000 scrolls.
 
 A character who can read Elvish can read the content of the scrolls. They are written in a formal version of Elvish that was never broadly spoken and was mostly used for official documents. While none of the scrolls are individually interesting, someone reading them may learn things about the nature of the elven kingdom based on the amount of time they spend reading. After reading for a certain amount of time, the reader may learn the indicated information.
 
@@ -73,19 +73,19 @@ A character who can read Elvish can read the content of the scrolls. They are wr
 
 The room with the Stream door was once the lair of **Ey-La**, one of the king's councillors. After she was transformed into a wraith and trapped underground, she made this room her domain for more than 200 years before finally retreating to the main council chamber. Despite her absence, the room still remembers her shadow and her presence, a mixture of fey and undead, may still be felt by a character with magical senses.
 
-Inside the room, the floor is covered with thin wisps of shadow. This shadow is only visible in total darkness; in dim or bright light it becomes invisible. When a character moves more than ten feet into the room, the wisps of shadow coalesce into 2d4 Shadows. The Shadows, like the wisps, are only visible in total darkness.
+Inside the room, the floor is covered with thin wisps of shadow. This shadow is only visible in total darkness; in dim or bright light it becomes invisible. When a creature moves more than ten feet into the room, the wisps of shadow coalesce and strike the creature, attacking their psyche. The creature suffers terrible pain in its head and sees brief visions of the fall of the Elven kingdom until they leave the room.
 
-#### Pudding Breach
+#### Ooze Breach
 
-The room with the spider door has been breached by a Black Pudding. The pudding has lived in this room for nearly a century, consuming the scrolls within and slowly clearing the shelves. This room is nearly emptied of scrolls. When the characters enter the room, the ooze will try to hide if they have a light source with them. If they don't or they get within the reach of the ooze, it attacks. It will attack the smallest character, ignoring anyone else, and it will try to flee under the shelves if reduced to less than a quarter of its maximum hit points.
+The room with the spider door has been breached by a living ooze. The ooze has lived in this room for nearly a century, consuming the scrolls within and slowly clearing the shelves. When a creature enters the room, the ooze will try to hide if they have a light source with them. If they don't or they get within the reach of the ooze, it attacks. It will attack the smallest creature of a group, ignoring anyone else, and it will try to flee under the shelves if it is close to death.
 
 ### 1.4 Stairwells
 
 The walls of these spiral staircases are ornately decorated with imagery of elven monarchs engaged in acts of generosity and benevolence, such as offering blessings to warriors or tradesmasters, giving gifts to the poor, or using magic to heal wounds.
 
-The steps of the stairwell are each 10 feet wide and descend by half a foot at each step, making the slope of the spiral quite shallow. The steps show a level of wear indicating long use. A character familiar with stonework or ancient sites can discern that these stairs have been walked for millenia.
+The steps of the stairwell are 10 feet wide and descend by half a foot at each step. The steps show a level of wear indicating long use. A character familiar with stonework or ancient sites can discern that these stairs have been walked for millenia.
 
-Hidden in the reliefs are some gemstones. They are subtly used to accentuate certain features, such as eyes and stars. If a character carefully examines the reliefs, they find 8 gemstones in the walls of each stairwell. Each gemstone requires 10 minutes and the use of a crowbar or sturdy knife to remove. They are worth 50gp each, and are of a variety of gemstone types. If the check succeeds by 5 or more, they find 2 diamonds, larger than the rest and more well-hidden. The diamonds require 30 minutes each to remove and are worth 200gp each.
+Hidden in the reliefs are some gemstones. They are subtly used to accentuate certain features, such as eyes and stars. If a character carefully examines the reliefs, they find eight gemstones in the walls of each stairwell. Each gemstone requires ten minutes and the use of a crowbar or sturdy knife to remove. They are of a variety of gemstone types, and may be valuable to a jeweler. More careful searching reveals two diamonds, larger than the rest and more well-hidden. The diamonds require 30 minutes each to remove and are worth as much as four of the other jewels.
 
 #### Diamonds
 
@@ -93,7 +93,7 @@ The diamonds are closely bound to the spirits of Oeged and his councillors, and 
 
 It will take ten minutes for the wraiths to rise. When they do, and assuming the characters haven't moved from the stairwell, they will try to trap the characters in the stairwell. One of them will approach the stairwell from the bottom while the other takes the opposite stairwell to come around behind them. Both wraiths are originating from the council chamber, so the wraith approaching from behind will reach the top of stairwell about 20 seconds after the other reaches the bottom.
 
-If the wraiths are trapped and not slain, and the characters communicate with them, the characters may learn that the names of these wraiths are **Eptelabu** and **Yasubi**. They were both close allies to King **Oeged Naaftet Oecheisev** and supported his views of magic, up to the bitter end. They will tell that they were transformed into wraiths by the king's magic and will hint that the king himself is a creature of shadow as well.
+If the wraiths are trapped and not slain (assuming the characters are not themselves slain), and the characters communicate with them, the characters may learn that the names of these wraiths are **Eptelabu** and **Yasubi**. They were both close allies to King **Oeged Naaftet Oecheisev** and supported his views of magic, up to the bitter end. They will tell that they were transformed into wraiths by the king's magic and will hint that the king himself is a creature of shadow as well.
 
 The top of each staircase connects to one of the ends of the entrance passageway (see area 1.2). At the bottom, the east stair connects to the eastern wall of area 2.1, and the west stair connects to the western wall of area 2.2.
 
@@ -101,7 +101,7 @@ The top of each staircase connects to one of the ends of the entrance passageway
 
 The second level of the dungeon contains practical rooms dedicated to the writing and maintaining of records, publications, and additional documents. There are also rooms dedicated to the storage and preparation of formal clothing, especially for the ruling monarch.
 
-In rooms here the fey/undead presence is stronger than it is above. Not only can characters with special sensibilities detect it, but so can any characters that know any spells.
+In these rooms the fey and undead presence is stronger than it is above. Not only can characters with special sensibilities detect it, but so can any characters that know any spells.
 
 The walls of the rooms on this level are engraved with root-like shapes, as though descending from the trees of the halls above. They are almost disturbingly realistic in their rendition. The ceilings of these rooms are 10 feet high.
 
@@ -117,13 +117,13 @@ In the east wall is an open doorway to a spiral stairwell going up (see area 1.4
 
 Similar to the Star Room this 20 foot square room was once a point of passage between the council chamber, the archive rooms, and the royal wardrobe. The floor is tiled with a pattern of concentric circles in red, black, and gold tiles.
 
-On the north wall is an enourmous 15 foot wide floor-to-ceiling mirror. It is attached by strong metal bolts in many places, and it would be almost impossible to remove it without destroying it. The mirror itself is a **Mirror of the Elvensoul**. A Mirror of the Elvensoul will not show the reflections of any living creatures that are not elves, and it also will not show anything they are wearing or carrying. Other inanimate objects that are being worn or carried by elves or are not being worn or carried at all are shown, as are elves themselves. The mirror does not consider half-elves to be elves.
+On the north wall is an enourmous 15 foot wide floor-to-ceiling mirror. It is attached by strong metal bolts in many places, and it would be almost impossible to remove it without destroying it. The mirror itself is magical, and was designed to allow Oeged to adjust his clothing before beginning a meeting. The mirror will not show the reflections of any living creatures that are not elves, and it also will not show anything they are wearing or carrying. Other inanimate objects that are being worn or carried by elves or are not being worn or carried at all are shown, as are elves themselves. The mirror does not consider half-elves to be elves.
 
 In the west wall is an open doorway to a spiral stairwell going up (see area 1.4). A stone door in the east wall leads to the Royal Wardrobe (area 2.5). In the south wall is an open doorway to a corridor, gently curving eastward, lined with alcoves filled with statues of elven monarchs (see area 2.6).
 
 ### 2.3 Writing Room
 
-This room contains racks of unmarked sheets of paper, as well as three writing desks and chairs. The paper on the racks was used for writing the records of the council meetings. It does not burn or absord liquid, and the ink on it does not fade with exposure. Writing implements, including pens and inks, can still be found here on the desks.
+This room contains racks of unmarked sheets of paper, as well as three writing desks and chairs. The paper on the racks was used for writing the records of the council meetings. It does not burn or absord liquid other than ink, and the ink on it does not fade with exposure. Writing implements, including pens and inks, can still be found here on the desks.
 
 A stone door in the east wall leads to the Star Room (area 2.1). An open doorway in the west wall leads to the Documents Room (area 2.4).
 
@@ -133,15 +133,9 @@ This room is similar in appearance to the Archive Rooms, and contains documents 
 
 #### The Dead
 
-Hidden in this room, out of sight from the doorway, are three ancient corpses. These are the bodies of elven clerks who were trapped in the catacombs of the palace when Oeged completed his transformation and their kin sealed the doors. They were discovered and killed by Oeged's councillors and left in this room. On each of their foreheads is a black mark in the shape of a crown, which appears to have been burned into their skin. If the symbol is touched, the corpse rises as Mummies and attacks any living things in the room, pursuing them as far as the Star Room (area 2.1).
+Hidden in this room, out of sight from the doorway, are three ancient corpses. These are the bodies of elven clerks who were trapped in the catacombs of the palace when Oeged completed his transformation and their kin sealed the doors. They were discovered and killed by Oeged's councillors and left in this room. On each of their foreheads is a black mark in the shape of a crown, which appears to have been burned into their skin. If the symbol is touched, the corpses rises as undead and attack any living things in the room, pursuing them as far as the Star Room (area 2.1).
 
-If the charcters have a way of speaking with the corpses (such as with the spell Speak with Dead) they will answer any questions truthfully and fully. Their names are **Geshei**, **Esrel**, and **Nehna**. They were all friends from childhood and worked most of their lives for the Council Records Office, although they died young. They were also all present when Oeged cast his final spell and will tell how it happened if asked. Nearly a hundred years after they first met Oeged, his magical greed came to an apex and he began a spell during a council hearing to transform himself into a creature of shadow. The hall was filled at the time, and people began to flee to the surface. Geshei, Esrel, and Nehna helped direct the crowds of people to the exits and allowed everyone to escape before Oeged's spell completed. Just before they could escape, Oeged stretched out a shadowy hand to block their way. They ran to the other exit only to find it magically sealed. Finally, trapped in the documents room, they were killed by **Ey-La**.
-
-Characters who can read Elvish can read the documents in this room to learn about elven law. Most of the laws of this elven kingdom were common with the laws of Day's End, with a few differences.
-
-- The use of magic under the **Eclipse** is legal (Eclipse magic is prohibited in Day's End)
-- Unauthorized or unsupervised foresting is illegal, punishable by a fine and imprisonment
-- Protests against the government are legal, although characters who read the archives above for an hour or more will note that protests were often met with hosility regardless
+If the charcters have a way of speaking with the corpses, they will answer any questions truthfully and fully. Their names are **Geshei**, **Esrel**, and **Nehna**. They were all friends from childhood and worked most of their lives for the Council Records Office, although they died young. They were also all present when Oeged cast his final spell and will tell how it happened if asked. Nearly a hundred years after they first met Oeged, his magical greed came to an apex and he began a spell during a council hearing to transform himself into a creature of shadow. The hall was filled at the time, and people began to flee to the surface. Geshei, Esrel, and Nehna helped direct the crowds of people to the exits and allowed everyone to escape before Oeged's spell completed. Just before they could escape, Oeged stretched out a shadowy hand to block their way. They ran to the other exit only to find it magically sealed. Finally, trapped in the documents room, they were killed by **Ey-La**. Characters who can read Elvish can read the documents in this room to learn about elven law.
 
 An open doorway in the east wall leads to the Writing Room (area 2.3).
 
@@ -157,7 +151,7 @@ A stone door in the west wall of this room leads to the Mirror Room (area 2.2).
 
 This corridor curves as a semi-circle between the Star Room (area 2.1) and the Mirror Room (area 2.2). Along the outside wall of the curve are 20 tall alcoves, spaced approximately 10 feet apart. The hall is 5 feet wide and has a total length of about 200 feet.
 
-At the east end of the corridor, the eight alcoves nearest the Star Room (area 2.1) and the seven alcoves nearest the Mirror Room (area 2.2) each contain a stone statue depicting a past elven monarch. The other alcoves are empty. The statues show the royalty dressed in their finest clothing and bearing a signature item in their hands: a sword, a bow, a sceptre, or wisps of magic. Choose or roll a d4 to determine the item held by a particular statue. The name of the monarch is given at the foot of each statue, as well as a poem describing the monarch's notable characteristics. The poems are too beautiful to print here.
+At the east end of the corridor, the eight alcoves nearest the Star Room (area 2.1) and the seven alcoves nearest the Mirror Room (area 2.2) each contain a stone statue depicting a past elven monarch. The other alcoves are empty. The statues show the royalty dressed in their finest clothing and bearing a signature item in their hands. Many carry swords, bows, sceptres, or wisps of magic. The name of the monarch is given at the foot of each statue, as well as a poem describing the monarch's notable characteristics.
 
 A Detect Magic spell reveals that the swords, bows, and sceptres held by the statues are magical items that have been turned to stone. Reading the poem at the base of a statue and speaking it aloud in Elvish, while kneeling before the statue, releases the magic item petrified within. A character that releases a magical item this way cannot do so again for another 1000 years.
 
@@ -191,7 +185,7 @@ Faint whispers can be heard by anyone in contact with the shadow-smoke. Though n
 
 Unlike the shadowy influence of **Ey-La**, these shadows do not shy away from light. In fact, they seem to grow twitchy and become denser when exposed to bright or dim light. The closer the light is to the central conference table, the more pronounced this effect becomes. Once the light source reaches the council table at the center of the room, the light can no longer go unnoticed and Oeged awakens. See *Oeged's Awakening* below.
 
-If the characters have no light with them, Oeged does not awaken immediately when they reach the conference table. Instead, first only one of the councillors will rise. It will not speak or approach, only staring at the characters from a distance of about 15 feet. It fights only in self-defense, and Oeged awakens quickly (see below) if a fight begins. Otherwise, after a few moments another councillor will rise from the darkness. Then a third, and a fourth. This goes on until all 19 councillors have reformed from the shadows, or as many as remain if any were destroyed in a stairwell earlier.
+If the characters have no light with them, Oeged does not awaken immediately when they reach the conference table. Instead, first only one of the councillors will rise. It will not speak or approach, only staring at the characters from a distance of about 15 feet. It fights only in self-defense, and Oeged awakens quickly (see below) if a fight begins. Otherwise, after a few moments another councillor will rise from the darkness. Then a third, and a fourth. This goes on until all 19 councillors have reformed from the shadows, or as many as remain if any were destroyed earlier.
 
 Finally, once all the councillors have manifested, Oeged silently takes the shape of a shadow dragon and descends from the ceiling to land in front of the characters. Skip to *Interacting with Oeged*.
 
@@ -209,12 +203,10 @@ Unless the process is somehow interrupted, after 30 seconds the winds slowly fad
 
 Cut out of the walls of the concil chamber are three passages on each side, sloping gently upwards away from the large staircase. Each passage is 5 feet wide and 10 feet tall. At the far side of the room, all six passages merge and turn away from the chamber, forming a tunnel 15 feet wide leading directly away from the cavern. The passages merge at a balcony 20 feet high and 15 feet wide, overlooking the council chamber. The passages and the balcony are bordered by a thin metal railing engraved with twisting, vine-like patterns.
 
-The tunnel at the back of the room slopes gently upward for 50 feet until it reaches two large metal doors. On the inside of the door is engraved a scene of many people standing with their arms raised under a starry sky. An observant character notices that the scene does not depict a night sky, however, but an eclipsed one. Close inspection reveals that some of the stars are actually small pixie-like creatures. At the top are engraved the words of the Dancing Lights cantrip, which would be recognized by any character who knows Elvish and knows the cantrip. An intelligent character or one knows any magic will recognize the words as the verbal components of a spell, whether or not they know the cantrip or can read Elvish.
+The tunnel at the back of the room slopes gently upward for 50 feet until it reaches two large metal doors. On the inside of the door is engraved a scene of many people standing with their arms raised under a starry sky. An observant character notices that the scene does not depict a night sky, however, but an eclipsed one. Close inspection reveals that some of the stars are actually small pixie-like creatures. At the top are engraved the words of a simple light-producing spell, which any character can memorize and cast provided they can read (or at least pronounce) Elvish. The spell causes an object you are touching to glow with a yellow light, illuminating an area extending 20 feet from it. The object stops glowing when you stop touching it.
 
-The spell can be learned by reading the words and practicing casting the spell. The sounds can be translated into another language by an intelligent character who knows both Elvish and the language they are translating to. A character who studies the words and practices the magical incantations for a total of 24 hours over a period of no more than 12 days can learn the cantrip. Practicing the cantrip is a light activity and can be done during a short or long rest as long as the character is not sleeping or engaged in another light activity.
+This door, like the door at the other entrance, has been magically sealed to prevent any passage. However, the magic is weakening and water is trickling through from the pond on the other side in a light flow. The water flows down the center of the tunnel until it falls off the edge of the balcony into the council hall. The magic holds more strongly here than at the other entrance, so the door still cannot be opened by force alone, and it is resilient to magic. An appropriate spell can break the seal and allow the door to be opened with great effort; the water on the other side still holds it closed against all but the strongest creatures.
 
-This door, like the door at the other entrance, has been magically sealed to prevent any passage. However, the magic is weakening and water is trickling through from the pond on the other side in a light flow. The water flows down the center of the tunnel until it falls off the edge of the balcony into the council hall. The magic holds more strongly here than at the other entrance, so the door still cannot be opened by force alone, and it is resilient to magic. A Knock spell can break the seal and allow the door to be opened with great effort; the water on the other side still holds it closed against all but the strongest characters.
-
-If the door is opened, water surges into the tunnel. Any untethered characters or objects are immediately pushed backwards, and any characters who are attempting to hold on to something must succeed on a check or be pushed back by the water. Additionally, any characters and objects that aren't being worn or carried take damage as though they had fallen 30 feet. The water carries all characters and objects down the tunnel until they hit the balcony railing, tearing it out of the stone and falling 20 feet to the floor of the chamber. The water empties from the pond in 12 seconds. If Oeged has not yet awoken, the water pouring into the council hall will immediately awaken him. See *Oeged's Awakening*. He will also notice the opening and will quickly escape into the wider world.
+If the door is opened, water surges into the tunnel. Any untethered creatures or objects are immediately pushed backwards by the flood. Additionally, any creatures and objects that aren't being worn or carried take damage as though they had fallen 30 feet. The water carries all creatures and objects down the tunnel until they hit the balcony railing, tearing it out of the stone and falling 20 feet to the floor of the chamber. The water empties from the pond in 12 seconds. If Oeged has not yet awoken, the water pouring into the council hall will immediately awaken him. See *Oeged's Awakening*. He will also notice the opening and will quickly escape into the wider world.
 
 The pond beyond the door lies at the center of the **Day's End Graveyard**.

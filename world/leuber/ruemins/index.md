@@ -2,7 +2,7 @@
 title: Ruemins
 ---
 
-The Ruemins are a unique culture of gnomes that live far beneath the surface in the heart of Leuber. The Ruemins have an exceptional interest in history, and their insistence on supporting every claim with factual written evidence far surpasses that of their neighbors in Firecomb. The daily activities of the Ruemins revolves around binding, writing, and maintaining books.
+The **Ruemin**s are a unique culture of gnomes that live far beneath the surface in the heart of Leuber. The Ruemins have an exceptional interest in history, and their insistence on supporting every claim with factual written evidence far surpasses that of their neighbors in Firecomb. The daily activities of the Ruemins revolves around binding, writing, and maintaining books.
 
 To most Ruemins, the primary purpose of books is to record history. They record everything they can learn of the outside world, from city-crushing battles to royal lineages to arrests in small towns. Ruemin Cavern is filled with millions of such histories stored on shelves hundreds of feet long. To organize them, each tome has a magical gem embedded into its spine, marked with a unique signature that tells its age, author, and subject. Complex mechanical and magical machines traverse the shelves, scanning the books and moving them if necessary. Preserving the books is a science the Ruemins have perfected to an astonishing degree; special curing processes for their covers, pages, and inks can keep a book in readable condition for millenia.
 
