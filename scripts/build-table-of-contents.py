@@ -1,7 +1,10 @@
 import os
 
 def main():
-    append_dir_list(os.listdir("world") + os.listdir("stories"))
+    append_dir_list(
+        [os.path.join("world", path) for path in sorted(os.listdir("world"))] +
+        [os.path.join("stories", path) for path in sorted(os.listdir("stories"))]
+    )
 
 # create a list of the current directory's contents and append it its index file
 def append_dir_list(dir_list: list):
@@ -20,9 +23,12 @@ def append_dir_list(dir_list: list):
 
                     # if the path is a directory, recurse
                     if os.path.isdir(path):
+                        cwd = os.getcwd()
                         os.chdir(path)
+
                         append_dir_list(sorted(os.listdir()))
-                        os.chdir("..")
+
+                        os.chdir(cwd)
 
             with open(index_path, "a") as file:
                 file.write(content)
