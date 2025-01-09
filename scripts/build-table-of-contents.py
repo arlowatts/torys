@@ -1,7 +1,7 @@
 import os
 
 def main():
-    append_dir_list(("world", "stories"))
+    append_dir_list((os.listdir("world"), os.listdir("stories")))
 
 # create a list of the current directory's contents and append it its index file
 def append_dir_list(dir_list: tuple):
