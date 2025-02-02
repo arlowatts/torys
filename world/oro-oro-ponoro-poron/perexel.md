@@ -4,7 +4,7 @@ title: Perexel
 
 **Perexel** is a small but ancient clan, and is allied with **Bekebel**. Unlike most clans on Oro-oro-ponoro-poron, Perexel worships no dragon. They live beneath the trees in the jungle around **Bekebel Citadel** and are unrivaled in their knowledge of the jungle.
 
-<div class="spoiler">
+<span class="spoiler">
 
 ## The Legend of Dreth the Merciless
 
@@ -40,4 +40,4 @@ Soon she could see nothing at all, but she did not know it for she had closed he
 
 The Perexel clan's village was ruined, and many of its people were burned by the black fire. Not knowing if the dragon would return, they fled their village and hid in the jungle. They hid themselves even from the green dragons, whom they used to worship, afraid that they may be angry with the clan for Dreth's disloyalty. Though they never again saw Dreth or Ice or any other black dragon, the Perexel clan did not return to their village. To this day, they live under the stars and keep only those belongings which they can carry. They worship no dragons and serve no overlord, recalling the devastation of centuries past.
 
-</div>
+</span>

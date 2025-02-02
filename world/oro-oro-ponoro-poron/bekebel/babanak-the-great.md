@@ -6,7 +6,7 @@ title: Babanak the Great
 
 In addition to providing leadership and judgement to the clan, Babanak holds the responsibility of creating many of the clan's offerings to **Tuvdak the Magnificent**. A very capable blacksmith and sorcerer, Babanak often forges and enchants Tuvdak's gifts himself. He also works with some of the clan's master blacksmiths to forge unique shapes, and **Elned the Wise** and **Paparnad the Mystic** to weave greater enchantments.
 
-<div class="spoiler">
+<span class="spoiler">
 
 ## Personality
 
@@ -30,4 +30,4 @@ Since Babanak became the ruler of the Bekebel clan 59 years ago, he has faced bo
 
 Over time Babanak forgot his old wants and became increasingly invested in the clan's success and safety. He spends long days working with engineers, craftspeople, and miners to enlarge **Bekebel Citadel**'s borders and secure its walls. Now Babanak rules the Bekebel clan with strength and pride, and the other clans on Oro-oro-ponoro-poron respect and fear his power.
 
-</div>
+</span>

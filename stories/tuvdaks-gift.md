@@ -10,7 +10,7 @@ It is tradition and custom for **Babanak the Great**, leader of the **Bekebel** 
 
 The player characters make up the elite guard of Bekebel Citadel. Commanded by **Lomon the Warrior**, they will be tasked with tracking down the thief and bringing the gift to the highest point of the citadel, where Tuvdak will accept it.
 
-<div class="spoiler">
+<span class="spoiler">
 
 ## Overview
 
@@ -222,4 +222,4 @@ Tuvdak looks around at the crowd. As his piercing gaze passes over the character
 
 With that, **Tuvdak the Magnificent** extends his massive wings. He pushes off from the ground and soars into the air, ascending towards the caldera of **Oro-oro-ponoro-poron**.
 
-</div>
+</span>
