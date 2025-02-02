@@ -27,3 +27,7 @@ The chupacabra is a dog-like creature with four powerful legs and a high arching
 ### Moas
 
 Moas are large flightless birds that subsist on a variety of plants around the island, and are also known to eat small rocks. The wander the jungles in flocks of three to eight in search of lush undergrowth and shelter from the local predators. Dragons, kobolds, and chupacabras alike prey on moas.
+
+### Goats
+
+Goats wander the island in small herds of five to twelve. They are quick and nimble on the steep terrain, and can easily escape most non-aerial predators. Many domesticated goat herds are kept by the kobold clans.
