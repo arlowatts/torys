@@ -24,6 +24,6 @@ In addition to dragons and kobolds, the jungles of Oro-oro-ponoro-poron are inha
 
 The chupacabra is a dog-like creature with four powerful legs and a high arching back. It stalks its prey in total silence, waiting until the last moment to pounce. Chupacabras live and hunt in small packs of two to three. They mostly avoid gangs of kobolds, preferring to stay well hidden in the safety of the jungle.
 
-### Stonebeaks
+### Moas
 
-Stonebeaks are large flightless birds that subsist on anything that doesn't move. The wander the jungles in flocks of ten to twenty in search of lush undergrowth, carcasses, and the nests of their own kind. Dragons, kobolds, and chupacabras alike prey on stonebeaks.
+Moas are large flightless birds that subsist on a variety of plants around the island, and are also known to eat small rocks. The wander the jungles in flocks of three to eight in search of lush undergrowth and shelter from the local predators. Dragons, kobolds, and chupacabras alike prey on moas.
