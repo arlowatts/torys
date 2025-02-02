@@ -3,7 +3,7 @@ import os
 def main():
     append_dir_list(
         [os.path.join("world", path) for path in sorted(os.listdir("world"))] +
-        [os.path.join("stories", path) for path in sorted(os.listdir("stories"))]
+        ["stories"]
     )
 
 # create a list of the current directory's contents and append it its index file
