@@ -10,6 +10,7 @@ It is tradition and custom for **Babanak the Great**, leader of the **Bekebel** 
 
 The player characters make up the elite guard of Bekebel Citadel. Commanded by **Lomon the Warrior**, they will be tasked with tracking down the thief and bringing the gift to the highest point of the citadel, where Tuvdak will accept it.
 
+<span class="spoiler">
 ## Overview
 
 The first chapter of Tuvdak's Gift introduces the **Crown of Noruchtohl** and explains its importance as a gift to **Tuvdak the Magnificent**. It also covers the characters' perspective of the incident causing its loss.
@@ -219,3 +220,4 @@ Tuvdak looks around at the crowd. As his piercing gaze passes over the character
 > **Bekebel** never fails to impress.
 
 With that, **Tuvdak the Magnificent** extends his massive wings. He pushes off from the ground and soars into the air, ascending towards the caldera of **Oro-oro-ponoro-poron**.
+</span>
