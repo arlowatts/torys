@@ -4,7 +4,8 @@ title: Perexel
 
 **Perexel** is a small but ancient clan, and is allied with **Bekebel**. Unlike most clans on Oro-oro-ponoro-poron, Perexel worships no dragon. They live beneath the trees in the jungle around **Bekebel Citadel** and are unrivaled in their knowledge of the jungle.
 
-<span class="spoiler">
+<div class="spoiler">
+
 ## The Legend of Dreth the Merciless
 
 **Dreth the Merciless** was a powerful druid of the Perexel clan. She lived many centuries ago, when Perexel still worshiped the green dragons of the jungle. Dreth, having great ambition, leveraged her druidic powers to gain influence and control in the clan, nearly supplanting its leader. But leading the clan was not enough for Dreth the Merciless. She sought greater and greater power, never satisfied with what she had. Once during the longest night of the year, she discovered the black dragon **Ice** resting in a shallow cave. Dreth addressed the dragon.
@@ -38,4 +39,5 @@ She awoke early the next morning and began to walk towards her village. As she t
 Soon she could see nothing at all, but she did not know it for she had closed her eyes against the rushing air. She flew now, on dragon's wings, and the land itself moved aside to let her pass. As she glided through the jungle, she felt a welling in her chest and exhaled black fire before her. But she did not know that she had reached her village, and the black fire destroyed many of her clan's houses before she passed through and disappeared into the jungle. Then, lost in the joy of flight, Dreth soared for many years before she finally opened her eyes. When she did, she called herself Ice and remembered nothing of her past or of the Perexel clan.
 
 The Perexel clan's village was ruined, and many of its people were burned by the black fire. Not knowing if the dragon would return, they fled their village and hid in the jungle. They hid themselves even from the green dragons, whom they used to worship, afraid that they may be angry with the clan for Dreth's disloyalty. Though they never again saw Dreth or Ice or any other black dragon, the Perexel clan did not return to their village. To this day, they live under the stars and keep only those belongings which they can carry. They worship no dragons and serve no overlord, recalling the devastation of centuries past.
-</span>
+
+</div>
