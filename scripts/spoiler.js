@@ -15,7 +15,7 @@ spoilerToggle.addEventListener("click", () => {
     }
 });
 
-getStyleSheet(title) {
+function getStyleSheet(title) {
     for (const sheet of document.styleSheets)
         if (sheet.title === title)
             return sheet;
