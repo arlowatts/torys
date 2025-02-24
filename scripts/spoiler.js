@@ -29,7 +29,7 @@ function main() {
 
     // set the initial text content and show the button
     spoilerToggle.textContent = showText;
-    spoilerToggle.style.display = "";
+    spoilerToggle.style.display = "initial";
 }
 
 // access a stylesheet by the title attribute
