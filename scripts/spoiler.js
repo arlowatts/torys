@@ -1,6 +1,9 @@
 // wait until the page loads
 addEventListener("load", main);
 
+showText = "Show spoilers";
+hideText = "Hide spoilers";
+
 function main() {
     let spoilerHidden = true;
 
@@ -14,15 +17,19 @@ function main() {
     spoilerToggle.addEventListener("click", () => {
         if (spoilerHidden) {
             spoilerHidden = false;
-            spoilerToggle.textContent = "Hide spoilers";
+            spoilerToggle.textContent = hideText;
             spoilerStyle.display = "";
         }
         else {
             spoilerHidden = true;
-            spoilerToggle.textContent = "Show spoilers";
+            spoilerToggle.textContent = showText;
             spoilerStyle.display = "none";
         }
     });
+
+    // set the initial text content and show the button
+    spoilerToggle.textContent = showText;
+    spoilerToggle.style.display = "";
 }
 
 // access a stylesheet by the title attribute

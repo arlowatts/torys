@@ -1,3 +1,12 @@
 .spoiler {
     display: none;
 }
+
+#spoiler-toggle {
+    display: none;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
