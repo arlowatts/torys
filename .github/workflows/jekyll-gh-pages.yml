@@ -29,9 +29,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Add spoiler tags
-        run: python scripts/add-spoiler-tags.py
+        run: python assets/scripts/add-spoiler-tags.py
       - name: Build table of contents
-        run: python scripts/build-table-of-contents.py
+        run: python assets/scripts/build-table-of-contents.py
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
