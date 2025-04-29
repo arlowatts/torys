@@ -4,9 +4,9 @@ title: Oro-oro-ponoro-poron
 
 The great island-mountain of **Oro-oro-ponoro-poron** is home to many of Torys' greatest dragons. Lying in one of Torys' tropical regions and further heated by the island's volcanic peak, the island is covered in lush vegetation even in the coldest winters. The slopes climb steeply from the shore, and are crisscrossed with switchback trails cut into the stone.
 
-## Dragons
+## Dragons, Drakes, and Wyverns
 
-Many types of dragons inhabit Oro-oro-ponoro-poron. Green dragons lurk in the thick undergrowth while red dragons make their lairs near flowing lava. Blue dragons perch on offshore pillars of stone, and a single black dragon known as **Ice** keeps themself well hidden from those who seek them.
+Many types of flying reptiles inhabit Oro-oro-ponoro-poron, collectively known as dragons. Small and sly wyverns lurk in the thick undergrowth while fire-breathing dragons make their lairs near flowing lava. Fierce drakes perch on offshore pillars of stone, and a single shadow dragon known as **Ice** keeps themself well hidden from those who seek them.
 
 ## Kobolds
 
@@ -22,7 +22,7 @@ In addition to dragons and kobolds, the jungles of Oro-oro-ponoro-poron are inha
 
 ### Chupacabras
 
-The chupacabra is a dog-like creature with four powerful legs and a high arching back. It stalks its prey in total silence, waiting until the last moment to pounce. Chupacabras live and hunt in small packs of two to three. They mostly avoid gangs of kobolds, preferring to stay well hidden in the safety of the jungle.
+The chupacabra is a dog-like creature with four powerful legs and a high arching back. It stalks its prey in total silence, waiting until the last moment to pounce. Chupacabras live and hunt alone. They mostly avoid gangs of kobolds, preferring to stay well hidden in the safety of the jungle.
 
 ### Moas
 
