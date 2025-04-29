@@ -12,6 +12,7 @@ def append_dir_list(dir_list: list):
 
     # check that the directory contains an index file to write to
     if os.path.isfile(index_path):
+
         # check that the directory does not contain only the index file
         if len(dir_list) > 1:
             content = "\n## Read More\n\n"

@@ -6,8 +6,11 @@ def main():
 
 # replace the <spoiler> tags in each .md file with {: .spoiler} attributes
 def add_spoiler_tags(path: str):
+
     # if the path is a .md file, modify its content
     if os.path.isfile(path) and os.path.splitext(path)[1] == ".md":
+
+        # open the file
         with open(path) as file:
             content = ""
 
@@ -38,4 +41,5 @@ def add_spoiler_tags(path: str):
         for relativePath in os.listdir(path):
             add_spoiler_tags(os.path.join(path, relativePath))
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    main()
