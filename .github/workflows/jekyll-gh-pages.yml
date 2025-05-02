@@ -30,8 +30,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Add spoiler tags
         run: python assets/scripts/spoiler_tags.py
-      - name: Build table of contents
-        run: python assets/scripts/table_of_contents.py
+      - name: Expand links
+        run: python assets/scripts/page_links.py
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
