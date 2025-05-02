@@ -2,15 +2,15 @@
 title: Oro-oro-ponoro-poron
 ---
 
-The great island-mountain of **Oro-oro-ponoro-poron** is home to many of Torys' greatest dragons. Lying in one of Torys' tropical regions and further heated by the island's volcanic peak, the island is covered in lush vegetation even in the coldest winters. The slopes climb steeply from the shore, and are crisscrossed with switchback trails cut into the stone.
+The great island-mountain of Oro-oro-ponoro-poron is home to many of Torys' greatest dragons. Lying in one of Torys' tropical regions and further heated by the island's volcanic peak, the island is covered in lush vegetation even in the coldest winters. The slopes climb steeply from the shore, and are crisscrossed with switchback trails cut into the stone.
 
 ## Dragons, Drakes, and Wyverns
 
-Many types of flying reptiles inhabit Oro-oro-ponoro-poron, collectively known as dragons. Small and sly wyverns lurk in the thick undergrowth while fire-breathing dragons make their lairs near flowing lava. Fierce drakes perch on offshore pillars of stone, and a single shadow dragon known as **Ice** keeps themself well hidden from those who seek them.
+Many types of flying reptiles inhabit Oro-oro-ponoro-poron, collectively known as dragons. Small and sly wyverns lurk in the thick undergrowth while fire-breathing dragons make their lairs near flowing lava. Fierce drakes perch on offshore pillars of stone, and a single shadow dragon known as [[Ice]] keeps themself well hidden from those who seek them. Other well-known dragons include [[Tuvdak the Magnificent]], [[Mosha the All-knowing]], and [[Dagana the Azure Death]].
 
 ## Kobolds
 
-In addition to its draconic inhabitants, Oro-oro-ponoro-poron is home to the many kobold clans who worship them. The kobolds thrive in the island's warm environment and work industriously to ensure their clan's success, often in direct competition with one another. Nearly all clans worship one or more dragons, and a clan's draconic overlord often determines the nature of their alliances.
+In addition to its draconic inhabitants, Oro-oro-ponoro-poron is home to the many kobold clans who worship them. The kobolds thrive in the island's warm environment and work industriously to ensure their clan's success, often in direct competition with one another. Nearly all clans worship one or more dragons, and a clan's draconic overlord often determines the nature of their alliances. Some notable clans are the [[Bekebel]], [[Lukurru]], [[Dagana]], and [[Perexel]] clans.
 
 ## The Caldera
 
