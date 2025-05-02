@@ -17,7 +17,7 @@ def add_page_links(path: str, page_titles: dict[str, str]):
 
         # substitute the links
         for title in page_titles:
-            content = content.replace(f"[[{title}]]", f"[{title}]({{{{ site.baseurl }}}}{{% link /{page_titles[title]} %}})")
+            content = content.replace(f"[[{title}]]", f"[{title}]({{{{ site.baseurl }}}}{{% link {page_titles[title]} %}})")
 
         # write the changes to the file
         with open(path, "w") as file:
