@@ -15,7 +15,7 @@ def add_page_links(path: str):
             content = file.read()
 
         # substitute the links
-        content = re.sub(r"\[\[(.+?)\]\]", r"[\1]({% assign link = site.pages | find: 'title', '\1' %}{% link {{ link.url }} %})", content)
+        content = re.sub(r"\[\[(.+?)\]\]", r"[\1]({% assign linked_page = site.pages | find: 'title', '\1' %}{% link {{ linked_page.url }} %})", content)
 
         # write the changes to the file
         with open(path, "w") as file:
