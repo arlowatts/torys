@@ -24,7 +24,7 @@ def add_page_links(path: str):
     # if the path is a directory, recurse on its subpaths
     elif os.path.isdir(path):
         for relative_path in os.listdir(path):
-            add_spoiler_tags(os.path.join(path, relative_path))
+            add_page_links(os.path.join(path, relative_path))
 
 if __name__ == "__main__":
     main()
