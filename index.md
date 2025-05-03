@@ -8,19 +8,4 @@ Learn more about the geography of Torys through the [interactive map](/torys-map
 
 ## Contents
 
-The world of Torys is large and diverse.
-
-- The Tumulted Sea
-  - [[Andal]]
-    - [[Sayrenvar]]
-    - [[Day's End]]
-    - [[Elking Wood]]
-  - [[Leuber]]
-    - [[Firecomb]]
-    - [[Ruemins]]
-  - [[Sibal]]
-- [[Oro-oro-ponoro-poron]]
-  - [[Bekebel]]
-  - [[Lukurru]]
-  - [[Dagana]]
-  - [[Perexel]]
+The world of Torys is large and diverse. The two main areas are the [[Tumulted Sea]] and [[Oro-oro-ponoro-poron]].
