@@ -56,7 +56,7 @@ def get_page_title(path: str) -> str:
                     return line[6:].strip()
 
     # raise an exception if the path is not a file or if the page has no title
-    raise RuntimeError(os.path.join(os.getcwd(), path) + " is not a file or has no title")
+    raise RuntimeError(path + " is not a file or has no title")
 
 if __name__ == "__main__":
     main()

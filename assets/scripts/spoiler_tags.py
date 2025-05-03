@@ -58,7 +58,7 @@ def add_spoiler_tags(path: str):
 # use a custom exception class to report mismatched spoiler tags
 class SpoilerError(Exception):
     def __init__(self, path: str):
-        super().__init__("mismatched spoiler tags in " + os.path.join(os.getcwd(), path))
+        super().__init__("mismatched spoiler tags in " + path)
 
 if __name__ == "__main__":
     main()
