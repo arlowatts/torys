@@ -2,6 +2,7 @@ import os
 
 def main():
     page_titles = get_all_titles("world")
+    add_page_links("index.md", page_titles)
     add_page_links("world", page_titles)
     add_page_links("stories", page_titles)
 
