@@ -2,7 +2,7 @@
 title: Andal
 ---
 
-[[Andal]] is a large province covering the [[Morku Plain]] between [[Elking Wood]] and the [[Tumulted Sea]]. It straddles the [[Evening Horizon]] such that only the western border along the edge of Elking Wood sees the [[Eclipse]].
+Andal is a large province covering the [[Morku Plain]] between [[Elking Wood]] and the [[Tumulted Sea]]. It straddles the [[Evening Horizon]] such that only the western border along the edge of Elking Wood sees the [[Eclipse]].
 
 ## Culture
 

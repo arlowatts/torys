@@ -2,7 +2,7 @@
 title: Minu'ive
 ---
 
-[[Minu'ive Naaftet]] is the eldest son of [[Oeged Naaftet Oecheisev]] and [[Shilii Naaftet Anthia]]. He fled into the forest with his younger brother [[Ca'ive Naaftet]] when their father transformed himself into a shadow dragon and destroyed their kingdom.
+Minu'ive is the eldest son of [[Oeged Naaftet Oecheisev]] and [[Shilii Naaftet Anthia]]. He fled into the forest with his younger brother Ca'ive when their father transformed himself into a shadow dragon and destroyed their kingdom.
 
 In his youth, Minu'ive trained in the arts of diplomacy and fabric-weaving. His father, the king, personally trained him night after night to have a sharp mind and a confident air. He also showed him how to craft fabrics of almost impossible colors and textures, a skill which Oeged had a particular aptitude for. Ca'ive, on the other hand, studied the arts of literature and of the sword. He read the works of past and present writers and was praised for his elegant and thought-provoking poetry. Trained by his mother Shilii in combat, he was a very capable fighter and a well-respected duelist.
 

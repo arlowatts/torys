@@ -2,7 +2,7 @@
 title: Elned the Wise
 ---
 
-[[Elned the Wise]] is a very old sorcerer loyal to [[Babanak the Great]]. She knows much about magical artifacts and the manner of their creation, and they say she can see through any lie.
+Elned the Wise is a very old sorcerer loyal to [[Babanak the Great]]. She knows much about magical artifacts and the manner of their creation, and they say she can see through any lie.
 
 Elned is one of Babanak's primary advisors, and she accompanies him to every meeting. Elned was a member of [[Gava the Supreme]]'s council when she ruled the clan, and she has known Babanak from a very young age.
 
