@@ -6,7 +6,7 @@ title: Leuber
 
 ## Culture
 
-Lauber is home to two distinct cultures: those living in [[Firecomb]], south of the [[Encord Mountains]], and those living north of the mountains. In [[Firecomb]], people tend to keep to themselves and never smile at strangers. The lack of sunshine, clean air, and flat ground lends the city a gloomy atmosphere. To the north, Leuber is populated only by a few cities scattered across the valleys and ridges. The people in these areas are enterprising and opportunistic, but can also be greedy and self-serving.
+Leuber is home to two distinct cultures: those living in [[Firecomb]], south of the [[Encord Mountains]], and those living north of the mountains. In [[Firecomb]], people tend to keep to themselves and never smile at strangers. The lack of sunshine, clean air, and flat ground lends the city a gloomy atmosphere. To the north, Leuber is populated only by a few cities scattered across the valleys and ridges. The people in these areas are enterprising and opportunistic, but can also be greedy and self-serving.
 
 Leuber is also home to the [[Ruemin]]s.
 
