@@ -13,7 +13,7 @@ The player characters make up the elite guard of Bekebel Citadel. Commanded by [
 <spoiler>
 ## Overview
 
-The first chapter of Tuvdak's Gift introduces the [[Crown of Noruchtohl]] and explains its importance as a gift to [[Tuvdak the Magnificent]]. It also covers the characters' perspective of the incident causing its loss.
+The first chapter of Tuvdak's Gift introduces the [[Crown of Magnificence]] and explains its importance as a gift to [[Tuvdak the Magnificent]]. It also covers the characters' perspective of the incident causing its loss.
 
 What the characters will discover over the course of the adventure is that the crown was stolen by [[Paparnad the Mystic]] and two of his students, [[Taccar the Arcane]] and [[Satasha the Runed]]. The scheme was as follows: Taccar would swing from the ceiling, knocking the crown into the crowd, where Satasha would take it using any means necessary and flee beneath the cover of a Cloak of Invisibility. Then she would meet up with Paparnad, give him the crown and the cloak, and return magically disguised as Paparnad to delay any suspicions.
 
@@ -33,11 +33,11 @@ The fourth and final chapter sees the characters finally catch up to Paparnad ab
 
 ## Chapter 1 - The Gift
 
-This adventure begins in the throne room of [[Babanak the Great]], where the characters have all been gathered. They are here to receive important instructions from Babanak: they must find and retrieve the [[Crown of Noruchtohl]], a powerful artifact crafted by Babanak himself and intended as a gift to the red dragon [[Tuvdak the Magnificent]]. The crown was lost in a crowd of thosands mere minutes before, as the players will soon see and the characters are already aware.
+This adventure begins in the throne room of [[Babanak the Great]], where the characters have all been gathered. They are here to receive important instructions from Babanak: they must find and retrieve the [[Crown of Magnificence]], a powerful artifact crafted by Babanak himself and intended as a gift to the red dragon [[Tuvdak the Magnificent]]. The crown was lost in a crowd of thosands mere minutes before, as the players will soon see and the characters are already aware.
 
 Babanak opens with the following monologue.
 
-> My loyal friends! You are some of our clan's most capable members. You have a capacity for adventure that few others possess, and I would trust all of you with someone else's life. As I'm sure you are painfully aware, we have suffered a great loss today. The Crown of Noruchtohl, an artifact of my own creation, was lost - nay, *stolen* - not more than a quarter of an hour ago. Meant as an offering to our great overlord Tuvdak the Magnificent, we are now bereft of any gift to give him and *time is running out*!
+> My loyal friends! You are some of our clan's most capable members. You have a capacity for adventure that few others possess, and I would trust all of you with someone else's life. As I'm sure you are painfully aware, we have suffered a great loss today. The Crown of Magnificence, an artifact of my own creation, was lost - nay, *stolen* - not more than a quarter of an hour ago. Meant as an offering to our great overlord Tuvdak the Magnificent, we are now bereft of any gift to give him and *time is running out*!
 
 Babanak spits these last words with a startling fury, but he quickly settles.
 
@@ -65,7 +65,7 @@ The crowd cheers again, louder than before.
 
 This time the cheering of the amassed kobolds seems to make the ground itself shake, but Babanak cuts it short.
 
-> But there's more! On this day, 333 years ago, [[Tuvdak the Magnificent]] defeated [[Sarvol the Peerless]] in an epic battle for her lair. To mark this special anniversary we will give to Tuvdak a gift *greater than any that has ever been given*! Behold the [[Crown of Noruchtohl]]!
+> But there's more! On this day, 333 years ago, [[Tuvdak the Magnificent]] defeated [[Sarvol the Peerless]] in an epic battle for her lair. To mark this special anniversary we will give to Tuvdak a gift *greater than any that has ever been given*! Behold the [[Crown of Magnificence]]!
 
 As Babanak lifts the crown from a box at his feet, the crowd goes wild. Some are chanting Babanak's name and others Tuvdak's, but most are simply expressing themselves with a lot of noise. Babanak revels in the crowd's adoration and holds the crown aloft for all to see.
 
@@ -89,7 +89,7 @@ If the characters ask about the magical properties of the crown, Babanak simply 
 
 Babanak also suggests investigating Paparnad's private room and workshop - Babanak already looked for him there, but did not fully search the place.
 
-Finally, before the characters leave, [[Elned the Wise]] gives them a device known as a [[Gorgor Counter]], named for [[Gorgor the Wise]]. A Gorgor Counter clicks when it is near magic, and clicks more quickly near powerful magic. Since the Crown of Noruchtohl is one of the most powerful magical artifacts ever created in Bekebel, the Gorgor Counter will certainly be able to help the characters know when they are near.
+Finally, before the characters leave, [[Elned the Wise]] gives them a device known as a [[Gorgor Counter]], named for [[Gorgor the Wise]]. A Gorgor Counter clicks when it is near magic, and clicks more quickly near powerful magic. Since the Crown of Magnificence is one of the most powerful magical artifacts ever created in Bekebel, the Gorgor Counter will certainly be able to help the characters know when they are near.
 
 ### Satasha's Return
 
@@ -114,7 +114,7 @@ If the characters eventually let her go, Satasha will go to Babanak, knowing tha
 
 The players may wish to start their investigations in the Great Hall, where the crown fell into the crowd. Since [[Bekebel Great Hall]] stands at a crossroads of many important tunnels beneath the [[Bekebel Citadel]], it is normally filled with kobolds running to and fro. However, since the lockdown was imposed on the entire citadel, the Great Hall stands eerily empty. The characters' footsteps echo beneath the lofty ceiling, and the rope Taccar swung from still hangs above the stage.
 
-The characters might start by finding the place where the [[Crown of Noruchtohl]] landed in the crowd. In fact, just where they would expect the crown to have fallen, the stone is blackened and cracked, as though lightning had struck the ground. The Gorgor Counter clicks when brought close.
+The characters might start by finding the place where the [[Crown of Magnificence]] landed in the crowd. In fact, just where they would expect the crown to have fallen, the stone is blackened and cracked, as though lightning had struck the ground. The Gorgor Counter clicks when brought close.
 
 From that spot, the nearest exit is directly north. If the characters choose to investigate the exit, they will find a small scrap of fabric snagged on a splinter of rock. It is a fragment of Satasha's Cloak of Invisibility, torn as she hurried from the Great Hall. The fabric's magical properties can be easily identified as it is invisible from one side only. Since Cloaks of Invisibility are virtually unheard of in Bekebel, the characters might reason that the thief must have had access to tremendous stores of magical knowledge and rare materials.
 
@@ -142,7 +142,7 @@ If the characters visit Paparnad's workshop, they can use the Gorgor Counter to 
 
 ## Chapter 3 - Pursuit
 
-Either from the notepad in Paparnad's chambers or from their encounter with Satasha, the characters hopefully now know where Paparnad and Satasha met to hand off the [[Crown of Noruchtohl]]. They might also have an idea of Paparnad's motives and should be confident that he is the culprit.
+Either from the notepad in Paparnad's chambers or from their encounter with Satasha, the characters hopefully now know where Paparnad and Satasha met to hand off the [[Crown of Magnificence]]. They might also have an idea of Paparnad's motives and should be confident that he is the culprit.
 
 ### 229 Soot road
 
@@ -158,7 +158,7 @@ The tunnel eventually flattens and emerges from the wall of a narrow alley in th
 
 - The players might reason that Paparnad would wish to avoid being seen, and would therefore go right to avoid crossing inhabited or patrolled streets
 - If the Satasha told the characters about Paparnad's hidden exit tunnel in "a natural cave deep underground", they might reason that he would have to go further down and would therefore go right
-- With a careful use of their [[Gorgor Counter]], the characters might be able to detect slightly stronger magic to the right, indicating that the [[Crown of Noruchtohl]] is in that direction
+- With a careful use of their [[Gorgor Counter]], the characters might be able to detect slightly stronger magic to the right, indicating that the [[Crown of Magnificence]] is in that direction
 - The characters might be able to use divination magic to determine where Paparnad and the crown can be found
 
 Ultimately, it should be well within the characters means to reach the correct conclusion without splitting the party.
@@ -193,11 +193,11 @@ Not far beyond Imbur's lair lies [[Grizgith's Gap]], a large cavern named for th
 
 ### Meeting Paparnad
 
-Also seen upon the character's arrival is Paparnad, wearing what remains of his Cloak of Invisibility and carrying a large sack containing the [[Crown of Noruchtohl]]. He is carefully making his way towards the exit, stepping slowly and hugging the wall. Though he is making slow progress, he is already two thirds of the way around the ledge. He does not immediately notice the characters entering the cavern, but if they make noise or follow him around the ledge, he'll spot them. The characters can safely walk around the ledge twice as fast as Paparnad can.
+Also seen upon the character's arrival is Paparnad, wearing what remains of his Cloak of Invisibility and carrying a large sack containing the [[Crown of Magnificence]]. He is carefully making his way towards the exit, stepping slowly and hugging the wall. Though he is making slow progress, he is already two thirds of the way around the ledge. He does not immediately notice the characters entering the cavern, but if they make noise or follow him around the ledge, he'll spot them. The characters can safely walk around the ledge twice as fast as Paparnad can.
 
 During the encounter, role-play Paparnad with the following information. Note that he will not necessarily tell the characters everything right away - however, until the fight starts going badly for him, he believes his scheme cannot fail.
 
-- Paparnad sought [[Ice]]'s blessing independently of his arcane studies. For many years, he has been reading every text about Ice he could find. He has read many tales of individuals gaining remarkable powers from Ice, and many more accounts of failed attempts. Paparnad thinks himself worthy, however, due to his notable magical abilities. Knowing that he would need an artifact of unusual power to impress Ice, he chose to steal the [[Crown of Noruchtohl]], which he helped create. The crown is one of the most highly magical artifacts ever created in [[Bekebel Citadel]], and Paparnad is planning to destroy the crown in Ice's name. Performing the act at midnight during the longest night of the year will make his scheme more likely to succeed.
+- Paparnad sought [[Ice]]'s blessing independently of his arcane studies. For many years, he has been reading every text about Ice he could find. He has read many tales of individuals gaining remarkable powers from Ice, and many more accounts of failed attempts. Paparnad thinks himself worthy, however, due to his notable magical abilities. Knowing that he would need an artifact of unusual power to impress Ice, he chose to steal the [[Crown of Magnificence]], which he helped create. The crown is one of the most highly magical artifacts ever created in [[Bekebel Citadel]], and Paparnad is planning to destroy the crown in Ice's name. Performing the act at midnight during the longest night of the year will make his scheme more likely to succeed.
 - His plan to steal the crown involved his two students, [[Taccar the Arcane]] and [[Satasha the Runed]]. Taccar swung from a rope in [[Bekebel Great Hall]] and knocked the crown into the crowd, where Satasha grabbed it and fled under the cover of the Cloak of Invisibility. He has been planning the theft with their help for several months, but he has been teaching them about Ice for much longer to ensure their loyalty. He promised them a share of Ice's power - however, recognizing that it may be impossible to divide Ice's blessing among them, he further guaranteed that they would be considered his equals in the reformed Bekebel clan. He means to uphold his promises.
 - Paparnad is aware that Tuvdak will likely destroy much of Bekebel Citadel when he receives no gift. With the power he expects to gain from Ice, Paparnad plans to rescue the clan from Tuvdak and drive him away. Then Paparnad hopes to make Ice the target of the clan's worship and take over from [[Babanak the Great]] as the clans's leader.
 
@@ -207,11 +207,11 @@ Paparnad will not attack the characters unless they provoke or threaten him. If 
 
 Hopefully, the characters will somehow reclaim the crown from Paparnad. When they do, they face the final challenge of delivering it to [[Tuvdak the Magnificent]] at the surface of the citadel. By this time, the sun no longer shines through the exit tunnel and has nearly set completely. The quickest path the characters can take to the surface is to go up the same way they came down, as long as they can remember the full route. Fortunately, they will pass many familiar landmarks on the return journey - [[Imbur the Crowned]], who may still be near his lair; the stalagmite caverns in [[Rockbreaker Grotto]]; the rough tunnels at the bottom of [[Bekebel Citadel]]; the narrow passage leading back up to 229 Soot road; and finally the winding streets and alleys all the way up to the Great Hall.
 
-Finding the Great Hall still vacant, the characters must hurry up to the large open square above it where Tuvdak is just now descending from the sky. Surrounded by a large crowd, [[Babanak the Great]] is kneeling on the ground in front of Tuvdak, a solemn expression on his face. As the characters emerge with the [[Crown of Noruchtohl]] in hand, Babanak visibly sighs in relief but quickly regains his composure. As Tuvdak lands, Babanak greets him.
+Finding the Great Hall still vacant, the characters must hurry up to the large open square above it where Tuvdak is just now descending from the sky. Surrounded by a large crowd, [[Babanak the Great]] is kneeling on the ground in front of Tuvdak, a solemn expression on his face. As the characters emerge with the [[Crown of Magnificence]] in hand, Babanak visibly sighs in relief but quickly regains his composure. As Tuvdak lands, Babanak greets him.
 
-> Oh Tuvdak the Magnificent, king of the caldera! We have many reasons to worship your greatness on any day. But today is a special day! Exactly 333 years ago you defeated [[Sarvol the Peerless]] in an epic battle for her lair. To mark this special anniversary we will give to you a gift *greater than any that has ever been given*! Behold the [[Crown of Noruchtohl]]!
+> Oh Tuvdak the Magnificent, king of the caldera! We have many reasons to worship your greatness on any day. But today is a special day! Exactly 333 years ago you defeated [[Sarvol the Peerless]] in an epic battle for her lair. To mark this special anniversary we will give to you a gift *greater than any that has ever been given*! Behold the [[Crown of Magnificence]]!
 
-Babanak then indicates the crown. The gathered kobolds cheer wildly, thrilled to witness such a momentous occasion. Without a word, Tuvdak delicately takes the crown in his talons. He inspects it for a moment, then reaches up to his head with his other claw and knocks his current crown to the ground, where it tumbles to rest at the characters' feet. He places the [[Crown of Noruchtohl]] on his head and looks thoughtful for a moment. Then the edges of his mouth widen to a large grin. Then he speaks for the first time, with a deep and ponderous voice.
+Babanak then indicates the crown. The gathered kobolds cheer wildly, thrilled to witness such a momentous occasion. Without a word, Tuvdak delicately takes the crown in his talons. He inspects it for a moment, then reaches up to his head with his other claw and knocks his current crown to the ground, where it tumbles to rest at the characters' feet. He places the [[Crown of Magnificence]] on his head and looks thoughtful for a moment. Then the edges of his mouth widen to a large grin. Then he speaks for the first time, with a deep and ponderous voice.
 
 > Babanak! You never fail to impress.
 
