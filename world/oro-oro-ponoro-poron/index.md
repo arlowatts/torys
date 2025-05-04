@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Oro-oro-ponoro-poron
 ---
 
