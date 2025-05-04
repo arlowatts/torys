@@ -2,17 +2,17 @@
 title: Mayoral Seat
 ---
 
-The **Mayoral Seat** of **Day's End** is inside the only remaining building of elven construction in the town. The building is a round tower of three stories with a balcony on the top and a spiral staircase around the inside wall. Its diameter is 50 feet and it is made of smooth grey stone with many windows in its surface. The ceiling is 16 feet high at the ground floor, 13 feet high at the second floor, and 10 feet high at the third floor.
+The [[Mayoral Seat]] of [[Day's End]] is inside the only remaining building of elven construction in the town. The building is a round tower of three stories with a balcony on the top and a spiral staircase around the inside wall. Its diameter is 50 feet and it is made of smooth grey stone with many windows in its surface. The ceiling is 16 feet high at the ground floor, 13 feet high at the second floor, and 10 feet high at the third floor.
 
 ## Ground Floor
 
-A circular courtyard surrounds the tower and its only entrance, with steps leading up the the doors. The doors are locked at night and are guarded by two guards during the day. The ground floor is entirely open and functions as the Mayoral Seat's reception and waiting room, in the middle of which is a secretary's desk. **Sonda**, the town hall's secretary, works and receives visitors here. She is authorized to perform a number of duties, including collecting taxes and recording requests for court events. There are seven chairs along the walls for those waiting for an appointment. The desk contains two drawers, one filled with sheets of paper describing appointment times, the other filled with stationery and writing utensils.
+A circular courtyard surrounds the tower and its only entrance, with steps leading up the the doors. The doors are locked at night and are guarded by two guards during the day. The ground floor is entirely open and functions as the Mayoral Seat's reception and waiting room, in the middle of which is a secretary's desk. [[Sonda]], the town hall's secretary, works and receives visitors here. She is authorized to perform a number of duties, including collecting taxes and recording requests for court events. There are seven chairs along the walls for those waiting for an appointment. The desk contains two drawers, one filled with sheets of paper describing appointment times, the other filled with stationery and writing utensils.
 
 One or two additional guards are normally stationed here, ready to act in case of a disruption.
 
 ## Second Floor
 
-The second floor of the Mayoral Seat contains the offices of **Usen** and **Tyagr**. The door to Usen's office is the only one on the left-hand side of the hall, and the right-hand side is shared by the door to Tyagr's office, the door to the lavatory, and the door to the janitorial closet. The janitor's name is **Danehban** and he works mainly in the early mornings.
+The second floor of the Mayoral Seat contains the offices of [[Usen]] and [[Tyagr]]. The door to Usen's office is the only one on the left-hand side of the hall, and the right-hand side is shared by the door to Tyagr's office, the door to the lavatory, and the door to the janitorial closet. The janitor's name is [[Danehban]] and he works mainly in the early mornings.
 
 ### Usen's office
 
@@ -24,11 +24,11 @@ Across from Usen's office is Tyagr's slightly smaller and much tidier office. He
 
 ## Third Floor
 
-The third floor holds the Mayoral Seat's library. It is not open to the public, and most residents of Day's End are unaware of its existence. It contains mostly informative books: propaganda about **Andal**'s governance, military prowess, and financial stability; books about the **Elking Wood** and the **Eclipse**s; and books about the political and colonial history of the region. There are about 100 books in total.
+The third floor holds the Mayoral Seat's library. It is not open to the public, and most residents of Day's End are unaware of its existence. It contains mostly informative books: propaganda about [[Andal]]'s governance, military prowess, and financial stability; books about the [[Elking Wood]] and the [[Eclipse]]s; and books about the political and colonial history of the region. There are about 100 books in total.
 
 ### Kitchen
 
-Down the stairs from the lobby, going underground, is a hallway leading to the kitchen. This is where the chef, **Eemika**, prepares food for himself and the others who work at the Mayoral Seat. The room is only partially underground; there are windows near the ceiling at ground level, both to let in light and allow the room to air out.
+Down the stairs from the lobby, going underground, is a hallway leading to the kitchen. This is where the chef, [[Eemika]], prepares food for himself and the others who work at the Mayoral Seat. The room is only partially underground; there are windows near the ceiling at ground level, both to let in light and allow the room to air out.
 
 ### Prison
 

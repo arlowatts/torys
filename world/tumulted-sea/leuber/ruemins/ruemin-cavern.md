@@ -2,7 +2,7 @@
 title: Ruemin Cavern
 ---
 
-**Ruemin Cavern** is the primary library of the **Ruemin**s. Its ceiling is over 100 feet high and spotted with glowing gemstones of varying color. It lies within the borders of **Leuber** but generally ignores its governance.
+[[Ruemin Cavern]] is the primary library of the [[Ruemin]]s. Its ceiling is over 100 feet high and spotted with glowing gemstones of varying color. It lies within the borders of [[Leuber]] but generally ignores its governance.
 
 Ruemin Cavern has been inhabited by the Ruemins for thousands of years. It boasts Torys' most comprehensive collection of histories, from the foundation of dwarven cities to the changes in handwriting styles among merfolk. The bookshelves stretch from floor to ceiling in labyrinthine paths thousands of feet long. Indeed, there is a very real danger of losing oneself among the books; the sheer density of knowledge in the area, both magical and not, distorts memory and perception in all but the most trained minds.
 

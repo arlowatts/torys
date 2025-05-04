@@ -2,7 +2,7 @@
 title: Dagana the Azure Death
 ---
 
-**Dagana the Azure Death** is an ancient drake living just off the coast of Oro-oro-ponoro-poron. She is the oldest dragon on the island, and her age has stripped from her all of her former strength. Despite her weakness, she remains the overlord of the **Dagana** clan, and her history of war keeps challengers at bay.
+[[Dagana the Azure Death]] is an ancient drake living just off the coast of Oro-oro-ponoro-poron. She is the oldest dragon on the island, and her age has stripped from her all of her former strength. Despite her weakness, she remains the overlord of the [[Dagana]] clan, and her history of war keeps challengers at bay.
 
 In her prime, Dagana was one of the most feared warlords on Oro-oro-ponoro-poron. She commanded a legion of armed soldiers, which would later become her namesake clan, and only the largest dragons could stand against her in battle. She claimed countless treasures and built her clan from nothing, an uncommon achievement on Oro-oro-ponoro-poron.
 

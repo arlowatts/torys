@@ -2,7 +2,7 @@
 title: Graveyard
 ---
 
-The **Day's End Graveyard** lies just outside of the town's wall to the south. It is a grim place, and is always permeated by a fell presence. Unbeknownst to the population of Day's End, this presence is not that of the dead who are buried there; it is the dark shadow of **Oeged Naaftet Oecheisev**, an elven king turned shadow dragon lying dormant underground. The graves in the graveyard are dated as far back as 300 years, when Day's End was founded.
+The [[Day's End Graveyard]] lies just outside of the town's wall to the south. It is a grim place, and is always permeated by a fell presence. Unbeknownst to the population of Day's End, this presence is not that of the dead who are buried there; it is the dark shadow of [[Oeged Naaftet Oecheisev]], an elven king turned shadow dragon lying dormant underground. The graves in the graveyard are dated as far back as 300 years, when Day's End was founded.
 
 ## The Pond
 
@@ -14,6 +14,6 @@ When a person is swapped with their reflection in this way, their physical form 
 
 ## The Door
 
-At the bottom of the pond, mostly covered with slimy algae, is a large iron door. By touch, one can tell that it was once engraved with some pattern, but the ages and the water have deteriorated it to the point that it is now unrecognizable. The handles on the door are similarly worn, but are still strong. The door leads to the exit passages (area 3.2) of the **Dungeon of Day's End**, and it has been magically sealed since the fall of the elven kingdom.
+At the bottom of the pond, mostly covered with slimy algae, is a large iron door. By touch, one can tell that it was once engraved with some pattern, but the ages and the water have deteriorated it to the point that it is now unrecognizable. The handles on the door are similarly worn, but are still strong. The door leads to the exit passages (area 3.2) of the [[Dungeon of Day's End]], and it has been magically sealed since the fall of the elven kingdom.
 
 The ages have weakened the magical seal, but it still holds and the door cannot be opened until it is broken. Even if the door is unlocked with magic, the force of the water still holds the door shut, and it is very difficult to find any solid surfaces under water to push against. Nevertheless, a strong and daring adventurer might be able to find a way in with the help of some clever tricks.

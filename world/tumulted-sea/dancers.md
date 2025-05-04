@@ -2,7 +2,7 @@
 title: Dancers
 ---
 
-The **Dancer** is a race of humanoids with long, powerful wings in place of arms and four-fingered claws that serve as hands. They live in expansive, feather-light palaces in the clouds that drift with the currents. They wield powerful innate magic that enables them to control the weather and sing songs only some can hear.
+The [[Dancer]] is a race of humanoids with long, powerful wings in place of arms and four-fingered claws that serve as hands. They live in expansive, feather-light palaces in the clouds that drift with the currents. They wield powerful innate magic that enables them to control the weather and sing songs only some can hear.
 
 Dancers build their homes in the clouds, and follow them as they drift through the skies. This practice has forced them to become adaptable to new environments, but has also made their culture very open-minded. Since Dancer communities can split apart at any time, Dancers tend to form only superficial relationships with one another, even their own family. They trust easily and make friends quickly, but rarely make deeper connections. This makes them more resilient to loss and change, but it also makes them more vulnerable to loneliness.
 
