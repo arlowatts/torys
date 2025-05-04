@@ -1,15 +1,20 @@
 ---
 layout: base
 ---
-<article class="post">
 
+<article class="post">
     <h4>
         {% assign url_parts = page.url | split: "/" %}
         {% for item in url_parts %}
         {% assign url = url_parts | slice: 0, forloop.index | join: "/" | append: "/" %}
         {% assign linked_page = site.pages | where: "url", url | first %}
+        {% if forloop.first == true %}
+        {% elsif forloop.last == true %}
+        {{ linked_page.title }}
+        {% else %}
         <a href="{{ site.baseurl }}{{ linked_page.url }}">{{ linked_page.title }}</a>
         &gt;
+        {% endif %}
         {% endfor %}
     </h4>
 
