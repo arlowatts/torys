@@ -28,10 +28,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Add spoiler tags
-        run: python assets/scripts/spoiler_tags.py
       - name: Expand links
-        run: python assets/scripts/page_links.py
+        run: python3 assets/scripts/page_links.py --write
+      - name: Add spoiler tags
+        run: python3 assets/scripts/spoiler_tags.py --write
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll

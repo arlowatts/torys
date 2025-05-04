@@ -1,13 +1,18 @@
-import os, re
+import os, sys, re
 
 def main():
+    write = "--write" in sys.argv
+
     page_titles = get_all_titles("world")
-    add_page_links("index.md", page_titles)
-    add_page_links("world", page_titles)
-    add_page_links("stories", page_titles)
+    add_page_links("index.md", page_titles, write)
+    add_page_links("world", page_titles, write)
+    add_page_links("stories", page_titles, write)
+
+    if not write:
+        print("Add the --write flag to modify the scanned files")
 
 # replace the [[short links]] in each markdown file with proper links
-def add_page_links(path: str, page_titles: dict[str, str]):
+def add_page_links(path: str, page_titles: dict[str, str], write: bool):
 
     # if the path is a markdown file, modify its content
     if os.path.isfile(path) and os.path.splitext(path)[1] == ".md":
@@ -21,22 +26,24 @@ def add_page_links(path: str, page_titles: dict[str, str]):
             content = content.replace(f"[[{title}]]", f"[{title}]({{{{ site.baseurl }}}}{{% link {page_titles[title]} %}})")
 
         # report unmatched links
-        links = re.findall(r"\[\[(.+?)\]\]", content)
+        if not write:
+            links = re.findall(r"\[\[(.+?)\]\]", content)
 
-        for title in links:
-            print(f"Missing link: {title}")
+            for title in links:
+                print(f"Missing link: {title}")
 
-        # remove brackets around unmatched links
-        content = re.sub(r"\[\[(.+?)\]\]", r"\1", content)
+            # remove brackets around unmatched links
+            content = re.sub(r"\[\[(.+?)\]\]", r"\1", content)
 
         # write the changes to the file
-        with open(path, "w") as file:
-            file.write(content)
+        if write:
+            with open(path, "w") as file:
+                file.write(content)
 
     # if the path is a directory, recurse on its subpaths
     elif os.path.isdir(path):
         for relative_path in os.listdir(path):
-            add_page_links(os.path.join(path, relative_path), page_titles)
+            add_page_links(os.path.join(path, relative_path), page_titles, write)
 
 # recursively create a dictionary associating page titles with file paths
 def get_all_titles(path: str) -> dict[str, str]:

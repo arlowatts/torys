@@ -1,11 +1,16 @@
-import os
+import os, sys
 
 def main():
-    add_spoiler_tags("world")
-    add_spoiler_tags("stories")
+    write = "--write" in sys.argv
+
+    add_spoiler_tags("world", write)
+    add_spoiler_tags("stories", write)
+
+    if not write:
+        print("Add the --write flag to modify the scanned files")
 
 # replace the <spoiler> tags in each markdown file with {: .spoiler} attributes
-def add_spoiler_tags(path: str):
+def add_spoiler_tags(path: str, write: bool):
 
     # if the path is a markdown file, modify its content
     if os.path.isfile(path) and os.path.splitext(path)[1] == ".md":
@@ -46,14 +51,14 @@ def add_spoiler_tags(path: str):
                 raise SpoilerError(path)
 
         # write the changes to the file
-        if updated:
+        if updated and write:
             with open(path, "w") as file:
                 file.write(content)
 
     # if the path is a directory, recurse on its subpaths
     elif os.path.isdir(path):
         for relative_path in os.listdir(path):
-            add_spoiler_tags(os.path.join(path, relative_path))
+            add_spoiler_tags(os.path.join(path, relative_path), write)
 
 # use a custom exception class to report mismatched spoiler tags
 class SpoilerError(Exception):
