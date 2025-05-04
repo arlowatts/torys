@@ -1,4 +1,4 @@
-import os
+import os, re
 
 def main():
     page_titles = get_all_titles("world")
@@ -19,6 +19,15 @@ def add_page_links(path: str, page_titles: dict[str, str]):
         # substitute the links
         for title in page_titles:
             content = content.replace(f"[[{title}]]", f"[{title}]({{{{ site.baseurl }}}}{{% link {page_titles[title]} %}})")
+
+        # report unmatched links
+        links = re.findall(r"\[\[(.+?)\]\]", content)
+
+        for title in links:
+            print(f"Missing link: {title}")
+
+        # remove brackets around unmatched links
+        content = re.sub(r"\[\[(.+?)\]\]", r"\1", content)
 
         # write the changes to the file
         with open(path, "w") as file:
