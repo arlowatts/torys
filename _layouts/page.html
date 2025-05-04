@@ -10,6 +10,8 @@ layout: default
         {% assign linked_page = site.pages | where: "url", url | first %}
         {% if linked_page %}
         {% if forloop.first == true %}
+        <a href="{{ '/' | relative_url }}">Home</a>
+        &gt;
         {% elsif forloop.last == true %}
         {{ linked_page.title }}
         {% else %}
