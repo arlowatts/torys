@@ -6,8 +6,9 @@ layout: base
     <h4>
         {% assign url_parts = page.url | split: "/" %}
         {% for item in url_parts %}
-        {% assign url = url_parts | slice: 0, forloop.index | join: "/" %}
+        {% assign url = url_parts | slice: 0, forloop.index | join: "/" | append: "/" %}
         {% assign linked_page = site.pages | where: "url", url | first %}
+        {{ page.url }}
         [{{ linked_page[0].title }}]({{ site.baseurl }}{{ linked_page.url }})
         &gt;
         {% endfor %}
