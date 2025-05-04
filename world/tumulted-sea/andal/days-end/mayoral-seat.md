@@ -24,7 +24,7 @@ Across from Usen's office is Tyagr's slightly smaller and much tidier office. He
 
 ## Third Floor
 
-The third floor holds the Mayoral Seat's library. It is not open to the public, and most residents of Day's End are unaware of its existence. It contains mostly informative books: propaganda about [[Andal]]'s governance, military prowess, and financial stability; books about the [[Elking Wood]] and the [[Eclipse]]s; and books about the political and colonial history of the region. There are about 100 books in total.
+The third floor holds the Mayoral Seat's library. It is not open to the public, and most residents of Day's End are unaware of its existence. It contains mostly informative books: propaganda about [[Andal]]'s governance, military prowess, and financial stability; books about the [[Elking Wood]] and the [[Eclipse]]; and books about the political and colonial history of the region. There are about 100 books in total.
 
 ### Kitchen
 
