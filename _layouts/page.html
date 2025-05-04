@@ -3,6 +3,16 @@ layout: base
 ---
 
 <article class="post">
+    <h4>
+        {% assign url_parts = page.url | split: "/" %}
+        {% for item in url_parts %}
+        {% assign url = url_parts | slice: 0, forloop.index | join: "/" %}
+        {% assign linked_page = site.pages | where: "url", url | first %}
+
+        [{{ linked_page.title }}]({{ site.baseurl }}{% link linked_page.path %})>
+
+        {% endfor %}
+    </h4>
     <header class="post-header">
         <h1 class="post-title">{{ page.title | escape }}</h1>
     </header>
