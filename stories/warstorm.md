@@ -64,7 +64,7 @@ When the characters finally make their way onto the [[Tidesoul]] and any combat 
 
 #### The Captain's Quarters
 
-The captain's name is Captain [[Estavi]] and he is a dwarf from [[Ollam]], a fishing village near [[Sayrenvar]]. He has been captain of the [[Tidesoul]] for over 4 years and has earned the respect of his crew due to his skill in wizardly magic. He knows many details about his current mission (see [Outline](#outline) above) but is very reluctant to speak to the characters about it. He will probably have to be threatened or magically persuaded to tell what he knows.
+The captain's name is Captain [[Estavi]] and he is a dwarf from [[Ollam]], a fishing village near [[Sayrenvar]]. He has been captain of the [[Tidesoul]] for over 4 years and has earned the respect of his crew due to his skill in wizardly magic. He knows many details about his current mission but is very reluctant to speak to the characters about it. He will probably have to be threatened or magically persuaded to tell what he knows.
 
 In addition to the information provided in the adventure outline, Estavi knows that his destination is [[Aranak]], a small uninhabited island off the coast. All of the ships involved in [[Andal]]'s invasion of [[Leuber]] are being consolidated there for final preparations. Estavi doesn't know how many ships are involved. Other than Captain Estavi, only First Mate [[Hacan]], a kenku from [[Firecomb]], knows where the Tidesoul is headed.
 
@@ -82,7 +82,7 @@ In [[Firecomb]], the kenku wizard [[Pyrite]] learns of the adventurers' quest to
 
 ## Chapter 5 - Ruemin Cavern
 
-The [[Ruemin]]s welcome the adventurers and offer them assistance if they promise to fight alongside the armies of [[Andal]], against the giants, to restore them to their ancient glory.
+The [[Ruemins]] welcome the adventurers and offer them assistance if they promise to fight alongside the armies of [[Andal]], against the giants, to restore them to their ancient glory.
 
 ## Chapter 6 - Tado
 

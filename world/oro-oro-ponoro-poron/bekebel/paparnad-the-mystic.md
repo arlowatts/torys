@@ -13,7 +13,7 @@ Paparnad is mostly reclusive and not very talkative, rarely initiating any socia
 
 ## Motives
 
-Paparnad is driven by a strong ambition for absolute power. He socializes very little and doesn't believe in the greater good, acknowledging the clan's needs only when it suits his agenda. Even as [[Babanak]]'s likely successor to rule the clan, Paparnad is unsatisfied with his position. He hopes to find magical powers great enough to set him apart from any sorcerer, druid, or seer on [[Oro-oro-ponoro-poron]]. Knowing that publicizing his true desires could jeopardize his status in the clan, Paparnad keeps his hunt for power secret from even his closest friends, and especially from Babanak and Elned.
+Paparnad is driven by a strong ambition for absolute power. He socializes very little and doesn't believe in the greater good, acknowledging the clan's needs only when it suits his agenda. Even as Babanak's likely successor to rule the clan, Paparnad is unsatisfied with his position. He hopes to find magical powers great enough to set him apart from any sorcerer, druid, or seer on [[Oro-oro-ponoro-poron]]. Knowing that publicizing his true desires could jeopardize his status in the clan, Paparnad keeps his hunt for power secret from even his closest friends, and especially from Babanak and Elned.
 
 ## Background
 

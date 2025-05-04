@@ -23,7 +23,7 @@ As a result, Elned's childhood was spent mostly underground in [[Bekebel Citadel
 
 Elned excelled in her studies and soon became an apprentice to [[Lubu the Artificer]], who taught her how to weave enchantments into metal. Over the years, Elned's abilities as a sorcerer slowly emerged and she became capable of imbuing metal with magic of unprecedented potency. When Lubu retired, Elned took over her shop and school and continued to develop new arts of metallurgy and enchantment.
 
-When [[Gava the Supreme]] became the leader of the [[Bekebel Clan]] and formed her council, she selected Elned to be one of its nine members. For a while, Elned continued to run her school while she served on the council, but over time her responsibilities as a councillor grew until she could no longer maintain any students.
+When [[Gava the Supreme]] became the leader of the [[Bekebel]] Clan and formed her council, she selected Elned to be one of its nine members. For a while, Elned continued to run her school while she served on the council, but over time her responsibilities as a councillor grew until she could no longer maintain any students.
 
 At first, most of Gava's councillors had lived through the [[Siege of Bekebel Citadel]] and remembered it vividly, even though Gava herself was born several years after it ended. But as the years wore on, the older councillors were replaced as they retired. Eventually Elned was the only one on the council who had experience the siege firsthand, and her powerful enmity towards the Lukurru was no longer the prevailing consensus.
 

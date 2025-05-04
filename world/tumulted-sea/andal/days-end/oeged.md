@@ -1,5 +1,5 @@
 ---
-title: Oeged
+title: Oeged Naaftet Oecheisev
 ---
 
 Oeged has been imprisoned for nearly a millenia and dormant for more than half of that time, and this should be reflected in any interaction with him. Since the end of his reign, much has changed in the world above that he is completely unaware of. Oeged believes that the elven kingdom is still strong on the surface and that he was deposed by an unknown usurper. Having been dormant, he also does not know how long he has been imprisoned; he will initially assume that he has been underground for no more than 300 years and that his usurper is still alive.
