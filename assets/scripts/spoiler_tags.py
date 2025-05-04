@@ -51,7 +51,7 @@ def add_spoiler_tags(path: str, write: bool):
                 raise SpoilerError(path)
 
         # write the changes to the file
-        if updated and write:
+        if write and updated:
             with open(path, "w") as file:
                 file.write(content)
 

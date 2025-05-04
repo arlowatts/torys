@@ -25,6 +25,10 @@ def add_page_links(path: str, page_titles: dict[str, str], write: bool):
         for title in page_titles:
             content = content.replace(f"[[{title}]]", f"[{title}]({{{{ site.baseurl }}}}{{% link {page_titles[title]} %}})")
 
+            # report self links
+            if not write and path == page_titles[title]:
+                print(f"Self link at {path}")
+
         # find unmatched links
         links = re.findall(r"\[\[(.+?)\]\]", content)
 
