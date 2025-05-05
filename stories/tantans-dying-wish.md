@@ -2,10 +2,11 @@
 title: Tantan's Dying Wish
 ---
 
-Tantan's Dying Wish is a murder mystery adventure that takes place in and around [[Bekebel Citadel]] on [[Oro-oro-ponoro-poron]]. The crime is committed on the night of [[Tantan the Inventor]]'s wedding to [[Babanak the Great]] while the leaders of all nearby clans are present, laying political challenges over an already complicated plot.
+Tantan's Dying Wish is a puzzling murder mystery that takes place in [[Bekebel Citadel]] at the wedding of [[Tantan the Inventor]] to [[Babanak the Great]], ruler of the [[Bekebel]] clan. The long-awaited marriage sets the stage for complex plots and political machinations, which the players must unravel to catch the crook before a red dawn rises.
 
-This adventure includes very few lines of written dialogue and has imprecise plot points because it is designed to be played with a high degree of player agency. In other words, the player characters are meant to be the main drivers of the story and should be encouraged to initiate their own social interactions with the non-player characters.
+The leaders of all nearby clans are invited to the wedding, including [[Semeret the Motherly]], leader of the [[Dagana]] clan, and [[Irvini the Seer]], leader of the [[Lukurru]] clan. Their retinues will be staying in [[Bekebel Citadel]] the night after the ceremony, following a great banquet in Bekebel Citadel's Great Hall.
 
+<spoiler>
 ## Overview
 
 For many years, [[Tantan the Inventor]] and [[Babanak the Great]] have had a close relationship. They would have married long ago were it not for the dire warnings given by Babanak's seers, who foresaw death and betrayal were the two to marry.
@@ -49,3 +50,5 @@ The first guests to arrive, a full week before the wedding ceremony, are [[Semer
 Arriving a few days later are the representatives of the [[Lukurru]] clan. Currently led by [[Irvini the Seer]], the Lukurru have been the sworn enemies of the Bekebel for over two centuries. The tensions between the members of the clans are transparent, and Babanak and Irvini exchange hateful glares.
 
 The clan leaders are invited to stay in [[Bekebel Citadel]]'s royal suites, and their retinues are offered rooms nearby. This rankles with Irvini, but she does not raise a complaint.
+
+</spoiler>
