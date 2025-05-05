@@ -10,7 +10,7 @@ Many types of flying reptiles inhabit Oro-oro-ponoro-poron, collectively known a
 
 ## Kobolds
 
-In addition to its draconic inhabitants, Oro-oro-ponoro-poron is home to the many kobold clans who worship them. The kobolds thrive in the island's warm environment and work industriously to ensure their clan's success, often in direct competition with one another. Nearly all clans worship one or more dragons, and a clan's draconic overlord often determines the nature of their alliances. Some notable clans are the [[Bekebel]], [[Lukurru]], [[Dagana]], and [[Perexel]] clans.
+In addition to its draconic inhabitants, Oro-oro-ponoro-poron is home to the many kobold clans who worship them. The kobolds thrive in the island's warm environment and work industriously to ensure their clan's success, often in direct competition with one another. Nearly all clans worship one or more dragons, and a clan's draconic overlord often determines the nature of its alliances. Some notable clans are the [[Bekebel]], [[Lukurru]], [[Dagana]], and [[Perexel]] clans.
 
 ## The Caldera
 
@@ -26,7 +26,7 @@ The chupacabra is a dog-like creature with four powerful legs and a high arching
 
 ### Moas
 
-Moas are large flightless birds that subsist on a variety of plants around the island, and are also known to eat small rocks. The wander the jungles in flocks of three to eight in search of lush undergrowth and shelter from the local predators. Dragons, kobolds, and chupacabras alike prey on moas.
+Moas are large flightless birds that subsist on a variety of plants around the island, and are also known to eat small rocks to help digest their food. They wander the jungles in flocks of three to eight in search of lush undergrowth and shelter from the local predators. Dragons, kobolds, and chupacabras alike prey on moas.
 
 ### Goats
 
