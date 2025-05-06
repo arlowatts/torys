@@ -1,6 +1,6 @@
 .crumbs {
     & ol {
-        padding: initial;
+        margin-left: initial;
     }
 
     & li {
