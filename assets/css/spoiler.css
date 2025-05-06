@@ -3,10 +3,16 @@
 }
 
 #spoiler-toggle {
+    all: unset;
+
     display: none;
     cursor: pointer;
 
     &:hover {
         text-decoration: underline;
+    }
+
+    &:focus {
+        outline: revert;
     }
 }
