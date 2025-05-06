@@ -3,24 +3,24 @@ layout: default
 ---
 
 <article class="post">
-    <h4>
-        {% assign url_parts = page.url | split: "/" %}
-        {% for item in url_parts %}
-        {% assign url = url_parts | slice: 0, forloop.index | join: "/" | append: "/" %}
-        {% assign linked_page = site.pages | where: "url", url | first %}
-        {% if linked_page %}
-        {% if forloop.first == true %}
-        <a href="{{ '/' | relative_url }}">Home</a>
-        &gt;
-        {% elsif forloop.last == true %}
-        {{ linked_page.title }}
-        {% else %}
-        <a href="{{ site.baseurl }}{{ linked_page.url }}">{{ linked_page.title }}</a>
-        &gt;
-        {% endif %}
-        {% endif %}
-        {% endfor %}
-    </h4>
+    <nav class="crumbs">
+        <ol>
+            {% assign url_parts = page.url | split: "/" %}
+            {% for item in url_parts %}
+                {% assign url = url_parts | slice: 0, forloop.index | join: "/" | append: "/" %}
+                {% assign linked_page = site.pages | where: "url", url | first %}
+                {% if linked_page %}
+                    {% if forloop.first %}
+                        <li><span><a href="{{ '/' | relative_url }}">Home</a></span></li>
+                    {% elsif forloop.last %}
+                        <li>{{ linked_page.title }}</li>
+                    {% else %}
+                        <li><span><a href="{{ site.baseurl }}{{ linked_page.url }}">{{ linked_page.title }}</a></span></li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </ol>
+    </nav>
 
     <header class="post-header">
         <h1 class="post-title">{{ page.title | escape }}</h1>

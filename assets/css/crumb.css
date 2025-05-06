@@ -1,0 +1,13 @@
+.crumbs {
+    & ol {
+        padding: initial;
+    }
+
+    & li {
+        display: inline;
+
+        & span::after {
+            content: " >";
+        }
+    }
+}
