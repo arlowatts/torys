@@ -1,5 +1,9 @@
 ---
 title: Lord Calas
+layout: character
+personality:
+motives:
+background:
 ---
 
 Lord Calas, a strong-minded and long-lived elf, has been the ruler of [[Sibal]] for nearly a century. Under his rule, the nearby countries of [[Andal]], [[Leuber]], [[Soale]], and [[Arastes]] have thrived on Sibal's commerce and the merchants of Sibal have profited immensely.
