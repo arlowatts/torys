@@ -27,7 +27,8 @@ layout: default
     </header>
 
     <div class="post-content">
-        {%- for chunk in content | split: "[[" -%}
+        {%- assign chunks = content | split: "[[" -%}
+        {%- for chunk in chunks -%}
             {%- if forloop.first -%}
                 {{ chunk }}
             {%- else -%}
