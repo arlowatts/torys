@@ -35,12 +35,9 @@ layout: default
                 {%- assign chunk_parts = chunk | split: "]]" -%}
                 {%- assign link_text = chunk_parts | first -%}
                 {%- assign remaining_content = chunk_parts | last -%}
-                {%- assign link_slug = link_text | slugify -%}
-                {{ link_slug }}
-                {{ page.slug }}
-                {%- assign linked_page = site.pages | where: "slug", link_slug | first -%}
+                {%- assign linked_page = site.pages | where: "title", link_text | first -%}
                 {%- if linked_page -%}
-                    <a href="{{ site.baseurl }}{{ linked_page.url }}">{{ linked_page.title }}</a>
+                    <a href="{{ site.baseurl }}{{ linked_page.url }}">{{ link_text }}</a>
                 {%- else -%}
                     <span class="broken-link">{{ link_text }}</span>
                 {%- endif -%}
