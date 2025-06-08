@@ -13,7 +13,7 @@ layout: default
                     {%- if forloop.first -%}
                         <li><span><a href="{{ '/' | relative_url }}">Home</a></span></li>
                     {%- elsif forloop.last -%}
-                        <li>{{ linked_page.title }}</li>
+                        <li>{{ linked_page.title | escape }}</li>
                     {%- else -%}
                         <li><span><a href="{{ site.baseurl }}{{ linked_page.url }}">{{ linked_page.title | escape }}</a></span></li>
                     {%- endif -%}
