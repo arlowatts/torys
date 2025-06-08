@@ -27,7 +27,15 @@ layout: default
     </header>
 
     <div class="post-content">
-        {{ content }}
+        {%- for chunk in content | split: "[[" -%}
+            {%- if forloop.first -%}
+                {{ chunk }}
+            {%- else -%}
+                {%- assign chunk_parts = chunk | split: "]]" -%}
+                <span style="color: blue;">{{ chunk_parts[0] }}</span>
+                {{ chunk_parts[1] }}
+            {%- endif -%}
+        {%- endfor -%}
     </div>
 
 </article>
