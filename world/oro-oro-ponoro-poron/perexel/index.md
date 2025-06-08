@@ -5,7 +5,8 @@ layout: page
 
 Perexel is a small but ancient clan, and is allied with [[Bekebel]]. Unlike most clans on Oro-oro-ponoro-poron, Perexel worships no dragon. They live beneath the trees in the jungle around [[Bekebel Citadel]] and are unrivaled in their knowledge of the jungle.
 
-<spoiler>
+<div class="spoiler">
+
 ## The Legend of Dreth the Merciless
 
 [[Dreth the Merciless]] was a powerful druid of the Perexel clan. She lived many centuries ago, when Perexel still worshiped the wyverns of the jungle. Dreth, having great ambition, leveraged her druidic powers to gain influence and control in the clan, all but supplanting its leader. But leading the clan was not enough for Dreth the Merciless. She sought greater and greater power, never satisfied with what she had. Then, during the longest night of the year, she discovered the shadow dragon [[Ice]] resting in a shallow cave. Dreth addressed the dragon.
@@ -40,4 +41,4 @@ Soon she could see nothing at all, but she did not know it for she had closed he
 
 The Perexel clan's village was ruined, and many of its people killed, by Dreth's fire. Not knowing if the dragon would return, they fled their village and hid in the jungle. They hid themselves even from the small wyverns, whom they used to worship, afraid that they may be angry with the clan for Dreth's disloyalty. Though they never again saw Dreth or Ice or any other shadow dragon, the Perexel clan did not return to their village. To this day, they live under the stars and keep only those belongings which they can carry. They worship no dragons and serve no master, recalling the devastation of centuries past.
 
-</spoiler>
+</div>
