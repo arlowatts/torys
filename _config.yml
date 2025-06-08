@@ -4,6 +4,6 @@ author:
   name: Arlo Watts
   email: arlowatts1@gmail.com
 
-remote_theme: jekyll/minima@c6e74bb
+remote_theme: jekyll/minima@v2.5.2
 
 permalink: /:path/:basename/
