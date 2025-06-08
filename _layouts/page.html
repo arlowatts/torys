@@ -39,10 +39,12 @@ layout: base
                 {%- assign link_text = link | first -%}
                 {%- assign link_title = link | last -%}
                 {%- assign linked_page = site.pages | where: "title", link_title | first -%}
-                {%- if linked_page == page -%}
-                    <span class="self-link">{{ link_text }}</span>
-                {%- elsif linked_page -%}
-                    <a href="{{ site.baseurl }}{{ linked_page.url }}">{{ link_text }}</a>
+                {%- if linked_page -%}
+                    {%- if linked_page.url == page.url -%}
+                        <span class="self-link">{{ link_text }}</span>
+                    {%- else -%}
+                        <a href="{{ site.baseurl }}{{ linked_page.url }}">{{ link_text }}</a>
+                    {%- endif -%}
                 {%- else -%}
                     <span class="broken-link">{{ link_text }}</span>
                 {%- endif -%}
