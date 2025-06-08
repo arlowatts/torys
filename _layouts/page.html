@@ -36,11 +36,13 @@ layout: default
                 {%- assign link_text = chunk_parts | first -%}
                 {%- assign remaining_content = chunk_parts | last -%}
                 {%- assign link_slug = link_text | slugify -%}
+                {{ link_slug }}
+                {{ page.slug }}
                 {%- assign linked_page = site.pages | where: "slug", link_slug | first -%}
                 {%- if linked_page -%}
                     <a href="{{ site.baseurl }}{{ linked_page.url }}">{{ linked_page.title }}</a>
                 {%- else -%}
-                    <span style="color: red;">{{ link_text }}</span>
+                    <span class="broken-link">{{ link_text }}</span>
                 {%- endif -%}
                 {{ remaining_content }}
             {%- endif -%}
