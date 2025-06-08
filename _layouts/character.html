@@ -6,18 +6,12 @@ layout: page
 
 <h2 id="personality" class="spoiler">Personality</h2>
 
-{%- for paragraph in page.personality -%}
-    <p class="spoiler">{{ paragraph | markdownify | escape }}</p>
-{%- endfor -%}
+{{ page.personality | markdownify | escape }}
 
 <h2 id="motives" class="spoiler">Motives</h2>
 
-{%- for paragraph in page.motives -%}
-    <p class="spoiler">{{ paragraph | markdownify | escape }}</p>
-{%- endfor -%}
+{{ page.motives | markdownify | escape }}
 
 <h2 id="background" class="spoiler">Background</h2>
 
-{%- for paragraph in page.background -%}
-    <p class="spoiler">{{ paragraph | markdownify | escape }}</p>
-{%- endfor -%}
+{{ page.background | markdownify | escape }}
