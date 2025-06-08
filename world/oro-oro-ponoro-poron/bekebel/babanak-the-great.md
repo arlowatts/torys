@@ -1,11 +1,11 @@
 ---
 title: Babanak the Great
 layout: character
-personality: |
+personality:
     'Babanak sees the world through a critical and self-centered lens, evaluating his experiences only in terms of the impact they have had on him. He is efficient and judgmental, being nearly as critical of others as he is of himself. Nonetheless, he feels a great pride in his position of power---a pride which has made him arrogant and insensitive in recent years. He takes insults to heart and allows them to feed his self-doubt, a behavior he conceals by responding with notoriously fierce rebukes.'
-motives: |
+motives:
     'Babanak acts in accordance with a complex array of desires. His primary motive, always looming above the others, is the need for excellence. He sets high standards for himself over and above the expectations others have of him, and he goes to great lengths to attain them. He is also motivated by his desire for power. Though he would be ashamed to admit it, much of what Babanak does as the leader of the Bekebel clan is engineered to further elevate his standing. Third, Babanak seeks security for his clan, placing its safety above his own. He works tirelessly to anticipate potential threats to the Bekebel and to take preventative measures against them. Finally, Babanak acts in accordance with his mostly private relationship with [[Tantan the Inventor]]. Many of Babanak''s seemingly uncharacteristic decisions can be explained by his consideration for Tantan.'
-background: |
+background:
     'Babanak was born to [[Gava the Supreme]], the ruler of the Bekebel clan, and [[Nort the Pyromancer]], the greatest sorcerer in the clan''s history. Nort died in battle defending the clan from the [[Lukurru]] before Babanak was born, leaving him with a fractured childhood. Many suitors offered to help Gava raise her son while she ruled the clan, but she spurned them and chose to instead take Babanak''s upbringing into her own hands.
 
     Throughout Babanak''s childhood, Gava raised him with the intention that he would one day succeed her as the clan''s leader. She brought Babanak to every council meeting, invited him to read every diplomatic letter, and shared her reasonings with him at every hour of the day. This gave Babanak a brilliant political intuition, a trait he still exhibits. She also regaled him with stories of her and Nort''s exploits---in particular, their hard-won victories. She reminded Babanak daily that she and Nort had risen to power from humble beginnings, and that she knew Babanak would similarly achieve greatness. She rarely told him of their failures, though, and she spoke of Nort''s death as unavoidable and tragic. Consequently, Babanak always thought of his parents as unattainable ideals, to be forever approached but never reached. Each of his failures pained him deeply, and they still do.
