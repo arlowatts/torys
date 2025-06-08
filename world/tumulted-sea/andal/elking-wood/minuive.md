@@ -1,5 +1,5 @@
 ---
-title: Minu'ive
+title: Minu&rsquo;ive
 ---
 
 Minu'ive is the eldest son of [[Oeged Naaftet Oecheisev]] and [[Shilii Naaftet Anthia]]. He fled into the forest with his younger brother Ca'ive when their father transformed himself into a shadow dragon and destroyed their kingdom.

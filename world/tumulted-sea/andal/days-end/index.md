@@ -1,5 +1,5 @@
 ---
-title: Day's End
+title: Day&rsquo;s End
 ---
 
 Day's End is a foresting outpost located near the [[Evening Horizon]] in the province of [[Andal]]. Day's End hosts a modest population of 800---mostly foresters, but also millers, blacksmiths, and farmers. Most of the population lives inside the walls, but about 100 live on the farms outside.

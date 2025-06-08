@@ -1,5 +1,5 @@
 ---
-title: Tantan's Dying Wish
+title: Tantan&rsquo;s Dying Wish
 ---
 
 Tantan's Dying Wish is a puzzling murder mystery that takes place in [[Bekebel Citadel]] at the wedding of [[Tantan the Inventor]] to [[Babanak the Great]], ruler of the [[Bekebel]] clan. The long-awaited marriage sets the stage for complex plots and political machinations, which the players must unravel to catch the crook before a red dawn rises.

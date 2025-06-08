@@ -1,5 +1,5 @@
 ---
-title: Tuvdak's Gift
+title: Tuvdak&rsquo;s Gift
 ---
 
 [[Tuvdak's Gift]] is a lighthearted standalone adventure designed to be completed in one session. The adventure takes place in [[Bekebel Citadel]], beneath the shadow of the fiery volcano on [[Oro-oro-ponoro-poron]].
