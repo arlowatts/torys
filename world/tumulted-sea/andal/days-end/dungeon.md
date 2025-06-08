@@ -1,5 +1,5 @@
 ---
-title: Dungeon of Day&rsquo;s End
+title: "Dungeon of Day\u2019s End"
 ---
 
 The small town of [[Day's End]] is hiding an ancient secret; under the [[Mayoral Seat]] is a set of large chambers, magically sealed since the time of the last elven king, [[Oeged Naaftet Oecheisev]]. However, the passing of centuries has weakened the magic around the door. Another entrance, hidden under a pond in the [[Day's End Graveyard]], has not been touched in centuries.
