@@ -1,8 +1,11 @@
 ---
 title: Tyagr
 layout: character
+
 personality:
+
 motives:
+
 background:
 ---
 

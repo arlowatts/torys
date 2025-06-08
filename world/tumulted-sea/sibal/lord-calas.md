@@ -1,8 +1,11 @@
 ---
 title: Lord Calas
 layout: character
+
 personality:
+
 motives:
+
 background:
 ---
 

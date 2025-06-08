@@ -1,9 +1,12 @@
 ---
 title: Semeret the Motherly
 layout: character
+
 personality:
-- 'Semeret takes on a gentle tone, even when pressed. She is often willing to compromise and is nearly incapable of lying, qualities which make some doubt Dagana''s wisdom in selecting her to lead. Nonetheless, she holds the clan''s survival and success in the highest regard and makes many personal sacrifices for the greater good.'
+    'Semeret takes on a gentle tone, even when pressed. She is often willing to compromise and is nearly incapable of lying, qualities which make some doubt Dagana''s wisdom in selecting her to lead. Nonetheless, she holds the clan''s survival and success in the highest regard and makes many personal sacrifices for the greater good.'
+
 motives:
+
 background:
 ---
 

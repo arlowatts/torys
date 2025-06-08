@@ -1,8 +1,11 @@
 ---
 title: Lord Tayossa
 layout: character
+
 personality:
+
 motives:
+
 background:
 ---
 

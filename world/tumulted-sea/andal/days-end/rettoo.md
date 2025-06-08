@@ -1,8 +1,11 @@
 ---
 title: Rettoo
 layout: character
+
 personality:
+
 motives:
+
 background:
 ---
 

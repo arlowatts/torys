@@ -1,9 +1,12 @@
 ---
 title: Takala the Spellmaster
 layout: character
+
 personality:
+
 motives:
-- 'Takala is committed to seeing that past return and has been scheming for many years to replace [[Dagana the Azure Death]] with [[Kormak the Havoc Raiser]] when Dagana dies. Kormak is an unstoppable killer and thrives on victory in battle, much like Dagana in her youth.'
+    'Takala is committed to seeing that past return and has been scheming for many years to replace [[Dagana the Azure Death]] with [[Kormak the Havoc Raiser]] when Dagana dies. Kormak is an unstoppable killer and thrives on victory in battle, much like Dagana in her youth.'
+
 background:
 ---
 

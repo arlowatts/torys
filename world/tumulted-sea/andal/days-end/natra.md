@@ -1,8 +1,11 @@
 ---
 title: Natra
 layout: character
+
 personality:
+
 motives:
+
 background:
 ---
 

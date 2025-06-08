@@ -1,8 +1,11 @@
 ---
 title: Quabreet
 layout: character
+
 personality:
+
 motives:
+
 background:
 ---
 

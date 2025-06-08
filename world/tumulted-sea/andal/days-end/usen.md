@@ -1,8 +1,11 @@
 ---
 title: Usen
 layout: character
+
 personality:
+
 motives:
+
 background:
 ---
 

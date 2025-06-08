@@ -1,8 +1,11 @@
 ---
 title: Lord Chewan
 layout: character
+
 personality:
+
 motives:
+
 background:
 ---
 
