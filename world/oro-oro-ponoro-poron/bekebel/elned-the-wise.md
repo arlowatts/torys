@@ -12,7 +12,7 @@ background:
     'Elned grew up during the [[Siege of Bekebel Citadel]], the zenith of the conflict between the Bekebel and the Lukurru. For seven years, legions of Lukurru soldiers fought to breach the walls of the citadel. By the time the Lukurru finally retreated, both clans had suffered tremendous losses. Nonetheless, skirmishes continued around the border between the clans territories for decades to come.
 
 
-    As a result, Elned''s childhood was spent mostly underground in [[Bekebel Citadel]]''s tunnels. Until the siege ended, she had no education, and she was raised mostly on preserved food and propaganda. Later, like many others whose childhoods were turned upside-down by the war, she returned to school and began to learn metalworking.
+    As a result, Elned''s childhood was spent mostly underground in [[Bekebel|Bekebel Citadel]]''s tunnels. Until the siege ended, she had no education, and she was raised mostly on preserved food and propaganda. Later, like many others whose childhoods were turned upside-down by the war, she returned to school and began to learn metalworking.
 
 
     Elned excelled in her studies and soon became an apprentice to [[Lubu the Artificer]], who taught her how to weave enchantments into metal. Over the years, Elned''s abilities as a sorcerer slowly emerged and she became capable of imbuing metal with magic of unprecedented potency. When Lubu retired, Elned took over her shop and school and continued to develop new arts of metallurgy and enchantment.

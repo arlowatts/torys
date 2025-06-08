@@ -3,7 +3,7 @@ title: "Tuvdak\u2019s Gift"
 layout: story
 
 overview:
-    'Tuvdak''s Gift is a lighthearted standalone adventure designed to be completed in one session. The adventure takes place in [[Bekebel Citadel]], beneath the shadow of the fiery volcano on [[Oro-oro-ponoro-poron]].
+    'Tuvdak''s Gift is a lighthearted standalone adventure designed to be completed in one session. The adventure takes place in [[Bekebel|Bekebel Citadel]], beneath the shadow of the fiery volcano on [[Oro-oro-ponoro-poron]].
 
 
     The first chapter of Tuvdak''s Gift introduces the [[Crown of Magnificence]] and explains its importance as a gift to [[Tuvdak the Magnificent]]. It also covers the characters'' perspective of the incident causing its loss.
@@ -27,7 +27,7 @@ overview:
     During this time, the characters may wish to search the private chambers of [[Paparnad the Mystic]]. In Paparnad''s rooms, they might find a hidden note leading them deeper into the tunnels in pursuit.
 
 
-    The third chapter details the characters'' pursuit of Paparnad through the tunnels and caverns below [[Bekebel Citadel]]. Along the way they might find hints of Paparnad''s passing, and magical tools like the [[Gorgor Counter]] will help them find their way. As they descend ever deeper, leaving the smooth tunnels behind and entering the natural caves, the characters will have to fight dark monsters and might encounter an unfriendly dragon.
+    The third chapter details the characters'' pursuit of Paparnad through the tunnels and caverns below [[Bekebel|Bekebel Citadel]]. Along the way they might find hints of Paparnad''s passing, and magical tools like the [[Gorgor Counter]] will help them find their way. As they descend ever deeper, leaving the smooth tunnels behind and entering the natural caves, the characters will have to fight dark monsters and might encounter an unfriendly dragon.
 
 
     The fourth and final chapter sees the characters finally catch up to Paparnad above a deep chasm flooded with magma. The climactic battle hopefully ends with the characters defeating Paparnad and retrieving the crown. The chapter ends as the characters return with the crown and personally present it to [[Tuvdak the Magnificent]]. Now, having received a preferable replacement, Tuvdak drops his older crown on the ground in front of the characters as though to reward them for their tremendous efforts.'
@@ -137,7 +137,7 @@ chapters:
 
     - She gave the crown to Paparnad at 229 Soot road.
 
-    - Paparnad intends to leave [[Bekebel Citadel]] via a little-known exit from a natural cave deep underground.
+    - Paparnad intends to leave [[Bekebel|Bekebel Citadel]] via a little-known exit from a natural cave deep underground.
 
     - Paparnad wants to take the crown into the jungle and magically destroy it in the name of the black dragon [[Ice]], proving his devotion and his worth.
 
@@ -155,7 +155,7 @@ chapters:
     ### The Great Hall
 
 
-    The players may wish to start their investigations in the Great Hall, where the crown fell into the crowd. Since [[Bekebel Great Hall]] stands at a crossroads of many important tunnels beneath the [[Bekebel Citadel]], it is normally filled with kobolds running to and fro. However, since the lockdown was imposed on the entire citadel, the Great Hall stands eerily empty. The characters'' footsteps echo beneath the lofty ceiling, and the rope Taccar swung from still hangs above the stage.
+    The players may wish to start their investigations in the Great Hall, where the crown fell into the crowd. Since [[Bekebel Great Hall]] stands at a crossroads of many important tunnels beneath the [[Bekebel|Bekebel Citadel]], it is normally filled with kobolds running to and fro. However, since the lockdown was imposed on the entire citadel, the Great Hall stands eerily empty. The characters'' footsteps echo beneath the lofty ceiling, and the rope Taccar swung from still hangs above the stage.
 
 
     The characters might start by finding the place where the [[Crown of Magnificence]] landed in the crowd. In fact, just where they would expect the crown to have fallen, the stone is blackened and cracked, as though lightning had struck the ground. The Gorgor Counter clicks when brought close.
@@ -204,7 +204,7 @@ chapters:
     ### 229 Soot Road
 
 
-    The first stage of the pursuit is to find 229 Soot road in the labyrinth of tunnels beneath [[Bekebel Citadel]]. Soot road is part of the citadel''s network of heavily industrial alleys, far beneath the surface. Characters that have some experience either in patrolling, metalworking, or tunneling will likely know where Soot road is and will know how to get there. Other characters might not have heard of it before, since most inhabitants of Bekebel Citadel rarely visit its deeper sections. However, it is not difficult to ask for directions from a patrol, and any soldiers will be able to tell the characters where Soot road is.
+    The first stage of the pursuit is to find 229 Soot road in the labyrinth of tunnels beneath [[Bekebel|Bekebel Citadel]]. Soot road is part of the citadel''s network of heavily industrial alleys, far beneath the surface. Characters that have some experience either in patrolling, metalworking, or tunneling will likely know where Soot road is and will know how to get there. Other characters might not have heard of it before, since most inhabitants of Bekebel Citadel rarely visit its deeper sections. However, it is not difficult to ask for directions from a patrol, and any soldiers will be able to tell the characters where Soot road is.
 
 
     The building located at 229 Soot road is an abandoned forge. Everything except the anvil, the forge itself, and the heavy workbench has been taken away. The building hasn''t been used for any real work in years, but it has a secret that few know: behind the workbench is a rough tunnel leading down into the rock. The tunnel is the reason Paparnad chose this location to hand off the crown, as he could quickly slip away without any risk of being seen. Paparnad did not tell anyone about the secret tunnel, including Satasha---she thinks he must have left by the building''s only door.
@@ -234,7 +234,7 @@ chapters:
     ### Rockbreaker Grotto
 
 
-    [[Rockbreaker Grotto]] is a natural cave in the bowels of [[Oro-oro-ponoro-poron]], where magma flows unhindered and dark monsters play predator and prey. Rockbreaker Grotto was not always connected to [[Bekebel Citadel]]---only recent tunneling developments have opened these passages. Throughout the caverns, magma flows cast an uneven light on massive stalagmites and dark openings. At first glance, the convoluted network of chambers seems to be altogether labyrinthine---however, the passages quickly converge and it is well within any adventurer''s capabilities to keep their heading.
+    [[Rockbreaker Grotto]] is a natural cave in the bowels of [[Oro-oro-ponoro-poron]], where magma flows unhindered and dark monsters play predator and prey. Rockbreaker Grotto was not always connected to [[Bekebel|Bekebel Citadel]]---only recent tunneling developments have opened these passages. Throughout the caverns, magma flows cast an uneven light on massive stalagmites and dark openings. At first glance, the convoluted network of chambers seems to be altogether labyrinthine---however, the passages quickly converge and it is well within any adventurer''s capabilities to keep their heading.
 
 
     As [[Paparnad the Mystic]] passed through here not long before the characters arrived, he raised a bit of a stir among the wildlife in the caverns. As the characters move among the stalagmites and navigate around steep ledges, they may encounter hungry dark-dwelling creatures. Further traces of Paparnad''s passing include more torn scraps of his Cloak of Invisibility---the delicate fabric tore in many places as he attempted to move through the stalagmites, leaving behind a trail that is best followed with the aid of a Gorgor Counter.
@@ -261,7 +261,7 @@ chapters:
     > You passed by here not two hundred heartbeats hence---don''t think I didn''t hear your ruckus! And now you return, seemingly to taunt me. Why are you here? Why are *you* in Rockbreaker Grotto?
 
 
-    The characters should recognize that fighting any dragon, even one as young as Imbur, is far beyond their abilities. Instead, they should try to convice Imbur to let them pass. Despite his initial intimidation tactics, Imbur has no intention of killing the characters and will only fight them if they make the first move. He is, however, interested in their treasures and will try to persuade them to give him something. He is easily distracted by promises of great treasures and loves to imagine himself in possession of epic wealth. His greatest fear is that the [[Bekebel]] clan will someday decide to expand [[Bekebel Citadel]] into [[Rockbreaker Grotto]], forcing him to find a new lair.
+    The characters should recognize that fighting any dragon, even one as young as Imbur, is far beyond their abilities. Instead, they should try to convice Imbur to let them pass. Despite his initial intimidation tactics, Imbur has no intention of killing the characters and will only fight them if they make the first move. He is, however, interested in their treasures and will try to persuade them to give him something. He is easily distracted by promises of great treasures and loves to imagine himself in possession of epic wealth. His greatest fear is that the [[Bekebel]] clan will someday decide to expand [[Bekebel|Bekebel Citadel]] into [[Rockbreaker Grotto]], forcing him to find a new lair.
 
 
     Imbur assumes it was the characters he heard pass through the cavern earlier, but it was actually Paparnad. If the characters make this clear to Imbur and ask him pointed questions, he can point them in Paparnad''s direction.'
@@ -280,7 +280,7 @@ chapters:
     During the encounter, role-play Paparnad with the following information. Note that he will not necessarily tell the characters everything right away---however, until the fight starts going badly for him, he believes his scheme cannot fail.
 
 
-    - Paparnad sought [[Ice]]''s blessing independently of his arcane studies. For many years, he has been reading every text about Ice he could find. He has read many tales of individuals gaining remarkable powers from Ice, and many more accounts of failed attempts. Paparnad thinks himself worthy, however, due to his notable magical abilities. Knowing that he would need an artifact of unusual power to impress Ice, he chose to steal the [[Crown of Magnificence]], which he helped create. The crown is one of the most highly magical artifacts ever created in [[Bekebel Citadel]], and Paparnad is planning to destroy the crown in Ice''s name. Performing the act at midnight during the longest night of the year will make his scheme more likely to succeed.
+    - Paparnad sought [[Ice]]''s blessing independently of his arcane studies. For many years, he has been reading every text about Ice he could find. He has read many tales of individuals gaining remarkable powers from Ice, and many more accounts of failed attempts. Paparnad thinks himself worthy, however, due to his notable magical abilities. Knowing that he would need an artifact of unusual power to impress Ice, he chose to steal the [[Crown of Magnificence]], which he helped create. The crown is one of the most highly magical artifacts ever created in [[Bekebel|Bekebel Citadel]], and Paparnad is planning to destroy the crown in Ice''s name. Performing the act at midnight during the longest night of the year will make his scheme more likely to succeed.
 
     - His plan to steal the crown involved his two students, [[Taccar the Arcane]] and [[Satasha the Runed]]. Taccar swung from a rope in [[Bekebel Great Hall]] and knocked the crown into the crowd, where Satasha grabbed it and fled under the cover of the Cloak of Invisibility. He has been planning the theft with their help for several months, but he has been teaching them about Ice for much longer to ensure their loyalty. He promised them a share of Ice''s power---however, recognizing that it may be impossible to divide Ice''s blessing among them, he further guaranteed that they would be considered his equals in the reformed Bekebel clan. He means to uphold his promises.
 
@@ -293,7 +293,7 @@ chapters:
     ### Meeting Tuvdak
 
 
-    Hopefully, the characters will somehow reclaim the crown from Paparnad. When they do, they face the final challenge of delivering it to [[Tuvdak the Magnificent]] at the surface of the citadel. By this time, the sun no longer shines through the exit tunnel and has nearly set completely. The quickest path the characters can take to the surface is to go up the same way they came down, as long as they can remember the full route. Fortunately, they will pass many familiar landmarks on the return journey---[[Imbur the Crowned]], who may still be near his lair; the stalagmite caverns in [[Rockbreaker Grotto]]; the rough tunnels at the bottom of [[Bekebel Citadel]]; the narrow passage leading back up to 229 Soot road; and finally the winding streets and alleys all the way up to the Great Hall.
+    Hopefully, the characters will somehow reclaim the crown from Paparnad. When they do, they face the final challenge of delivering it to [[Tuvdak the Magnificent]] at the surface of the citadel. By this time, the sun no longer shines through the exit tunnel and has nearly set completely. The quickest path the characters can take to the surface is to go up the same way they came down, as long as they can remember the full route. Fortunately, they will pass many familiar landmarks on the return journey---[[Imbur the Crowned]], who may still be near his lair; the stalagmite caverns in [[Rockbreaker Grotto]]; the rough tunnels at the bottom of [[Bekebel|Bekebel Citadel]]; the narrow passage leading back up to 229 Soot road; and finally the winding streets and alleys all the way up to the Great Hall.
 
 
     Finding the Great Hall still vacant, the characters must hurry up to the large open square above it where Tuvdak is just now descending from the sky. Surrounded by a large crowd, [[Babanak the Great]] is kneeling on the ground in front of Tuvdak, a solemn expression on his face. As the characters emerge with the [[Crown of Magnificence]] in hand, Babanak visibly sighs in relief but quickly regains his composure. As Tuvdak lands, Babanak greets him.
