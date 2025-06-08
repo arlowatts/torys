@@ -4,28 +4,20 @@ layout: page
 
 {{ content }}
 
-<!--<h2 id="personality" class="spoiler">Personality</h2>
+<h2 id="personality" class="spoiler">Personality</h2>
 
-<p class="spoiler">{{ page.personality }}</p>
+{%- for paragraph in page.personality -%}
+    <p class="spoiler">{{ paragraph | escape }}</p>
+{%- endfor -%}
 
 <h2 id="motives" class="spoiler">Motives</h2>
 
-<p class="spoiler">{{ page.motives }}</p>-->
+{%- for paragraph in page.motives -%}
+    <p class="spoiler">{{ paragraph | escape }}</p>
+{%- endfor -%}
 
 <h2 id="background" class="spoiler">Background</h2>
 
-<h1>1</h1>
-
-<p class="spoiler">{{ page.background }}</p>
-
-<h1>2</h1>
-
-{%- for item in page.background -%}
-    <p class="spoiler">{{ item }}</p>
-{%- endfor -%}
-
-<h1>3</h1>
-
-{%- for item in page.background | split "\n" -%}
-    <p class="spoiler">{{ item }}</p>
+{%- for paragraph in page.background -%}
+    <p class="spoiler">{{ paragraph | escape }}</p>
 {%- endfor -%}
