@@ -1,3 +1,7 @@
 .broken-link {
+    color: darkred;
+}
+
+.self-link {
     color: red;
 }
