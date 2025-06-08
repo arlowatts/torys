@@ -5,7 +5,7 @@ layout: page
 
 Perexel is a small but ancient clan, and is allied with [[Bekebel]]. Unlike most clans on Oro-oro-ponoro-poron, Perexel worships no dragon. They live beneath the trees in the jungle around [[Bekebel Citadel]] and are unrivaled in their knowledge of the jungle.
 
-<div class="spoiler">
+<div class="spoiler" markdown="block">
 
 ## The Legend of Dreth the Merciless
 
@@ -18,6 +18,10 @@ Ice replied,
 > You have ambition, Dreth, but not strength. You cannot have my power.
 
 Disappointed, Dreth left and returned to her clan. For a year, Dreth honed her magic and increased her abilities tenfold. She hid the truth of her meeting with Ice, afraid of her clan's judgement if she were to fail the dragon's test a second time. Then, again on during the longest night of the year, Dreth returned to the same site and found the dragon waiting for her. Again she addressed Ice.
+
+</div>
+
+<div class="spoiler" markdown="1">
 
 > Ice, dragon of shadow. I have gazed upon lands no other eyes have seen and formed spells no other hand has cast. I am great but I could be greater. Will you not grant your power to me?
 
@@ -33,9 +37,17 @@ This time, Ice thought for a moment. Then it said,
 
 > Dreth, you have demonstrated your power and proven your devotion. I will give you what you ask for. But my power cannot be held unless you release the shackles binding you to this world. Will you agree?
 
+</div>
+
+<div class="spoiler" markdown="span">
+
 Dreth agreed immediately. When she did, the amulet crumbled to dust in her hands and she felt her magic leave her. Her physical strength also vanished, and her vision darkened. She turned to speak with Ice, but she found that the dragon had gone. With no strength left in her, Dreth collapsed in the shallow cave.
 
 She awoke early the next morning and began to walk towards her village. As she trudged weakly through the forest, she found that the thick undergrowth and tangling vines no longer hindered her progress---she moved through them as though through shallow water. Knowing this to be the magic of Ice, she continued. The longer she walked the faster she ran, and the more joyous she became, until even the mightiest trees proved no obstacle for Dreth. In her elation, she hardly noticed that her vision was darkening more and more.
+
+</div>
+
+<div class="spoiler" markdown="0">
 
 Soon she could see nothing at all, but she did not know it for she had closed her eyes against the rushing air. She flew now, on dragon's wings, and the land itself moved aside to let her pass. As she glided through the jungle, she felt a welling in her chest and exhaled black fire before her. But she did not know that she had reached her village, and the black fire destroyed many of her clan's houses before she passed through and disappeared into the jungle. Then, lost in the joy of flight, Dreth soared for many years before she finally opened her eyes. When she did, she called herself Ice and remembered nothing of her past or of the Perexel clan.
 
