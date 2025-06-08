@@ -32,4 +32,4 @@ motives:
 background:
 ---
 
-During his lifetime, Oeded Naaftet Oecheisev was the king of a vast elven domain spanning much of [[Elking Wood]] and the [[Morku Plain]].
+During his lifetime, Oeged Naaftet Oecheisev was the king of a vast elven domain spanning much of [[Elking Wood]] and the [[Morku Plain]].
