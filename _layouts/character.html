@@ -1,20 +1,6 @@
----
+--
 layout: page
 ---
-            {%- assign url_parts = page.url | split: "/" -%}
-            {%- for item in url_parts -%}
-                {%- assign url = url_parts | slice: 0, forloop.index | join: "/" | append: "/" -%}
-                {%- assign linked_page = site.pages | where: "url", url | first -%}
-                {%- if linked_page -%}
-                    {%- if forloop.first -%}
-                        <li><span><a href="{{ '/' | relative_url }}">Home</a></span></li>
-                    {%- elsif forloop.last -%}
-                        <li>{{ linked_page.title }}</li>
-                    {%- else -%}
-                        <li><span><a href="{{ site.baseurl }}{{ linked_page.url }}">{{ linked_page.title }}</a></span></li>
-                    {%- endif -%}
-                {%- endif -%}
-            {%- endfor -%}
 
 {{ content }}
 
@@ -28,6 +14,18 @@ layout: page
 
 <h2 id="background" class="spoiler">Background</h2>
 
-{%- for item in {{ page.background }} -%}
+<h1>1</h1>
+
+<p class="spoiler">{{ page.background }}</p>
+
+<h1>2</h1>
+
+{%- for item in page.background -%}
+    <p class="spoiler">{{ item }}</p>
+{%- endfor -%}
+
+<h1>3</h1>
+
+{%- for item in page.background | split "\n" -%}
     <p class="spoiler">{{ item }}</p>
 {%- endfor -%}
