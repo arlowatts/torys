@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<div class="spoiler">
+
+    <h2>Overview</h2>
+
+    {{ page.overview | markdownify }}
+
+    {%- for chapter in page.chapters -%}
+
+        <h2>{{ chapter.title | escape }}</h2>
+
+        <h3>Chapter {{ forloop.index }}</h3>
+
+        {{ chapter.content | markdownify }}
+
+    {%- endfor -%}
+
+</div>
