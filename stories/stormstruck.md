@@ -4,7 +4,9 @@ title: Stormstruck
 
 Stormstruck is an adventure for 5th-level characters and follows events beginning in [[Sibal]] and extending into [[Leuber]]. It is designed to be run in a single session of several hours with an experienced group. No initial understanding of the setting is expected.
 
-## Chapter 1 - Rising of the Seas
+## Rising of the Seas
+
+### Chapter 1
 
 The adventure begins in [[Trapwater Bay]], the main harbour of [[Sibal]]. This bay hosts Sibal's largest merchant ships and a good number of casual travelers every day. It is well-protected from strong winds by two artificial breakwaters on either side of the bay and [[Sibal City Hall]], Lord [[Calas Peesha]]'s place of governance, is a short ten-minute walk up the main street. Lord [[Chewan]] holds the position of harbourmaster in Trapwater Bay, an esteemed and powerful position.
 
@@ -34,11 +36,13 @@ The not-merfolk march up to Sibal City Hall without a word and the people let th
 
 Queen Ebb turns to leave and everyone in the square starts talking at once. Then, in case Queen Ebb's warning was not convincing enough, scouts begin to report a storm blowing in from the north. The news, both of Queen Ebb's visit and of the storm, travels quickly through the city and soon people can be seen with spyglasses looking north from any high place. There is indeed a storm there, and it is unusually large. The best estimates say it will hit Sibal by evening.
 
-As Queen Ebb and her guards leave, no-one tries to stop them. Queen Ebb refuses to make eye contact or speak with anyone. If the characters try to stop her and they get physical, her guards intervene on her behalf and try to dissuade the characters without causing real harm. Use the Gladiator stat block for each of them, with the modification that they can use their Parry reaction to deflect attacks against any ally within five feet. They will use force if necessary. The person disguised as Queen Ebb maintains the transmutation magic for the whole group - if she takes any damage, have her make a Constitution saving throw with a +2 modifier to maintain concentration on the spell. It takes 10 minutes for her to recast the spell. When the not-merfolk reach the water, they are seen swimming north before eventually disappearing out of sight.
+As Queen Ebb and her guards leave, no-one tries to stop them. Queen Ebb refuses to make eye contact or speak with anyone. If the characters try to stop her and they get physical, her guards intervene on her behalf and try to dissuade the characters without causing real harm. Use the Gladiator stat block for each of them, with the modification that they can use their Parry reaction to deflect attacks against any ally within five feet. They will use force if necessary. The person disguised as Queen Ebb maintains the transmutation magic for the whole group---if she takes any damage, have her make a Constitution saving throw with a +2 modifier to maintain concentration on the spell. It takes 10 minutes for her to recast the spell. When the not-merfolk reach the water, they are seen swimming north before eventually disappearing out of sight.
 
 Shortly after Queen Ebb and her entourage leave Sibal, the [[Eclipse]] occurs. Since this is a common occurrence, the people of the city are not put out by it. However, there is a certain chill that passes over the streets that can't be denied. As the sky darkens, the air cools and stills, the seabirds quiet, and everything seems altogether less.
 
-## Chapter 2 - Preparation
+## Preparation
+
+### Chapter 2
 
 In Sibal any goods can be purchased at a fair price, making travel preparation a breeze. Before the characters decide what to do, though, they may wish to speak with a few individuals to ask for advice or information.
 
@@ -66,9 +70,9 @@ Lord [[Chewan]] is the harbourmaster of [[Trapwater Bay]] and is furiously tryin
 
 #### Arian
 
-[[Arian]] is a highly eccentric elf artificer who has been developing and building a unique vessel for several years with funding from the [[University of Sibal]]. The characters may notice flashes of light like lightning strikes inside her workshop near the harbour, prompting comments from passersby. These flashes are from the welding tools she's using to add the final finishing touches to her vehicle. The door has a sign posted on it saying "Construction In Progress - IMPORTANT BUSINESS ONLY - Arian". If the characters knock on the door sufficiently loudly, Arian opens it half a minute later. She's wearing thick chain mail gauntlets and a welding visor, and before any introductions she says "Did you read the sign? It says IMPORTANT BUSINESS ONLY. Is your business IMPORTANT BUSINESS?" and glares at the characters through the narrow slit in her visor. They can see that Arian is standing in a large room, 50 feet on a side and with ceilings 20 feet high, in which a large metal arrow-shaped object is resting on wooden supports.
+[[Arian]] is a highly eccentric elf artificer who has been developing and building a unique vessel for several years with funding from the [[University of Sibal]]. The characters may notice flashes of light like lightning strikes inside her workshop near the harbour, prompting comments from passersby. These flashes are from the welding tools she's using to add the final finishing touches to her vehicle. The door has a sign posted on it saying "Construction In Progress---IMPORTANT BUSINESS ONLY---Arian". If the characters knock on the door sufficiently loudly, Arian opens it half a minute later. She's wearing thick chain mail gauntlets and a welding visor, and before any introductions she says "Did you read the sign? It says IMPORTANT BUSINESS ONLY. Is your business IMPORTANT BUSINESS?" and glares at the characters through the narrow slit in her visor. They can see that Arian is standing in a large room, 50 feet on a side and with ceilings 20 feet high, in which a large metal arrow-shaped object is resting on wooden supports.
 
-What Arian is building is an enclosed ship designed to move quickly, up to 5 miles per hour, without wind power. The vessel is long and narrow has no sails - its main mode of locomotion is two wings, reminiscent of those on an eel. This, combined with the low center of mass, makes the vessel extremely resilient to wind and allows it to travel mostly freely with its magically powered wings. Arian has named the vessel [[Finnigan's Knife]] after the legend of how the hero [[Finnigan]] split the sea in two to separate warring nations.
+What Arian is building is an enclosed ship designed to move quickly, up to 5 miles per hour, without wind power. The vessel is long and narrow has no sails---its main mode of locomotion is two wings, reminiscent of those on an eel. This, combined with the low center of mass, makes the vessel extremely resilient to wind and allows it to travel mostly freely with its magically powered wings. Arian has named the vessel [[Finnigan's Knife]] after the legend of how the hero [[Finnigan]] split the sea in two to separate warring nations.
 
 If the characters introduce themselves to Arian and tell her they want to travel towards the storm to find a way to stop it, she becomes interested. She tells the characters what she's working on and how she thinks it might be useful for traveling in stormy weather. She'll also happily talk about how the device works and offer to take them off the island in it. She emphasizes, though, that she doesn't know how far it could travel on stored magical power. If the characters still think it's a good idea, she'll have them climb in as she rolls it out the service door into the water. The entire vehicle is 30 feet long and 10 feet wide with 10 foot "wings" that emerge from the hull across the length of the vessel on either side. The inside, partially obstructed by large magical equipment, is only 20 feet long and 8 feet wide. Four people can fit easily, but up to eight can pack in if necessary.
 
@@ -100,7 +104,9 @@ Captain [[Rapax]] is a wise human sailor. He's about 45 years old and has been a
 
 [[Butch Baker]] is a kindly minotaur of about 30 years. He's always good for a laugh and is a great dancer. Awkward around strangers, his heart of gold is unmistakeable, even as a seasoned criminal. His incredible strength often comes in handy, but he can't help but wonder if this life is the right one for him.
 
-## Chapter 3 - Over Wave and Under Wave
+## Over Wave and Under Wave
+
+### Chapter 3
 
 Once the characters have determined their mode of transport they can begin their journey towards the storm. If they haven't sailed out by the time it hits, they may still be able to travel in [[Arian]]'s vessel, [[Finnigan's Knife]].
 
@@ -121,7 +127,7 @@ When the ship is surrendered, [[Acris]] is furious. She insists that the mercena
 Once the ship is surrendered, the mercenaries will do what the characters ask of them and will tell them what they know. They know little more than what Acris already told the characters, but they will say that they are a mercenary group from [[Leuber]] known as [[Dark Halberd]]. Acris hired them through the Dancer mage, who's name is (or was) [[Orozi]]. She came to [[Rosha]], the leader of the mercenaries (one of the warriors), and offered him this job. They took it without knowing exactly who Acris was and they felt uncomfortable in the presence of a storm giant, but they were motivated by the prospect of effectively ruling Sibal. The mercenaries will agree to sail the [[High Place]] for the characters and take them wherever they like, although they will refuse to go on land at Leuber themselves for fear of Acris.
 
 The hold of the ship contains the equivalent of 500 days of rations in food and a modest array of weaponry. Two sets of plate armor for medium-sized creatures are available, as well as 20 scimitars and 40 javelins. There are also 10 shields, 3 longbows, and 100 arrows. Additionally, there are a couple magic items.
-- One of the sets of plate armor is adamantine - any critical hit against the wearer becomes a normal hit.
+- One of the sets of plate armor is adamantine---any critical hit against the wearer becomes a normal hit.
 - Five of the arrows, in a special quiver, have a +2 bonus to attack and damage rolls.
 - Boots of Levitation, which allow the wearer to cast the Levitate spell on themselves as an action at will.
 - Boots of the Winterlands, granting resistance to cold damage, the ability to ignore difficult terrain caused by ice and snow, and protect the wearer from cold temperatures.
@@ -133,7 +139,9 @@ Finally, there is one additional magic item: a sentient sword named [[Letetetete
 
 Now that the characters know where to find [[Acris]], hopefully they'll make their way to Firecomb in Leuber. Sailing the High Place, it will take them two days to get there. If they somehow take another ship, it will be three days.
 
-## Chapter 4 - Firecomb
+## Firecomb
+
+### Chapter 4
 
 [[Firecomb]] is a port city on the south coast of [[Leuber]]. It serves as the main shipping contact from Leuber to [[Sibal]] and has grown quite large as a result. The city is pressed up tightly between the [[Encord Mountains]] and the sea, so all of its growth has only extended it farther along the coast rather than farther inland. Though Leuber itself is ruled by Queen [[Nevesii]], Firecomb city is led by Lady [[Tenuri]]. Lady Tenuri recently married [[Draco Stonewing]], the heir to a powerful house that was all but destroyed in an avalanche. Clouds tend to cluster above Firecomb and it is almost always raining, with only a couple weeks of respite in the summer. From afar, all of the wisps of smoke rising from homes make the city appear almost as though it were burning, hence the name Firecomb.
 
@@ -147,7 +155,9 @@ Ta will not agree to go with the characters to the mountain's peak on such short
 
 In the morning, as promised, Ta will introduce the characters to his brother [[Ka]], whom he claims is "the second-best guide in Firecomb" (Ta, of course, is the best). Ka will lead the characters to the [[Skybreak Peak]] for 1gp per day, plus an additional 3gp if there are any inconveniences.
 
-## Chapter 5 - Skybreak Peak
+## Skybreak Peak
+
+### Chapter 5
 
 [[Skybreak Peak]] is the tallest of the mountains in the [[Encord Mountains]] range and rises nearly vertically from the edge of [[Firecomb]]. On the other side, it slopes down gently to the plains beyond. There is a 7-day hiking path to the top, which only an experience guide can follow without fail. Fortunately, the combined efforts of Ka and [[Letetetetetic]] can lead the party along the correct trail. Once during each of the seven days, or as often as you like, roll on the table below for a random encounter. Each result on the table, other than the nothing result, counts as an inconvenience to Ka.
 

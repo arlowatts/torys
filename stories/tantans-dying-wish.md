@@ -15,7 +15,7 @@ But now Tantan suffers from a wasting disease. Her sickness is weakening her bod
 
 ### The plot
 
-Nestled between pillars of rock near the shores of [[Oro-oro-ponoro-poron]], a scheme has been brewing in the mind of [[Takala the Spellmaster]]. Takala is a powerful and respected member of the [[Dagana]] clan and an advisor to their leader [[Semeret the Motherly]]. Knowing that [[Dagana the Azure Death]] is nearing the end of her life, many Dagana clan members have begun plotting to replace her with their favored successor. Takala and others wish for the strength and protection of [[Kormak the Havoc Raiser]] and want him to be their clan's next overlord. Kormak is fierce and ruthless, much like Dagana once was, and his followers believe he would lead them to greatness. However, Kormak does not yet hold respect from the majority of the clan - in particular, [[Semeret the Motherly]] despises Kormak and would like nothing better than to see him perish during one of his frequent fights.
+Nestled between pillars of rock near the shores of [[Oro-oro-ponoro-poron]], a scheme has been brewing in the mind of [[Takala the Spellmaster]]. Takala is a powerful and respected member of the [[Dagana]] clan and an advisor to their leader [[Semeret the Motherly]]. Knowing that [[Dagana the Azure Death]] is nearing the end of her life, many Dagana clan members have begun plotting to replace her with their favored successor. Takala and others wish for the strength and protection of [[Kormak the Havoc Raiser]] and want him to be their clan's next overlord. Kormak is fierce and ruthless, much like Dagana once was, and his followers believe he would lead them to greatness. However, Kormak does not yet hold respect from the majority of the clan---in particular, [[Semeret the Motherly]] despises Kormak and would like nothing better than to see him perish during one of his frequent fights.
 
 In order to foster reverence for Kormak among the clan, Takala has devised a plan with the aid of an assassin named [[Hitch]]. Their plan is to take advantage of the existing enmity between the [[Bekebel]] and the [[Lukurru]] clans and to spark a war between them. By joining forces with the Bekebel clan, [[Kormak the Havoc Raiser]] could lead the Dagana clan to a great victory over the Lukurru. Kormak prefers to fight the Lukurru because he knows that [[Tuvdak the Magnificent]], overlord and protector of the Bekebel clan, is one of the few dragons on Oro-oro-ponoro-poron that could defeat him in single combat. Defeating the Lukurru would also allow the Dagana clan to occupy their territories, expanding into the lush jungles.
 
@@ -43,9 +43,11 @@ For years, Takala has been waiting for an opportunity to set her scheme in motio
 
 [[Perlen the Destined]], the despised prince of the Lukurru, is attending the wedding only out of a spiteful desire to cause as much trouble as possible. Disallowed from inviting his gang of ruffians, Perlen hopes only to be a major inconvenience to the Bekebel and to push the limits of the truce between the three clans.
 
-## Chapter 1 - Arrivals
+## Arrivals
 
-The first guests to arrive, a full week before the wedding ceremony, are [[Semeret the Motherly]] and her retinue. Bekebel maintains only a neutral relationship with the Dagana clan, and the two clans do not often interact - however, [[Tuvdak the Magnificent]] and [[Dagana the Azure Death]] are two of the oldest dragons on the island, a similarity which brings the two clans closer together.
+### Chapter 1
+
+The first guests to arrive, a full week before the wedding ceremony, are [[Semeret the Motherly]] and her retinue. Bekebel maintains only a neutral relationship with the Dagana clan, and the two clans do not often interact---however, [[Tuvdak the Magnificent]] and [[Dagana the Azure Death]] are two of the oldest dragons on the island, a similarity which brings the two clans closer together.
 
 Arriving a few days later are the representatives of the [[Lukurru]] clan. Currently led by [[Irvini the Seer]], the Lukurru have been the sworn enemies of the Bekebel for over two centuries. The tensions between the members of the clans are transparent, and Babanak and Irvini exchange hateful glares.
 

@@ -4,7 +4,7 @@ title: Dungeon of Day's End
 
 The small town of [[Day's End]] is hiding an ancient secret; under the [[Mayoral Seat]] is a set of large chambers, magically sealed since the time of the last elven king, [[Oeged Naaftet Oecheisev]]. However, the passing of centuries has weakened the magic around the door. Another entrance, hidden under a pond in the [[Day's End Graveyard]], has not been touched in centuries.
 
-The dungeon contains more than simple chambers, though. Oeged caused the entire kingdom to collapse by dabbling in dark magic - magic powered by the Eclipse. These practices led to increasingly corrupt decisions within the council, and the magic itself distorted many of the creatures in the forest, creating giant spiders and basilisks. In the end, the king transformed himself into a shadow dragon and claimed the main council chamber as his lair. The other members of the council became wraiths, and haunted the halls of the dungeon for centuries, seeking a way through the seals laid by their own people.
+The dungeon contains more than simple chambers, though. Oeged caused the entire kingdom to collapse by dabbling in dark magic---magic powered by the Eclipse. These practices led to increasingly corrupt decisions within the council, and the magic itself distorted many of the creatures in the forest, creating giant spiders and basilisks. In the end, the king transformed himself into a shadow dragon and claimed the main council chamber as his lair. The other members of the council became wraiths, and haunted the halls of the dungeon for centuries, seeking a way through the seals laid by their own people.
 
 As time passed, the king and his wraiths became weaker and struggled less fiercely against their magical bonds. Now dormant, they await the time that the ground shatters around them and they can escape.
 
@@ -12,7 +12,9 @@ As time passed, the king and his wraiths became weaker and struggled less fierce
 
 At the south end of the town's prison under the Mayoral Seat is a massive iron door, elaborately engraved with depictions of armies marching to war under a darkened sky. Close inspection reveals that the soldiers are elves. The door has no handle, but in the centre is a large keyhole. The key to this door is lost, but the lock can still be picked with lockpicks. The door itself is nigh indestructible.
 
-## Level 1 - Archives
+## Archives
+
+### Level 1
 
 This level of the catacombs served as the storage space for all of the legal and governmental archives of the elven kingdom. It contains tens of thousands of scrolls describing accounts of legal proceedings and bill amendments.
 
@@ -97,7 +99,9 @@ If the wraiths are trapped and not slain (assuming the characters are not themse
 
 The top of each staircase connects to one of the ends of the entrance passageway (see area 1.2). At the bottom, the east stair connects to the eastern wall of area 2.1, and the west stair connects to the western wall of area 2.2.
 
-## Level 2 - Preparation Rooms
+## Preparation Rooms
+
+### Level 2
 
 The second level of the dungeon contains practical rooms dedicated to the writing and maintaining of records, publications, and additional documents. There are also rooms dedicated to the storage and preparation of formal clothing, especially for the ruling monarch.
 
@@ -161,7 +165,9 @@ In the middle of the corridor is a circular chamber 20 feet in diameter with a 2
 
 Embedded in the north wall is a 3 foot square tile, made of glass. This is the activation tile for the lighting system in the conference chamber: casting a light-producing spell on it duplicates the effect of the spell on all other similar tiles in the floor, ceiling, and walls of the Conference Chamber (area 3.1). This also has the effect of triggering *Oeged's Awakening* (area 3.1).
 
-## Level 3 - Council Halls
+## Council Halls
+
+### Level 3
 
 This is the lowest level of the elven palace's underground. Oeged lies dormant here, and his presence can be keenly felt even by those who are least sensitive to magical presences. It invokes feelings of fear, as though a creature is stalking you that you cannot see.
 

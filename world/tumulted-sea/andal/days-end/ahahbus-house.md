@@ -26,7 +26,7 @@ The kitchen contains a small washbasin, a pantry, and a wood stove. Ahahbu uses 
 
 ## Sickroom
 
-The sickroom has one bed for patients and a table beside it. The table holds surgeons' tools, including small knives, tweezers, and a magnifying glass. At the back of the room is a wardrobe containing extra bedding and a box of healing potions, brewed by Ahahbu; roll 1d4 - 1 to determine how many she has at a given time.
+The sickroom has one bed for patients and a table beside it. The table holds surgeons' tools, including small knives, tweezers, and a magnifying glass. At the back of the room is a wardrobe containing extra bedding and a box of healing potions, brewed by Ahahbu; roll 1d4-1 to determine how many she has at a given time.
 
 ## Bedroom
 
