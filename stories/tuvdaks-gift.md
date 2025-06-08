@@ -220,13 +220,13 @@ chapters:
     The tunnel eventually flattens and emerges from the wall of a narrow alley in the lowest part of the citadel. Only grizzled rockbreakers and the most streetwise of urchins are at all familiar with these roads, and they are almost entirely uninhabited. At this point the characters must somehow decide which of two ways to go. To the left, the alley slopes up gently and eventually intersects with a slightly larger street. To the right, the alley slopes down and curves out of sight. Paparnad went right, toward [[Rockbreaker Grotto]]. A creative solution to choose the direction is encouraged, but here are some options:
 
 
-    - The players might reason that Paparnad would wish to avoid being seen, and would therefore go right to avoid crossing inhabited or patrolled streets
+    - The players might reason that Paparnad would wish to avoid being seen, and would therefore go right to avoid crossing inhabited or patrolled streets.
 
-    - If the Satasha told the characters about Paparnad''s hidden exit tunnel in "a natural cave deep underground", they might reason that he would have to go further down and would therefore go right
+    - If the Satasha told the characters about Paparnad''s hidden exit tunnel in "a natural cave deep underground", they might reason that he would have to go further down and would therefore go right.
 
-    - With a careful use of their [[Gorgor Counter]], the characters might be able to detect slightly stronger magic to the right, indicating that the [[Crown of Magnificence]] is in that direction
+    - With a careful use of their [[Gorgor Counter]], the characters might be able to detect slightly stronger magic to the right, indicating that the [[Crown of Magnificence]] is in that direction.
 
-    - The characters might be able to use divination magic to determine where Paparnad and the crown can be found
+    - The characters might be able to use divination magic to determine where Paparnad and the crown can be found.
 
 
     Ultimately, it should be well within the characters means to reach the correct conclusion without splitting the party.
