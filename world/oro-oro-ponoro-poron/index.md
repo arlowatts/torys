@@ -1,5 +1,6 @@
 ---
 title: Oro-oro-ponoro-poron
+layout: page
 ---
 
 The great island-mountain of Oro-oro-ponoro-poron is home to many of Torys' greatest dragons. Lying in one of Torys' tropical regions and further heated by the island's volcanic peak, the island is covered in lush vegetation even in the coldest winters. The slopes climb steeply from the shore, and are crisscrossed with switchback trails cut into the stone.

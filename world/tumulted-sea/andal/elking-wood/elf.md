@@ -1,5 +1,6 @@
 ---
 title: Elf
+layout: page
 ---
 
 The elves who live in the [[Elking Wood]] are the only surviving remnants of the ancient elven kingdom, once ruled by [[Oeged Naaftet Oecheisev]]. The kingdom collapsed long enough ago that elves alive now have only heard stories of the kingdom and its fall from their grandparents or great-grandparents.

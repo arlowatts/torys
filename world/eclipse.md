@@ -1,5 +1,6 @@
 ---
 title: Eclipse
+layout: page
 ---
 
 Since Torys has magnetic poles, cardinal directions can be evaluated just like on any spherical planet, where north is the direction to the north pole, south is the direction to the south pole, east is to the right when facing north, and west is to the left when facing north. Unlike on a spherical planet, however, the north and south poles are not points but circular bands.

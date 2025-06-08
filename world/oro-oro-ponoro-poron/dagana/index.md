@@ -1,5 +1,6 @@
 ---
 title: Dagana
+layout: page
 ---
 
 The Dagana clan lives on a large network of floating huts, anchored to tall pillars of rock emerging from the sea near the shore of Oro-oro-ponoro-poron. They worship [[Dagana the Azure Death]], a very old drake several centuries past her prime. As long as Dagana lives, her namesake clan will remain strong---but scheming has already begun among the clan's members to ensure that their favored dragon will take Dagana's place when she passes.

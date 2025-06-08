@@ -1,3 +1,9 @@
-theme: minima
+title: Torys
+
+author:
+  name: Arlo Watts
+  email: arlowatts1@gmail.com
+
+remote_theme: jekyll/minima@c6e74bb
 
 permalink: /:path/:basename/

@@ -1,5 +1,6 @@
 ---
 title: Ruemin Cavern
+layout: page
 ---
 
 Ruemin Cavern is the primary library of the [[Ruemins]]. Its ceiling is over 100 feet high and spotted with glowing gemstones of varying color. It lies within the borders of [[Leuber]] but generally ignores its governance.
