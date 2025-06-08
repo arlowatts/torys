@@ -33,7 +33,6 @@ overview:
     The fourth and final chapter sees the characters finally catch up to Paparnad above a deep chasm flooded with magma. The climactic battle hopefully ends with the characters defeating Paparnad and retrieving the crown. The chapter ends as the characters return with the crown and personally present it to [[Tuvdak the Magnificent]]. Now, having received a preferable replacement, Tuvdak drops his older crown on the ground in front of the characters as though to reward them for their tremendous efforts.'
 
 chapters:
-
 - title: The Gift
   content:
     'This adventure begins in the throne room of [[Babanak the Great]], where the characters have all been gathered. They are here to receive important instructions from Babanak: they must find and retrieve the [[Crown of Magnificence]], a powerful artifact crafted by Babanak himself and intended as a gift to the red dragon [[Tuvdak the Magnificent]]. The crown was lost in a crowd of thosands mere minutes before, as the players will soon see and the characters are already aware.
