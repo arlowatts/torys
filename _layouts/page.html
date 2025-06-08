@@ -33,8 +33,16 @@ layout: default
                 {{ chunk }}
             {%- else -%}
                 {%- assign chunk_parts = chunk | split: "]]" -%}
-                {%- assign linked_page = site.pages | where: "title", chunk_parts[0] | first -%}
-                <a href="{{ site.baseurl }}{{ linked_page.url }}">{{ linked_page.title }}</a>{{ chunk_parts[1] }}
+                {%- assign link_text = chunk_parts | first -%}
+                {%- assign remaining_content = chunk_parts | last -%}
+                {%- assign link_slug = link_text | slugify -%}
+                {%- assign linked_page = site.pages | where: "slug", link_slug | first -%}
+                {%- if linked_page -%}
+                    <a href="{{ site.baseurl }}{{ linked_page.url }}">{{ linked_page.title }}</a>
+                {%- else -%}
+                    <span style="color: red;">{{ link_text }}</span>
+                {%- endif -%}
+                {{ remaining_content }}
             {%- endif -%}
         {%- endfor -%}
     </div>
