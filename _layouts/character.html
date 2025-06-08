@@ -4,14 +4,11 @@ layout: page
 
 {{ content }}
 
-<h2 id="personality" class="spoiler">Personality</h2>
-
-{{ page.personality | markdownify }}
-
-<h2 id="motives" class="spoiler">Motives</h2>
-
-{{ page.motives | markdownify }}
-
-<h2 id="background" class="spoiler">Background</h2>
-
-{{ page.background | markdownify }}
+<div class="spoiler">
+    <h2>Personality</h2>
+    {{ page.personality | markdownify }}
+    <h2>Motives</h2>
+    {{ page.motives | markdownify }}
+    <h2>Background</h2>
+    {{ page.background | markdownify }}
+</div>
