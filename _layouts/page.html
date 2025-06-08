@@ -40,7 +40,7 @@ layout: base
                 {%- assign link_title = link | last -%}
                 {%- assign linked_page = site.pages | where: "title", link_title | first -%}
                 {%- if linked_page -%}
-                    {%- if page.url contains linked_page.url -%}
+                    {%- if page.url == linked_page.url or page.url contains linked_page.url and link_text == link_title -%}
                         <span class="self-link">{{ link_text }}</span>
                     {%- else -%}
                         <a href="{{ site.baseurl }}{{ linked_page.url }}">{{ link_text }}</a>
