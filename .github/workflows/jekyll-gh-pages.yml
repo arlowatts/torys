@@ -29,9 +29,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Expand links
-        run: python3 assets/scripts/page_links.py --write
+        run: python3 /assets/scripts/page_links.py --write
       - name: Add spoiler tags
-        run: python3 assets/scripts/spoiler_tags.py --write
+        run: python3 /assets/scripts/spoiler_tags.py --write
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
