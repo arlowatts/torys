@@ -34,9 +34,11 @@ layout: base
                 {{ chunk }}
             {%- else -%}
                 {%- assign chunk_parts = chunk | split: "]]" -%}
-                {%- assign link_text = chunk_parts | first -%}
+                {%- assign link = chunk_parts | first | split: "|" -%}
                 {%- assign remaining_content = chunk_parts | last -%}
-                {%- assign linked_page = site.pages | where: "title", link_text | first -%}
+                {%- assign link_title = link | first -%}
+                {%- assign link_text = link | last -%}
+                {%- assign linked_page = site.pages | where: "title", link_title | first -%}
                 {%- if linked_page -%}
                     <a href="{{ site.baseurl }}{{ linked_page.url }}">{{ link_text }}</a>
                 {%- else -%}
