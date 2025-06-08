@@ -33,8 +33,8 @@ layout: default
                 {{ chunk }}
             {%- else -%}
                 {%- assign chunk_parts = chunk | split: "]]" -%}
-                <span style="color: blue;">{{ chunk_parts[0] }}</span>
-                {{ chunk_parts[1] }}
+                {%- assign linked_page = site.pages | where: "title", chunk_parts[0] | first -%}
+                <a href="{{ site.baseurl }}{{ linked_page.url }}">{{ linked_page.title }}</a>{{ chunk_parts[1] }}
             {%- endif -%}
         {%- endfor -%}
     </div>
