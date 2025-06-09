@@ -1,0 +1,20 @@
+.broken-link {
+    color: red;
+}
+
+.self-link {
+    color: fuchsia;
+}
+
+.chapter {
+    h4& {
+        color: gray;
+        margin-bottom: 0;
+    }
+
+    hr& {
+        color: lightgray;
+        width: 25%;
+        min-width: 8em;
+    }
+}
