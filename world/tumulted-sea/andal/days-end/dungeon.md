@@ -3,7 +3,7 @@ title: "Dungeon of Day\u2019s End"
 layout: page
 ---
 
-The small town of [[Day's End]] is hiding an ancient secret; under the [[Mayoral Seat]] is a set of large chambers, magically sealed since the time of the last elven king, [[Oeged Naaftet Oecheisev]]. However, the passing of centuries has weakened the magic around the door. Another entrance, hidden under a pond in the [[Day's End Graveyard]], has not been touched in centuries.
+The small town of Day's End is hiding an ancient secret; under the [[Mayoral Seat]] is a set of large chambers, magically sealed since the time of the last elven king, [[Oeged Naaftet Oecheisev]]. However, the passing of centuries has weakened the magic around the door. Another entrance, hidden under a pond in the [[Day's End Graveyard]], has not been touched in centuries.
 
 The dungeon contains more than simple chambers, though. Oeged caused the entire kingdom to collapse by dabbling in dark magic---magic powered by the Eclipse. These practices led to increasingly corrupt decisions within the council, and the magic itself distorted many of the creatures in the forest, creating giant spiders and basilisks. In the end, the king transformed himself into a shadow dragon and claimed the main council chamber as his lair. The other members of the council became wraiths, and haunted the halls of the dungeon for centuries, seeking a way through the seals laid by their own people.
 

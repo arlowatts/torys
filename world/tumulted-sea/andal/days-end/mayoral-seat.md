@@ -3,7 +3,7 @@ title: Mayoral Seat
 layout: page
 ---
 
-The Mayoral Seat of [[Day's End]] is inside the only remaining building of elven construction in the town. The building is a round tower of three stories with a balcony on the top and a spiral staircase around the inside wall. Its diameter is 50 feet and it is made of smooth grey stone with many windows in its surface. The ceiling is 16 feet high at the ground floor, 13 feet high at the second floor, and 10 feet high at the third floor.
+The Mayoral Seat of Day's End is inside the only remaining building of elven construction in the town. The building is a round tower of three stories with a balcony on the top and a spiral staircase around the inside wall. Its diameter is 50 feet and it is made of smooth grey stone with many windows in its surface. The ceiling is 16 feet high at the ground floor, 13 feet high at the second floor, and 10 feet high at the third floor.
 
 ## Ground Floor
 
@@ -25,7 +25,7 @@ Across from Usen's office is Tyagr's slightly smaller and much tidier office. He
 
 ## Third Floor
 
-The third floor holds the Mayoral Seat's library. It is not open to the public, and most residents of Day's End are unaware of its existence. It contains mostly informative books: propaganda about [[Andal]]'s governance, military prowess, and financial stability; books about the [[Elking Wood]] and the [[Eclipse]]; and books about the political and colonial history of the region. There are about 100 books in total.
+The third floor holds the Mayoral Seat's library. It is not open to the public, and most residents of Day's End are unaware of its existence. It contains mostly informative books: propaganda about Andal's governance, military prowess, and financial stability; books about the [[Elking Wood]] and the [[Eclipse]]; and books about the political and colonial history of the region. There are about 100 books in total.
 
 ### Kitchen
 

@@ -3,7 +3,7 @@ title: "Day\u2019s End"
 layout: page
 ---
 
-Day's End is a foresting outpost located near the [[Evening Horizon:Eclipse]] in the province of [[Andal]]. Day's End hosts a modest population of 800---mostly foresters, but also millers, blacksmiths, and farmers. Most of the population lives inside the walls, but about 100 live on the farms outside.
+Day's End is a foresting outpost located near the [[Evening Horizon:Eclipse]] in the province of Andal. Day's End hosts a modest population of 800---mostly foresters, but also millers, blacksmiths, and farmers. Most of the population lives inside the walls, but about 100 live on the farms outside.
 
 Due to the [[Eclipse]] that occurs every evening as the sun sets, some of its dark magic leaks into the peoples' daily lives. Animals, plants, and fungi are all affected by it, giving rise to basilisks that can turn animals to stone and deadly fungi that spread by airborne spores. A druid can also draw on this power to fuel their magic, becoming a [[Druid of the Eclipse]]; however, it is a highly corrupting influence and only one druid has ever been known to use it and maintain their good nature. As such, the practice of Eclipse magic is forbidden in Day's End and the crime is punishable by death.
 
