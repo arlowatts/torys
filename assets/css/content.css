@@ -23,3 +23,7 @@ a {
         min-width: 8em;
     }
 }
+
+.footer-col-wrapper {
+    color: #565656;
+}

@@ -1,6 +1,19 @@
+.site-header {
+    height: 60px;
+}
+
+.site-logo {
+    display: inline-block;
+
+    & img {
+        padding: 5px;
+    }
+}
+
 .site-nav {
     position: inherit !important;
     border: inherit !important;
+    line-height: 60px;
 }
 
 .crumbs {
